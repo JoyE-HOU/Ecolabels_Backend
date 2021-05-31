@@ -1,0 +1,2 @@
+class Ecolabel < ApplicationRecord
+end
