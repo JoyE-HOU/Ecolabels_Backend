@@ -5,3 +5,6 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+
+Ecolabel.create(name:"80 Plus" description:"csfcsfvs" owner_category:"For-Profit" level:"Product Level" year_established:2004 party_verification:"Third party" criteria:"bhsb shjzbv shjz" price:"chzgcfsizgcszg" accepted_elsewhere"no")

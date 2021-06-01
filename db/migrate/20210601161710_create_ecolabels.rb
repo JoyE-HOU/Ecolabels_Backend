@@ -5,7 +5,6 @@ class CreateEcolabels < ActiveRecord::Migration[6.1]
       t.string :description
       t.string :owner_category
       t.string :level
-      t.string :category
       t.integer :year_established
       t.string :party_verification
       t.string :criteria

@@ -5,7 +5,6 @@ one:
   description: MyString
   owner_category: MyString
   level: MyString
-  category: MyString
   year_established: 1
   party_verification: MyString
   criteria: MyString
@@ -18,7 +17,6 @@ two:
   description: MyString
   owner_category: MyString
   level: MyString
-  category: MyString
   year_established: 1
   party_verification: MyString
   criteria: MyString
