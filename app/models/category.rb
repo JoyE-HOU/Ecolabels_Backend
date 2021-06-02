@@ -1,3 +1,5 @@
 class Category < ApplicationRecord
-  belongs_to :ecolabel
+  belongs_to :ecolabel, optional: true
+
+  validates :name, presence: true
 end
