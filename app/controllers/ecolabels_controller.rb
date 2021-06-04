@@ -1,2 +1,0 @@
-class EcolabelsController < ApplicationController
-end
