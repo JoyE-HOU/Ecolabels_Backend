@@ -4,9 +4,8 @@ class Ecolabel < ApplicationRecord
 
     validates :name, :description, :owner_category, :level, :party_verification, :criteria, :accepted_elsewhere, presence: true 
 
-    # YES = 1
-    # NO = 2
-    # MAYBE = 3
-
-    # enum format: {yes: YES, no:NO, maybe:MAYBE}
+    enum owner_category: [:for-profit, :non-profit, :government]
+    enum level: [:company, :product, :retail]
+    enum party_verification: [:first, :second, :third]
+    enum accepted_elsewhere: [:yes, :no, :maybe]
 end
