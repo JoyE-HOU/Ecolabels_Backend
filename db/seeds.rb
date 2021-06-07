@@ -50,3 +50,36 @@ Ecolabel.create(
     price:"n/a", 
     accepted_elsewhere:"yes"
     )
+Ecolabel.create(
+    name:"BASF Eco-Efficiency", 
+    description:"BASF SE has developed a label for products that have been evaluated by an Eco-Efficiency Analysis.", 
+    owner_category:"for-profit", 
+    level:"product", 
+    year_established:2002, 
+    party_verification:"third", 
+    criteria:"n/a", 
+    price:"n/a", 
+    accepted_elsewhere:"yes"
+    )
+Ecolabel.create(
+    name:"Bay Area Green Business", 
+    description:"The Bay Area Green Business Program distinguishes small businesses that protect, preserve and sustain our environment.", 
+    owner_category:"government", 
+    level:"company", 
+    year_established:1996, 
+    party_verification:"second", 
+    criteria:"n/a", 
+    price:"n/a", 
+    accepted_elsewhere:"no"
+    )
+Ecolabel.create(
+    name:"B Corporation", 
+    description:"B Corporations are a new type of corporation which uses the power of business to solve social and environmental problems.", 
+    owner_category:"non-profit", 
+    level:"company", 
+    year_established:2007, 
+    party_verification:"second", 
+    criteria:"n/a", 
+    price:"n/a", 
+    accepted_elsewhere:"yes"
+    )
