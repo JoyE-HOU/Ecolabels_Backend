@@ -116,3 +116,80 @@ Ecolabel.create(
     price:"n/a", 
     accepted_elsewhere:"yes"
     )
+Ecolabel.create(
+    name:"Bird Friendly Coffee", 
+    description:"Identifies and verifies through third-party, independent inspection and certification that coffee has been grown using shade management practices that provide good bird habitats.", 
+    owner_category:"non-profit", 
+    level:"company", 
+    year_established:1998, 
+    party_verification:"third", 
+    criteria:"n/a", 
+    price:"n/a", 
+    accepted_elsewhere:"yes"
+    )
+Ecolabel.create(
+    name:"Blue Angel", 
+    description:"The Blue Angel was initiated by the German government and awarded by an independent Jury to products that are environmentally friendlier than others serving the same use.", 
+    owner_category:"government", 
+    level:"product", 
+    year_established:1978, 
+    party_verification:"third", 
+    criteria:"n/a", 
+    price:"n/a", 
+    accepted_elsewhere:"yes"
+    )
+Ecolabel.create(
+    name:"bluesign standard", 
+    description:"The bluesign® standard brings together the entire textile manufacturing chain to jointly reduce the ecological footprint of a responsibly acting textile industry.", 
+    owner_category:"for-profit", 
+    level:"company", 
+    year_established:2001, 
+    party_verification:"second", 
+    criteria:"n/a", 
+    price:"n/a", 
+    accepted_elsewhere:"yes"
+    )
+Ecolabel.create(
+    name:"BREEAM", 
+    description:"BREEAM (BRE Environmental Assessment Method) is an environmental assessment method for buildings around the world.", 
+    owner_category:"non-profit", 
+    level:"company", 
+    year_established:1990, 
+    party_verification:"third", 
+    criteria:"n/a", 
+    price:"n/a", 
+    accepted_elsewhere:"yes"
+    )
+Ecolabel.create(
+    name:"BRE Global Cetified Environmental Profile", 
+    description:"", 
+    owner_category:"non-profit", 
+    level:"", 
+    year_established:2001, 
+    party_verification:"third", 
+    criteria:"n/a", 
+    price:"n/a", 
+    accepted_elsewhere:""
+    )
+Ecolabel.create(
+    name:"Burnwise EPA", 
+    description:"", 
+    owner_category:"government", 
+    level:"", 
+    year_established:2007, 
+    party_verification:"", 
+    criteria:"n/a", 
+    price:"n/a", 
+    accepted_elsewhere:""
+    )
+Ecolabel.create(
+    name:"C.A.F.E. Practices", 
+    description:"", 
+    owner_category:"for-profit", 
+    level:"", 
+    year_established:2004, 
+    party_verification:"", 
+    criteria:"n/a", 
+    price:"n/a", 
+    accepted_elsewhere:""
+    )
