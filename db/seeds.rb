@@ -193,3 +193,47 @@ Ecolabel.create(
     price:"n/a", 
     accepted_elsewhere:""
     )
+Ecolabel.create(
+    name:"California Certified Organic Farmers - CCOF", 
+    description:"", 
+    owner_category:"non-profit", 
+    level:"", 
+    year_established:1973, 
+    party_verification:"third", 
+    criteria:"n/a", 
+    price:"n/a", 
+    accepted_elsewhere:""
+    )
+Ecolabel.create(
+    name:"Carbon Care Certification", 
+    description:"", 
+    owner_category:"non-profit", 
+    level:"", 
+    year_established:2013, 
+    party_verification:"", 
+    criteria:"n/a", 
+    price:"n/a", 
+    accepted_elsewhere:""
+    )
+Ecolabel.create(
+    name:"Carbon Free Certified", 
+    description:"", 
+    owner_category:"non-profit", 
+    level:"", 
+    year_established:2007, 
+    party_verification:"third", 
+    criteria:"n/a", 
+    price:"n/a", 
+    accepted_elsewhere:""
+    )
+Ecolabel.create(
+    name:"CarbonNeutral", 
+    description:"", 
+    owner_category:"for-profit", 
+    level:"", 
+    year_established:1998, 
+    party_verification:"third", 
+    criteria:"n/a", 
+    price:"n/a", 
+    accepted_elsewhere:""
+    )
