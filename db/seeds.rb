@@ -83,3 +83,36 @@ Ecolabel.create(
     price:"n/a", 
     accepted_elsewhere:"yes"
     )
+Ecolabel.create(
+    name:"Best Aquaculture Practices", 
+    description:"The Best Aquaculture Practices Certified (BAP Certified) mark on retail packaging tells consumers that seafood came from BAP certified aquaculture facilities.", 
+    owner_category:"non-profit", 
+    level:"company", 
+    year_established:2002, 
+    party_verification:"third", 
+    criteria:"n/a", 
+    price:"n/a", 
+    accepted_elsewhere:"yes"
+    )
+Ecolabel.create(
+    name:"Better Environmental Sustainabilty Targets (BEST) Standard 1001", 
+    description:"The Better Environmental Sustainability Targets (BEST) certification provides recognition for lead battery manufacturers that meet minimum emission standards and agree to take back used batteries for environmentally sound recycling.", 
+    owner_category:"non-profit", 
+    level:"company", 
+    year_established:2008, 
+    party_verification:"third", 
+    criteria:"n/a", 
+    price:"n/a", 
+    accepted_elsewhere:"yes"
+    )
+Ecolabel.create(
+    name:"Bio Suisse", 
+    description:"Indicates fully organic, produced in Switzerland.", 
+    owner_category:"non-profit", 
+    level:"company", 
+    year_established:1981, 
+    party_verification:"third", 
+    criteria:"n/a", 
+    price:"n/a", 
+    accepted_elsewhere:"yes"
+    )
