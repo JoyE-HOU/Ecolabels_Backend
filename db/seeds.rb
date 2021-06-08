@@ -237,3 +237,80 @@ Ecolabel.create(
     price:"n/a", 
     accepted_elsewhere:""
     )
+Ecolabel.create(
+    name:"Carbon Neutral Certification", 
+    description:"", 
+    owner_category:"other", 
+    level:"", 
+    year_established:2008, 
+    party_verification:"", 
+    criteria:"n/a", 
+    price:"n/a", 
+    accepted_elsewhere:""
+    )
+Ecolabel.create(
+    name:"Carbon Reduction Label", 
+    description:"The Carbon Reduction Label is a public commitment that the carbon footprint of a product or service has been measured and certified and the owner of the product or service has committed to reduce that footprint over the following two years.", 
+    owner_category:"other", 
+    level:"", 
+    year_established:2007, 
+    party_verification:"third", 
+    criteria:"n/a", 
+    price:"n/a", 
+    accepted_elsewhere:"yes"
+    )
+Ecolabel.create(
+    name:"Certified Green Dealer", 
+    description:"The Certified Green Dealer® Program is a program for certifying US green lumber and building material dealerships.", 
+    owner_category:"for-profit", 
+    level:"", 
+    year_established:2007, 
+    party_verification:"n/a", 
+    criteria:"n/a", 
+    price:"n/a", 
+    accepted_elsewhere:"no"
+    )
+Ecolabel.create(
+    name:"Certified Green Restaurant", 
+    description:"Green Restaurant Association Seal is an ecolabel for restaurants that have committed to sustainability.", 
+    owner_category:"non-profit", 
+    level:"", 
+    year_established:1990, 
+    party_verification:"second", 
+    criteria:"n/a", 
+    price:"n/a", 
+    accepted_elsewhere:"yes"
+    )
+Ecolabel.create(
+    name:"Certified Humane Raised and Handled", 
+    description:"Green Restaurant Association Seal is an ecolabel for restaurants that have committed to sustainability.", 
+    owner_category:"non-profit", 
+    level:"", 
+    year_established:2003, 
+    party_verification:"", 
+    criteria:"n/a", 
+    price:"n/a", 
+    accepted_elsewhere:""
+    )
+
+
+Category.create(name: "appliances")
+Category.create(name: "building products")
+Category.create(name: "carbon")
+Category.create(name: "cleaning products")
+Category.create(name: "cosmetics/personal care")
+Category.create(name: "electronics")
+Category.create(name: "energy")
+Category.create(name: "financial services")
+Category.create(name: "fish/fisheries")
+Category.create(name: "food")
+Category.create(name: "forest products/paper")
+Category.create(name: "health care services & equipment")
+Category.create(name: "machinery & equipment")
+Category.create(name: "packaging")
+Category.create(name: "professional, scientific & technical services")
+Category.create(name: "textiles")
+Category.create(name: "tourism")
+Category.create(name: "transportation")
+Category.create(name: "waste management & recycling")
+Category.create(name: "water")
