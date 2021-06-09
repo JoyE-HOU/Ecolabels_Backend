@@ -325,12 +325,113 @@ Ecolabel.create(
     price:"n/a", 
     accepted_elsewhere:"no"
     )
+Ecolabel.create(
+    name:"CertiPUR-US", 
+    description:"CertiPUR-US® tests for durability, content and indoor emissions.", 
+    owner_category:"industry association", 
+    level:"n/a", 
+    year_established:2008, 
+    party_verification:"third", 
+    criteria:"n/a", 
+    price:"n/a", 
+    accepted_elsewhere:"yes"
+    )
+Ecolabel.create(
+    name:"CHPS - Collaborative for High Performance Schools", 
+    description:"CHPS is leading a national movement to improve student performance and the entire educational experience by building the best possible schools.", 
+    owner_category:"non-profit", 
+    level:"n/a", 
+    year_established:1999, 
+    party_verification:"second", 
+    criteria:"n/a", 
+    price:"n/a", 
+    accepted_elsewhere:"no"
+    )
+Ecolabel.create(
+    name:"Cleaner and Greener Certification", 
+    description:"The Cleaner & Greener program promotes the reporting and offsetting of emissions by companies, organizations, buildings, events and transportation fleets.", 
+    owner_category:"non-profit", 
+    level:"n/a", 
+    year_established:2000, 
+    party_verification:"second", 
+    criteria:"n/a", 
+    price:"n/a", 
+    accepted_elsewhere:"yes"
+    )
+Ecolabel.create(
+    name:"Cleaning Industry Management Standard (CIMS)", 
+    description:"CIMS is an organizational Standard and certification program that applies to management, operations, performance systems, and processes.", 
+    owner_category:"non-profit", 
+    level:"n/a", 
+    year_established:2006, 
+    party_verification:"third", 
+    criteria:"n/a", 
+    price:"n/a", 
+    accepted_elsewhere:"yes"
+    )
+Ecolabel.create(
+    name:"Clean Marine Green Leaf Eco-Rating Program", 
+    description:"The Ontario Marine Operators Association (OMOA) along with over twenty marine industry professionals and Ontario’s boaters’ and anglers’ associations formed the Clean Marine Partnership to develop a voluntary program of "Environmental Best Practices" for the marine industry that is recognized as the leader in North America.", 
+    owner_category:"non-profit", 
+    level:"n/a", 
+    year_established:2000, 
+    party_verification:"third", 
+    criteria:"n/a", 
+    price:"n/a", 
+    accepted_elsewhere:"yes"
+    )
+Ecolabel.create(
+    name:"Climate Registered", 
+    description:"The Climate Registry is a non-profit organization that sets consistent and transparent standards to calculate, verify and publicly report greenhouse gas (GHG) emissions into a single registry.", 
+    owner_category:"non-profit", 
+    level:"n/a", 
+    year_established:, 
+    party_verification:"third", 
+    criteria:"n/a", 
+    price:"n/a", 
+    accepted_elsewhere:"yes"
+    )
+Ecolabel.create(
+    name:"Compostable: Biodegradable Products Institutes Label", 
+    description:"The BPI's Compostable Logo identifies products that meet ASTM D6400 (for plastics) or ASTM D6868 (for fibre based applications) and will compost satisfactorily in large scale composting facilities.", 
+    owner_category:"industry association", 
+    level:"n/a", 
+    year_established:1999, 
+    party_verification:"third", 
+    criteria:"n/a", 
+    price:"n/a", 
+    accepted_elsewhere:"yes"
+    )
+Ecolabel.create(
+    name:"Cotton Made in Africa", 
+    description:"Cotton made in Africa is an initiative by the Aid by Trade Foundation and follows the principles of a Social Business helping people to help themselves by means of trade.", 
+    owner_category:"non-profit", 
+    level:"n/a", 
+    year_established:2005, 
+    party_verification:"third", 
+    criteria:"n/a", 
+    price:"n/a", 
+    accepted_elsewhere:"no"
+    )
+Ecolabel.create(
+    name:"Cradle to Cradle Certified (CM) Products Program", 
+    description:"The Cradle to Cradle Certified(CM) Products Program provides a company with a means to demonstrate efforts in eco-intelligent design.", 
+    owner_category:"non-profit", 
+    level:"n/a", 
+    year_established:2005, 
+    party_verification:"second", 
+    criteria:"n/a", 
+    price:"n/a", 
+    accepted_elsewhere:"yes"
+    )
 
 
 Category.create(name: "appliances")
+Category.create(name: "bedding")
 Category.create(name: "building products")
 Category.create(name: "carbon")
 Category.create(name: "cleaning products")
+Category.create(name: "commodities")
 Category.create(name: "cosmetics/personal care")
 Category.create(name: "electronics")
 Category.create(name: "energy")
@@ -338,13 +439,16 @@ Category.create(name: "financial services")
 Category.create(name: "fish/fisheries")
 Category.create(name: "food")
 Category.create(name: "forest products/paper")
+Category.create(name: "furniture")
 Category.create(name: "health care services & equipment")
 Category.create(name: "machinery & equipment")
 Category.create(name: "other")
 Category.create(name: "packaging")
+Category.create(name: "plastics")
 Category.create(name: "professional, scientific & technical services")
 Category.create(name: "textiles")
 Category.create(name: "tourism")
 Category.create(name: "transportation")
+Category.create(name: "upholstered furniture")
 Category.create(name: "waste management & recycling")
 Category.create(name: "water")
