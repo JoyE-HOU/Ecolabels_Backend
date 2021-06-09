@@ -283,14 +283,47 @@ Ecolabel.create(
     )
 Ecolabel.create(
     name:"Certified Humane Raised and Handled", 
-    description:"Green Restaurant Association Seal is an ecolabel for restaurants that have committed to sustainability.", 
+    description:"Designed to certify that animals raised for dairy, lamb, poultry and beef products are treated in a humane manner.", 
     owner_category:"non-profit", 
     level:"", 
     year_established:2003, 
-    party_verification:"", 
+    party_verification:"second", 
     criteria:"n/a", 
     price:"n/a", 
-    accepted_elsewhere:""
+    accepted_elsewhere:"no"
+    )
+Ecolabel.create(
+    name:"Certified Naturally Grown", 
+    description:"Certified Naturally Grown is a grassroots alternative to the USDA's National Organic Program meant primarily for direct-market farmers and beekeepers distributing through local channels such as farmer's markets, roadside stands, local restaurants, Community Supported Agriculture (CSA) programs and small local grocery stores.", 
+    owner_category:"non-profit", 
+    level:"n/a", 
+    year_established:2002, 
+    party_verification:"second", 
+    criteria:"n/a", 
+    price:"n/a", 
+    accepted_elsewhere:"yes"
+    )
+Ecolabel.create(
+    name:"Certified Pesticide Residue Free", 
+    description:"Means that products are tested for pesticide residues and sets limits of detection for each specific pesticide residues. However this label does not mean that there were no pesticides used.", 
+    owner_category:"for-profit", 
+    level:"n/a", 
+    year_established:1986, 
+    party_verification:"second", 
+    criteria:"n/a", 
+    price:"n/a", 
+    accepted_elsewhere:"no"
+    )
+Ecolabel.create(
+    name:"Certified Vegan", 
+    description:"Signifies that products are vegan, defined as containing no animal ingredients or by-products, using no animal ingredients or by-products in the manufacturing process, and not tested on animals by any company or independent contractor.", 
+    owner_category:"non-profit", 
+    level:"n/a", 
+    year_established:1998, 
+    party_verification:"second", 
+    criteria:"n/a", 
+    price:"n/a", 
+    accepted_elsewhere:"no"
     )
 
 
@@ -307,6 +340,7 @@ Category.create(name: "food")
 Category.create(name: "forest products/paper")
 Category.create(name: "health care services & equipment")
 Category.create(name: "machinery & equipment")
+Category.create(name: "other")
 Category.create(name: "packaging")
 Category.create(name: "professional, scientific & technical services")
 Category.create(name: "textiles")
