@@ -523,6 +523,61 @@ Ecolabel.create(
     price:"n/a", 
     accepted_elsewhere:"yes"
     )
+Ecolabel.create(
+    name:"EarthRight Business Certification", 
+    description:"The EarthRight standards are structured to serve as practical and instructive guidelines for organizations interested in taking a proactive, staged approach to improving their environmental stewardship and financial performance.", 
+    owner_category:"for-profit", 
+    level:"n/a", 
+    year_established:2008, 
+    party_verification:"second", 
+    criteria:"n/a", 
+    price:"n/a", 
+    accepted_elsewhere:"yes"
+    )
+Ecolabel.create(
+    name:"Earthsure", 
+    description:"The purpose of the Earth sure program is to provide comprehensive environmental data to purchasers (business and individuals) so that the power of the market can moves the economy towards overall environmental improvement.", 
+    owner_category:"non-profit", 
+    level:"n/a", 
+    year_established:2006, 
+    party_verification:"third", 
+    criteria:"n/a", 
+    price:"n/a", 
+    accepted_elsewhere:"yes"
+    )
+Ecolabel.create(
+    name:"Eco3Home", 
+    description:"Eco3Home is a label for home furnishings in the USA.", 
+    owner_category:"industry association", 
+    level:"n/a", 
+    year_established:2010, 
+    party_verification:"third", 
+    criteria:"n/a", 
+    price:"n/a", 
+    accepted_elsewhere:"no"
+    )
+Ecolabel.create(
+    name:"EcoBroker", 
+    description:"The EcoBroker logo is a symbol of environmentally responsible and sustainable practices in the real estate industry.", 
+    owner_category:"industry association", 
+    level:"n/a", 
+    year_established:2003, 
+    party_verification:"second", 
+    criteria:"n/a", 
+    price:"n/a", 
+    accepted_elsewhere:"no"
+    )
+Ecolabel.create(
+    name:"Ecocert", 
+    description:"It is an inspection and certification body established in France by agronomists aware of the need to develop environmentally friendly agriculture and of the importance of offering some form of recognition to those committed to this method of production.", 
+    owner_category:"for-profit", 
+    level:"n/a", 
+    year_established:1991, 
+    party_verification:"third", 
+    criteria:"n/a", 
+    price:"n/a", 
+    accepted_elsewhere:"yes"
+    )
 
 
 Category.create(name: "appliances")
@@ -546,6 +601,7 @@ Category.create(name: "other")
 Category.create(name: "packaging")
 Category.create(name: "plastics")
 Category.create(name: "professional, scientific & technical services")
+Category.create(name: "real estate")
 Category.create(name: "textiles")
 Category.create(name: "tourism")
 Category.create(name: "transportation")
