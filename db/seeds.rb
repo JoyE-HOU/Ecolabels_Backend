@@ -424,11 +424,56 @@ Ecolabel.create(
     price:"n/a", 
     accepted_elsewhere:"yes"
     )
+Ecolabel.create(
+    name:"CSA Sustainable Forest Management", 
+    description:"The CAN/CSA-Z809 SFM chain-of-custody label demonstrates that forest products have originated from a forest certified to CAN/CSA-Z809 SFM and have been verified to the Canadian Standards Association (CSA) Chain-of-Custody requirements through an independent third party audit.", 
+    owner_category:"industry association", 
+    level:"n/a", 
+    year_established:1996, 
+    party_verification:"third", 
+    criteria:"n/a", 
+    price:"n/a", 
+    accepted_elsewhere:"yes"
+    )
+Ecolabel.create(
+    name:"Danish Indoor Climate Label", 
+    description:"The Danish Indoor Climate label is a tool for development and selection of indoor air quality friendly products and better understanding of the impact of products and materials on the indoor air quality in buildings.", 
+    owner_category:"non-profit", 
+    level:"n/a", 
+    year_established:1993, 
+    party_verification:"second", 
+    criteria:"n/a", 
+    price:"n/a", 
+    accepted_elsewhere:"yes"
+    )
+Ecolabel.create(
+    name:"Declare", 
+    description:"The goal of Declare is to position the building product sector within a transparent materials economy.", 
+    owner_category:"non-profit", 
+    level:"n/a", 
+    year_established:2011, 
+    party_verification:"n/a", 
+    criteria:"n/a", 
+    price:"n/a", 
+    accepted_elsewhere:"yes"
+    )
+Ecolabel.create(
+    name:"Degree of Green", 
+    description:"The Degree of Green® rating program aims at helping consumers by rating products and explaining those ratings in clear language.", 
+    owner_category:"other", 
+    level:"n/a", 
+    year_established:2008, 
+    party_verification:"second", 
+    criteria:"n/a", 
+    price:"n/a", 
+    accepted_elsewhere:"yes"
+    )
 
 
 Category.create(name: "appliances")
 Category.create(name: "bedding")
 Category.create(name: "building products")
+Category.create(name: "buildings")
 Category.create(name: "carbon")
 Category.create(name: "cleaning products")
 Category.create(name: "commodities")
