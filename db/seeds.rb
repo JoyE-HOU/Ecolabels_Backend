@@ -468,6 +468,61 @@ Ecolabel.create(
     price:"n/a", 
     accepted_elsewhere:"yes"
     )
+Ecolabel.create(
+    name:"Demeter Biodynamic", 
+    description:"Demeter Biodynamic® is a certification indicating that Biodynamic farming practices have been used.", 
+    owner_category:"non-profit", 
+    level:"n/a", 
+    year_established:1940, 
+    party_verification:"second", 
+    criteria:"n/a", 
+    price:"n/a", 
+    accepted_elsewhere:"no"
+    )
+Ecolabel.create(
+    name:"Dolphin Safe/ Dolphin Friendly", 
+    description:"The Earth Island Institute monitors tuna companies around the world to ensure the tuna is caught by methods that do not harm dolphins and protect the marine ecosystem.", 
+    owner_category:"non-profit", 
+    level:"n/a", 
+    year_established:1990, 
+    party_verification:"second", 
+    criteria:"In order for tuna to be considered “Dolphin Safe”, it must meet the following standards: 1. No intentional chasing, netting or encirclement of dolphins during an entire tuna fishing trip; 2. No use of drift gill nets to catch tuna; 3. No accidental killing or serious injury to any dolphins during net sets; 4. No mixing of dolphin-safe and dolphin-deadly tuna in individual boat wells (for accidental kill of dolphins), or in processing or storage facilities; and 5. Each trip in the Eastern Tropical Pacific Ocean (ETP) by vessels 400 gross tons and above must have an independent observer on board attesting to the compliance with points (1) through (4) above.", 
+    price:"n/a", 
+    accepted_elsewhere:"yes"
+    )
+Ecolabel.create(
+    name:"DUBOkeur", 
+    description:"In 2004 NIBE developed a quality label to compare the environmental friendliness of multiple building products.", 
+    owner_category:"for-profit", 
+    level:"n/a", 
+    year_established:2004, 
+    party_verification:"second", 
+    criteria:"n/a", 
+    price:"n/a", 
+    accepted_elsewhere:"yes"
+    )
+Ecolabel.create(
+    name:"Earth Advantage", 
+    description:"Earth Advantage Institute is a nonprofit organization that works with the building industry to help implement sustainable building practices.", 
+    owner_category:"non-profit", 
+    level:"n/a", 
+    year_established:2005, 
+    party_verification:"third", 
+    criteria:"n/a", 
+    price:"n/a", 
+    accepted_elsewhere:"no"
+    )
+Ecolabel.create(
+    name:"EarthCheck", 
+    description:"EarthCheck is a benchmarking certification and advisory group for travel and tourism.", 
+    owner_category:"for-profit", 
+    level:"n/a", 
+    year_established:1997, 
+    party_verification:"third", 
+    criteria:"n/a", 
+    price:"n/a", 
+    accepted_elsewhere:"yes"
+    )
 
 
 Category.create(name: "appliances")
