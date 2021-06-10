@@ -578,30 +578,93 @@ Ecolabel.create(
     price:"n/a", 
     accepted_elsewhere:"yes"
     )
+Ecolabel.create(
+    name:"Eco-Living Seal", 
+    description:"The eco-living seal is a private label for Living Direct, an online retail company, specializing inconsumer appliances, indoor air quality products, and lawn and garden furniture.", 
+    owner_category:"for-profit", 
+    level:"n/a", 
+    year_established:2008, 
+    party_verification:"first", 
+    criteria:"n/a", 
+    price:"n/a", 
+    accepted_elsewhere:"no"
+    )
+Ecolabel.create(
+    name:"ECOLOGO", 
+    description:"The ECOLOGO Certification Program was aquired by UL Environment, a division of UL (Underwriters Laboratories) in 2010.", 
+    owner_category:"for-profit", 
+    level:"n/a", 
+    year_established:1988, 
+    party_verification:"third", 
+    criteria:"n/a", 
+    price:"n/a", 
+    accepted_elsewhere:"yes"
+    )
+Ecolabel.create(
+    name:"Eco-Schools", 
+    description:"A programme for environmental management and certification, and sustainable development education, for schools.", 
+    owner_category:"non-profit", 
+    level:"n/a", 
+    year_established:1994, 
+    party_verification:"second", 
+    criteria:"n/a", 
+    price:"n/a", 
+    accepted_elsewhere:"yes"
+    )
+Ecolabel.create(
+    name:"ENERGY STAR: USA", 
+    description:"ENERGY STAR is a voluntary government-backed program dedicated to helping individuals protect the environment through energy efficiency.", 
+    owner_category:"government", 
+    level:"n/a", 
+    year_established:1992, 
+    party_verification:"third", 
+    criteria:"n/a", 
+    price:"n/a", 
+    accepted_elsewhere:"yes"
+    )
+Ecolabel.create(
+    name:"Environmentally Preferable Product (EPP) Downstream", 
+    description:"The Composite Panel Association’s (CPA) Environmentally Preferable Panel (EPP) Downstream Program is an easy way for consumers to identify environmentally responsible composite wood products.", 
+    owner_category:"non-profit", 
+    level:"n/a", 
+    year_established:2007, 
+    party_verification:"second", 
+    criteria:"n/a", 
+    price:"n/a",
+    website:"n/a"
+    accepted_elsewhere:"yes"
+    )
 
 
 Category.create(name: "appliances")
+Category.create(name: "bags")
 Category.create(name: "bedding")
 Category.create(name: "building products")
 Category.create(name: "buildings")
 Category.create(name: "carbon")
 Category.create(name: "cleaning products")
+Category.create(name: "commercial and industrial buildings")
 Category.create(name: "commodities")
 Category.create(name: "cosmetics/personal care")
 Category.create(name: "electronics")
 Category.create(name: "energy")
+Category.create(name: "energy consuming products")
 Category.create(name: "financial services")
 Category.create(name: "fish/fisheries")
 Category.create(name: "food")
 Category.create(name: "forest products/paper")
 Category.create(name: "furniture")
 Category.create(name: "health care services & equipment")
+Category.create(name: "homes")
 Category.create(name: "machinery & equipment")
+Category.create(name: "office products")
 Category.create(name: "other")
 Category.create(name: "packaging")
 Category.create(name: "plastics")
+Category.create(name: "printing services and inks")
 Category.create(name: "professional, scientific & technical services")
 Category.create(name: "real estate")
+Category.create(name: "surface coatings")
 Category.create(name: "textiles")
 Category.create(name: "tourism")
 Category.create(name: "transportation")
