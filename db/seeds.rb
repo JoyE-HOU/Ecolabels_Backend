@@ -694,6 +694,66 @@ Ecolabel.create(
     website:"https://www.equitableorigin.org/"
     accepted_elsewhere:"no"
     )
+Ecolabel.create(
+    name:"e-Stewards Certification", 
+    description:"e-Stewards Certification is a global program designed to enable individuals and organizations who dispose of their old electronic equipment to easily identify recyclers that adhere to the highest standard of environmental responsibility and worker protection.", 
+    owner_category:"non-profit", 
+    level:"n/a", 
+    year_established:2003, 
+    party_verification:"third", 
+    criteria:"n/a", 
+    price:"n/a",
+    website:"http://e-stewards.org/"
+    accepted_elsewhere:"yes"
+    )
+Ecolabel.create(
+    name:"EU Ecolabel", 
+    description:"A voluntary scheme designed to encourage businesses to market products and services that are kinder to the environment and for European consumers - including public and private purchasers - to easily identify them.", 
+    owner_category:"government", 
+    level:"n/a", 
+    year_established:1992, 
+    party_verification:"third", 
+    criteria:"n/a", 
+    price:"n/a",
+    website:"https://ec.europa.eu/environment/ecolabel/index_en.htm"
+    accepted_elsewhere:"yes"
+    )
+Ecolabel.create(
+    name:"Fair Labor Practices and Community Benefits", 
+    description:"Social responsibility certification to complement Organic Fair Labor Practices and Community Benefits certification – developed by Scientific Certification Systems (SCS) in conjunction with key stakeholders – validates socially responsible practices in agricultural production and processing.", 
+    owner_category:"for-profit", 
+    level:"n/a", 
+    year_established:2007, 
+    party_verification:"second", 
+    criteria:"n/a", 
+    price:"n/a",
+    website:"https://www.scsglobalservices.com/services/fair-trade-certification?scscertified=1"
+    accepted_elsewhere:"yes"
+    )
+Ecolabel.create(
+    name:"Fairtrade", 
+    description:"Fairtrade offers farmers and workers in developing countries a better deal, and the opportunity to improve their lives and invest in their future.", 
+    owner_category:"non-profit", 
+    level:"n/a", 
+    year_established:1997, 
+    party_verification:"third", 
+    criteria:"n/a", 
+    price:"n/a",
+    website:"https://www.fairtrade.net/"
+    accepted_elsewhere:"yes"
+    )
+Ecolabel.create(
+    name:"Fair Trade Certified", 
+    description:"Fair Trade is a market-based approach to alleviating poverty in ways that improve lives and protect the environment.", 
+    owner_category:"non-profit", 
+    level:"n/a", 
+    year_established:1998, 
+    party_verification:"third", 
+    criteria:"n/a", 
+    price:"n/a",
+    website:"https://www.fairtradecertified.org/"
+    accepted_elsewhere:"yes"
+    )
 
 
 Category.create(name: "appliances")
@@ -702,6 +762,7 @@ Category.create(name: "bedding")
 Category.create(name: "building products")
 Category.create(name: "buildings")
 Category.create(name: "carbon")
+Category.create(name: "campsite services")
 Category.create(name: "cleaning products")
 Category.create(name: "commercial and industrial buildings")
 Category.create(name: "commodities")
@@ -712,11 +773,13 @@ Category.create(name: "energy consuming products")
 Category.create(name: "financial services")
 Category.create(name: "fish/fisheries")
 Category.create(name: "food")
+Category.create(name: "footwear")
 Category.create(name: "forest products/paper")
 Category.create(name: "furniture")
 Category.create(name: "health care services & equipment")
 Category.create(name: "homes")
 Category.create(name: "light duty vehicles")
+Category.create(name: "lumber")
 Category.create(name: "machinery & equipment")
 Category.create(name: "office products")
 Category.create(name: "other")
@@ -725,6 +788,7 @@ Category.create(name: "plastics")
 Category.create(name: "printing services and inks")
 Category.create(name: "professional, scientific & technical services")
 Category.create(name: "real estate")
+Category.create(name: "sports balls")
 Category.create(name: "surface coatings")
 Category.create(name: "textiles")
 Category.create(name: "tourism")
