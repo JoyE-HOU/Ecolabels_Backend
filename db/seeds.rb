@@ -754,6 +754,18 @@ Ecolabel.create(
     website:"https://www.fairtradecertified.org/"
     accepted_elsewhere:"yes"
     )
+Ecolabel.create(
+    name:"FairWild", 
+    description:"FairWild aims to provide a worldwide framework for implementing a sustainable, fair and value-added management and trading system for wild-collected natural ingredients and products thereof.", 
+    owner_category:"non-profit", 
+    level:"n/a", 
+    year_established:2007, 
+    party_verification:"third", 
+    criteria:"n/a", 
+    price:"n/a",
+    website:"https://www.fairwild.org/"
+    accepted_elsewhere:"yes"
+    )
 
 
 Category.create(name: "appliances")
