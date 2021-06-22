@@ -766,6 +766,66 @@ Ecolabel.create(
     website:"https://www.fairwild.org/"
     accepted_elsewhere:"yes"
     )
+Ecolabel.create(
+    name:"Farm and Ranch Certification Program", 
+    description:"Distinguishes farmers and ranchers who: provide safe and fair working conditions, provide healthy and humane treatment of animals; raise animals without added hormones and antibiotics; raise crops without genetically modified organisms; reduce pesticides usage and toxicity; conserve soil and water resources; preserve and protect wildlife habitat; and, commit to continuous improvement of these practices.", 
+    owner_category:"non-profit", 
+    level:"n/a", 
+    year_established:1997, 
+    party_verification:"third", 
+    criteria:"n/a", 
+    price:"n/a",
+    website:"n/a"
+    accepted_elsewhere:"yes"
+    )
+Ecolabel.create(
+    name:"Farm Verified Organic", 
+    description:"The Farm Verified Organic program provides organic certification services to companies and individuals, to enable them to market a credible organic product to the consumer.", 
+    owner_category:"non-profit", 
+    level:"n/a", 
+    year_established:1995, 
+    party_verification:"third", 
+    criteria:"n/a", 
+    price:"n/a",
+    website:"https://www.wfcforganic.com/"
+    accepted_elsewhere:"no"
+    )
+Ecolabel.create(
+    name:"FedEx EarthSmart Solutions", 
+    description:"EarthSmart Solutions encourages innovation at FedEx by offering an internal company designation for any of their assets — including planes, trucks and facilities — that meet environmental sustainability criteria.", 
+    owner_category:"for-profit", 
+    level:"n/a", 
+    year_established:2010, 
+    party_verification:"first", 
+    criteria:"n/a", 
+    price:"n/a",
+    website:"https://www.fedex.com/en-us/sustainability.html#5"
+    accepted_elsewhere:"no"
+    )
+Ecolabel.create(
+    name:"Florverde Sustainable Flowers", 
+    description:"Ensures all flowers grown and harvested in Colombia meet specific social and environmental standards.", 
+    owner_category:"industry association", 
+    level:"n/a", 
+    year_established:1996, 
+    party_verification:"n/a", 
+    criteria:"n/a", 
+    price:"n/a",
+    website:"https://florverde.org/"
+    accepted_elsewhere:"yes"
+    )
+Ecolabel.create(
+    name:"Florverde Sustainable Flowers", 
+    description:"Ensures all flowers grown and harvested in Colombia meet specific social and environmental standards.", 
+    owner_category:"industry association", 
+    level:"n/a", 
+    year_established:1996, 
+    party_verification:"n/a", 
+    criteria:"n/a", 
+    price:"n/a",
+    website:"https://florverde.org/"
+    accepted_elsewhere:"yes"
+    )
 
 
 Category.create(name: "appliances")
@@ -784,6 +844,7 @@ Category.create(name: "energy")
 Category.create(name: "energy consuming products")
 Category.create(name: "financial services")
 Category.create(name: "fish/fisheries")
+Category.create(name: "flowers")
 Category.create(name: "food")
 Category.create(name: "footwear")
 Category.create(name: "forest products/paper")
