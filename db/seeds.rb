@@ -815,15 +815,75 @@ Ecolabel.create(
     accepted_elsewhere:"yes"
     )
 Ecolabel.create(
-    name:"Florverde Sustainable Flowers", 
-    description:"Ensures all flowers grown and harvested in Colombia meet specific social and environmental standards.", 
-    owner_category:"industry association", 
+    name:"Flower Label Program (FLP)", 
+    description:"Flower Label Program (FLP) is an association carried by human rights organisations, trade unions, flower traders and producers.", 
+    owner_category:"non-profit", 
     level:"n/a", 
-    year_established:1996, 
-    party_verification:"n/a", 
+    year_established:1998, 
+    party_verification:"third", 
     criteria:"n/a", 
     price:"n/a",
-    website:"https://florverde.org/"
+    website:"n/a"
+    accepted_elsewhere:"yes"
+    )
+Ecolabel.create(
+    name:"Food Alliance Certified", 
+    description:"Food Alliance is a nonprofit organization that certifies farms, ranches, and food processors and distributors for sustainable agricultural and facility management practices.", 
+    owner_category:"non-profit", 
+    level:"n/a", 
+    year_established:1996, 
+    party_verification:"third", 
+    criteria:"n/a", 
+    price:"n/a",
+    website:"http://foodalliance.org/"
+    accepted_elsewhere:"yes"
+    )
+Ecolabel.create(
+    name:"Forest Stewardship Council (FSC) Chain of Custody Certification", 
+    description:"The Forest Stewardship Council® (FSC) promotes environmentally appropriate, socially beneficial, and economically viable management of the world's forests.", 
+    owner_category:"non-profit", 
+    level:"n/a", 
+    year_established:1994, 
+    party_verification:"third", 
+    criteria:"n/a", 
+    price:"n/a",
+    website:"https://fsc.org/en"
+    accepted_elsewhere:"yes"
+    )
+Ecolabel.create(
+    name:"Forest Stewardship Council (FSC) Forest Management Certification", 
+    description:"The Forest Stewardship Council® (FSC) promotes environmentally appropriate, socially beneficial, and economically viable management of the world's forests.", 
+    owner_category:"non-profit", 
+    level:"n/a", 
+    year_established:1994, 
+    party_verification:"third", 
+    criteria:"n/a", 
+    price:"n/a",
+    website:"https://fsc.org/en"
+    accepted_elsewhere:"yes"
+    )
+Ecolabel.create(
+    name:"Future Friendly - Proctor and Gamble", 
+    description:"Future Friendly is a designation for Proctor and Gamble products that save energy, save water, reduce waste, and or are produced from sustainably-harvested materials.", 
+    owner_category:"for-profit", 
+    level:"n/a", 
+    year_established:2007, 
+    party_verification:"first", 
+    criteria:"n/a", 
+    price:"n/a",
+    website:"https://www.pg.co.uk/environmental-sustainability/"
+    accepted_elsewhere:"no"
+    )
+Ecolabel.create(
+    name:"GEO Certified", 
+    description:"GEO is a stakeholder-funded, not-for-profit organization, dedicated to helping the global golf community establish leadership in environmental enhancement and corporate responsibility.", 
+    owner_category:"non-profit", 
+    level:"n/a", 
+    year_established:2009, 
+    party_verification:"third", 
+    criteria:"n/a", 
+    price:"n/a",
+    website:"https://sustainable.golf/"
     accepted_elsewhere:"yes"
     )
 
