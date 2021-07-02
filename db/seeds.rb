@@ -1030,6 +1030,67 @@ Ecolabel.create(
     website:"n/a"
     accepted_elsewhere:"no"
     )
+Ecolabel.create(
+    name:"Green Certified Site", 
+    description:"A Green Certified Site™ by CO2Stats indicates that a website's carbon footprint has been calculated and that renewable energy has been purchased to make it carbon neutral.", 
+    owner_category:"for-profit", 
+    level:"n/a", 
+    year_established:2007, 
+    party_verification:"n/a", 
+    criteria:"n/a", 
+    price:"n/a",
+    website:"n/a"
+    accepted_elsewhere:"no"
+    )
+Ecolabel.create(
+    name:"GreenCircle", 
+    description:"GreenCircle Certified, LLC provides third-party certification of sustainable aspects of products and manufacturing operations.", 
+    owner_category:"for-profit", 
+    level:"n/a", 
+    year_established:2010, 
+    party_verification:"third", 
+    criteria:"n/a", 
+    price:"n/a",
+    website:"https://www.greencirclecertified.com/"
+    accepted_elsewhere:"yes"
+    )
+Ecolabel.create(
+    name:"Green-e Climate", 
+    description:"Green-e® Climate is the first and only consumer protection and certification program for retail carbon offsets.", 
+    owner_category:"non-profit", 
+    level:"n/a", 
+    year_established:2008, 
+    party_verification:"third", 
+    criteria:"n/a", 
+    price:"n/a",
+    website:"https://www.green-e.org/programs/climate"
+    accepted_elsewhere:"no"
+    )
+Ecolabel.create(
+    name:"Green-e Energy", 
+    description:"The Green-e Energy certification assures consumers and businesses in the US and Canada that they are reducing the environmental impact of their electricity use.", 
+    owner_category:"non-profit", 
+    level:"n/a", 
+    year_established:1997, 
+    party_verification:"third", 
+    criteria:"n/a", 
+    price:"n/a",
+    website:"https://www.green-e.org/programs/energy"
+    accepted_elsewhere:"yes"
+    )
+Ecolabel.create(
+    name:"Green-e Marketplace", 
+    description:"
+    Green-e Marketplace is a unique certification program that recognizes organizations using certified renewable energy and enables them to demonstrate their environmental commitment through the use of the nationally recognized Green-e logo.", 
+    owner_category:"non-profit", 
+    level:"n/a", 
+    year_established:2004, 
+    party_verification:"second", 
+    criteria:"n/a", 
+    price:"n/a",
+    website:"https://www.green-e.org/programs/marketplace"
+    accepted_elsewhere:"yes"
+    )
 
 
 Category.create(name: "appliances")
@@ -1043,6 +1104,7 @@ Category.create(name: "campsite services")
 Category.create(name: "cleaning products")
 Category.create(name: "commercial and industrial buildings")
 Category.create(name: "commodities")
+Category.create(name: "consumer products")
 Category.create(name: "cosmetics/personal care")
 Category.create(name: "electronics")
 Category.create(name: "energy")
@@ -1067,6 +1129,8 @@ Category.create(name: "plastics")
 Category.create(name: "printing services and inks")
 Category.create(name: "professional, scientific & technical services")
 Category.create(name: "real estate")
+Category.create(name: "renewable electricity and renewable energy certificate (REC) sales")
+Category.create(name: "retail carbon offset products")
 Category.create(name: "sports balls")
 Category.create(name: "surface coatings")
 Category.create(name: "textiles")
