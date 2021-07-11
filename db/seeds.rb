@@ -400,7 +400,8 @@ Ecolabel.create(
     year_established:1999, 
     party_verification:"third", 
     criteria:"n/a", 
-    price:"n/a", 
+    price:"n/a",
+    website:"https://bpiworld.org/", 
     accepted_elsewhere:"yes"
     )
 Ecolabel.create(
@@ -411,7 +412,8 @@ Ecolabel.create(
     year_established:2005, 
     party_verification:"third", 
     criteria:"n/a", 
-    price:"n/a", 
+    price:"n/a",
+    website:"https://cottonmadeinafrica.org/en/", 
     accepted_elsewhere:"no"
     )
 Ecolabel.create(
@@ -422,7 +424,20 @@ Ecolabel.create(
     year_established:2005, 
     party_verification:"second", 
     criteria:"n/a", 
-    price:"n/a", 
+    price:"n/a",
+    website:"https://www.c2ccertified.org/", 
+    accepted_elsewhere:"yes"
+    )
+Ecolabel.create(
+    name:"CRI Green Label", 
+    description:"In 1992, the Carpet and Rug Institute (CRI) launched its Green Label program to test carpet, cushions and adhesives to help specifiers identify products with very low emissions of VOCs.", 
+    owner_category:"non-profit", 
+    level:"n/a", 
+    year_established:2005, 
+    party_verification:"second", 
+    criteria:"n/a", 
+    price:"n/a",
+    website:"https://carpet-rug.org/", 
     accepted_elsewhere:"yes"
     )
 Ecolabel.create(
@@ -433,7 +448,8 @@ Ecolabel.create(
     year_established:1996, 
     party_verification:"third", 
     criteria:"n/a", 
-    price:"n/a", 
+    price:"n/a",
+    website:"n/a", 
     accepted_elsewhere:"yes"
     )
 Ecolabel.create(
@@ -444,7 +460,8 @@ Ecolabel.create(
     year_established:1993, 
     party_verification:"second", 
     criteria:"n/a", 
-    price:"n/a", 
+    price:"n/a",
+    website:"n/a", 
     accepted_elsewhere:"yes"
     )
 Ecolabel.create(
@@ -455,7 +472,8 @@ Ecolabel.create(
     year_established:2011, 
     party_verification:"n/a", 
     criteria:"n/a", 
-    price:"n/a", 
+    price:"n/a",
+    website:"https://declare.living-future.org/",  
     accepted_elsewhere:"yes"
     )
 Ecolabel.create(
@@ -467,7 +485,7 @@ Ecolabel.create(
     party_verification:"second", 
     criteria:"n/a", 
     price:"n/a",
-    website:"" 
+    website:"https://www.degreeofgreen.com/", 
     accepted_elsewhere:"yes"
     )
 Ecolabel.create(
@@ -479,7 +497,7 @@ Ecolabel.create(
     party_verification:"second", 
     criteria:"n/a", 
     price:"n/a",
-    website:"https://www.demeter-usa.org/" 
+    website:"https://www.demeter-usa.org/", 
     accepted_elsewhere:"no"
     )
 Ecolabel.create(
@@ -491,7 +509,7 @@ Ecolabel.create(
     party_verification:"second", 
     criteria:"In order for tuna to be considered “Dolphin Safe”, it must meet the following standards: 1. No intentional chasing, netting or encirclement of dolphins during an entire tuna fishing trip; 2. No use of drift gill nets to catch tuna; 3. No accidental killing or serious injury to any dolphins during net sets; 4. No mixing of dolphin-safe and dolphin-deadly tuna in individual boat wells (for accidental kill of dolphins), or in processing or storage facilities; and 5. Each trip in the Eastern Tropical Pacific Ocean (ETP) by vessels 400 gross tons and above must have an independent observer on board attesting to the compliance with points (1) through (4) above.", 
     price:"n/a",
-    website:"http://savedolphins.eii.org/campaigns/dsf/" 
+    website:"http://savedolphins.eii.org/campaigns/dsf/", 
     accepted_elsewhere:"yes"
     )
 Ecolabel.create(
@@ -503,7 +521,7 @@ Ecolabel.create(
     party_verification:"second", 
     criteria:"n/a", 
     price:"n/a",
-    website:"https://www.nibe-sustainability-experts.com/nl/dubokeur-milieuclassificaties" 
+    website:"https://www.nibe-sustainability-experts.com/nl/dubokeur-milieuclassificaties", 
     accepted_elsewhere:"yes"
     )
 Ecolabel.create(
