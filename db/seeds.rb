@@ -91,7 +91,8 @@ Ecolabel.create(
     year_established:2002, 
     party_verification:"third", 
     criteria:"n/a", 
-    price:"n/a", 
+    price:"n/a",
+    website:"", 
     accepted_elsewhere:"yes"
     )
 Ecolabel.create(
@@ -102,7 +103,8 @@ Ecolabel.create(
     year_established:2008, 
     party_verification:"third", 
     criteria:"n/a", 
-    price:"n/a", 
+    price:"n/a",
+    website:"http://www.okinternational.org/lead-batteries/Background", 
     accepted_elsewhere:"yes"
     )
 Ecolabel.create(
@@ -113,7 +115,8 @@ Ecolabel.create(
     year_established:1981, 
     party_verification:"third", 
     criteria:"n/a", 
-    price:"n/a", 
+    price:"n/a",
+    website:"https://www.bio-suisse.ch/en/consumer/bud/index.php", 
     accepted_elsewhere:"yes"
     )
 Ecolabel.create(
@@ -124,7 +127,8 @@ Ecolabel.create(
     year_established:1998, 
     party_verification:"third", 
     criteria:"n/a", 
-    price:"n/a", 
+    price:"n/a",
+    website:"n/a", 
     accepted_elsewhere:"yes"
     )
 Ecolabel.create(
@@ -135,7 +139,8 @@ Ecolabel.create(
     year_established:1978, 
     party_verification:"third", 
     criteria:"n/a", 
-    price:"n/a", 
+    price:"n/a",
+    website:"https://www.blauer-engel.de/", 
     accepted_elsewhere:"yes"
     )
 Ecolabel.create(
@@ -146,7 +151,8 @@ Ecolabel.create(
     year_established:2001, 
     party_verification:"second", 
     criteria:"n/a", 
-    price:"n/a", 
+    price:"n/a",
+    website:"https://www.bluesign.com/en", 
     accepted_elsewhere:"yes"
     )
 Ecolabel.create(
@@ -158,12 +164,12 @@ Ecolabel.create(
     party_verification:"third", 
     criteria:"n/a", 
     price:"n/a",
-    website:"", 
+    website:"https://www.breeam.com/", 
     accepted_elsewhere:"yes"
     )
 Ecolabel.create(
     name:"BRE Global Cetified Environmental Profile", 
-    description:"", 
+    description:"Environmental profiles measure the impacts of a construction material, product or building system throughout its life – not only during its manufacture, but also its use in a building over a typical building lifetime.", 
     owner_category:"non-profit", 
     level:"", 
     year_established:2001, 
@@ -171,15 +177,15 @@ Ecolabel.create(
     criteria:"n/a", 
     price:"n/a",
     website:"https://www.greenbooklive.com/search/scheme.jsp?id=9", 
-    accepted_elsewhere:""
+    accepted_elsewhere:"yes"
     )
 Ecolabel.create(
     name:"Burnwise EPA", 
-    description:"", 
+    description:"Burn Wise is a partnership program of the U.S. Environmental Protection Agency that emphasizes the importance of burning the right wood, the right way, in the right wood-burning appliance to protect your home, health, and the air we breathe.", 
     owner_category:"government", 
     level:"", 
     year_established:2007, 
-    party_verification:"", 
+    party_verification:"first", 
     criteria:"n/a", 
     price:"n/a",
     website:"https://www.epa.gov/burnwise", 
@@ -187,7 +193,7 @@ Ecolabel.create(
     )
 Ecolabel.create(
     name:"C.A.F.E. Practices", 
-    description:"", 
+    description:"Coffee and Farmer Equity (C.A.F.E.) Practices evaluates, recognizes and rewards producers of high-quality sustainably grown coffee for Starbucks stores.", 
     owner_category:"for-profit", 
     level:"", 
     year_established:2004, 
