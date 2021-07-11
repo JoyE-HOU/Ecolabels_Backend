@@ -212,7 +212,8 @@ Ecolabel.create(
     year_established:2013, 
     party_verification:"", 
     criteria:"n/a", 
-    price:"n/a", 
+    price:"n/a",
+    website:"", 
     accepted_elsewhere:""
     )
 Ecolabel.create(
@@ -223,7 +224,8 @@ Ecolabel.create(
     year_established:2007, 
     party_verification:"third", 
     criteria:"n/a", 
-    price:"n/a", 
+    price:"n/a",
+    website:"https://carbonfund.org/take-action/businesses/carbonfree-product-certification/product-certification-frequently-asked-questions/", 
     accepted_elsewhere:""
     )
 Ecolabel.create(
@@ -234,7 +236,8 @@ Ecolabel.create(
     year_established:1998, 
     party_verification:"third", 
     criteria:"n/a", 
-    price:"n/a", 
+    price:"n/a",
+    website:"https://www.carbonneutral.com/", 
     accepted_elsewhere:""
     )
 Ecolabel.create(
@@ -245,7 +248,8 @@ Ecolabel.create(
     year_established:2008, 
     party_verification:"", 
     criteria:"n/a", 
-    price:"n/a", 
+    price:"n/a",
+    website:"http://www.verus-co2.com/certification.html", 
     accepted_elsewhere:""
     )
 Ecolabel.create(
@@ -256,7 +260,8 @@ Ecolabel.create(
     year_established:2007, 
     party_verification:"third", 
     criteria:"n/a", 
-    price:"n/a", 
+    price:"n/a",
+    website:"https://www.carbontrust.com/what-we-do", 
     accepted_elsewhere:"yes"
     )
 Ecolabel.create(
@@ -267,7 +272,8 @@ Ecolabel.create(
     year_established:2007, 
     party_verification:"n/a", 
     criteria:"n/a", 
-    price:"n/a", 
+    price:"n/a",
+    website:"n/a", 
     accepted_elsewhere:"no"
     )
 Ecolabel.create(
@@ -278,7 +284,8 @@ Ecolabel.create(
     year_established:1990, 
     party_verification:"second", 
     criteria:"n/a", 
-    price:"n/a", 
+    price:"n/a",
+    website:"https://www.dinegreen.com/", 
     accepted_elsewhere:"yes"
     )
 Ecolabel.create(
@@ -289,7 +296,8 @@ Ecolabel.create(
     year_established:2003, 
     party_verification:"second", 
     criteria:"n/a", 
-    price:"n/a", 
+    price:"n/a",
+    website:"https://certifiedhumane.org/", 
     accepted_elsewhere:"no"
     )
 Ecolabel.create(
@@ -301,7 +309,7 @@ Ecolabel.create(
     party_verification:"second", 
     criteria:"n/a", 
     price:"n/a",
-    website:"n/a", 
+    website:"https://www.cngfarming.org/", 
     accepted_elsewhere:"yes"
     )
 Ecolabel.create(
