@@ -157,7 +157,8 @@ Ecolabel.create(
     year_established:1990, 
     party_verification:"third", 
     criteria:"n/a", 
-    price:"n/a", 
+    price:"n/a",
+    website:"", 
     accepted_elsewhere:"yes"
     )
 Ecolabel.create(
@@ -168,7 +169,8 @@ Ecolabel.create(
     year_established:2001, 
     party_verification:"third", 
     criteria:"n/a", 
-    price:"n/a", 
+    price:"n/a",
+    website:"https://www.greenbooklive.com/search/scheme.jsp?id=9", 
     accepted_elsewhere:""
     )
 Ecolabel.create(
@@ -179,7 +181,8 @@ Ecolabel.create(
     year_established:2007, 
     party_verification:"", 
     criteria:"n/a", 
-    price:"n/a", 
+    price:"n/a",
+    website:"https://www.epa.gov/burnwise", 
     accepted_elsewhere:""
     )
 Ecolabel.create(
@@ -190,35 +193,37 @@ Ecolabel.create(
     year_established:2004, 
     party_verification:"", 
     criteria:"n/a", 
-    price:"n/a", 
+    price:"n/a",
+    website:"https://www.starbucks.com/responsibility/sourcing/coffee", 
     accepted_elsewhere:""
     )
 Ecolabel.create(
     name:"California Certified Organic Farmers - CCOF", 
-    description:"", 
+    description:"CCOF promotes and supports organic food and agriculture through a premier organic certification program, trade support, producer and consumer education and political advocacy.", 
     owner_category:"non-profit", 
     level:"", 
     year_established:1973, 
     party_verification:"third", 
     criteria:"n/a", 
-    price:"n/a", 
+    price:"n/a",
+    website:"https://www.ccof.org/", 
     accepted_elsewhere:""
     )
 Ecolabel.create(
     name:"Carbon Care Certification", 
-    description:"", 
+    description:"The Carbon Care certification offered by Enviro-access recognizes organizations’ efforts to responsibly manage and reduce greenhouse gases (GHGs).", 
     owner_category:"non-profit", 
     level:"", 
     year_established:2013, 
     party_verification:"", 
     criteria:"n/a", 
     price:"n/a",
-    website:"", 
+    website:"http://www.enviroaccess.ca/expert-conseil/en/carbon-care-certification/", 
     accepted_elsewhere:""
     )
 Ecolabel.create(
     name:"Carbon Free Certified", 
-    description:"", 
+    description:"The CarbonFree® Product Certification label is aimed at increasing awareness of product emissions and recognizing companies that are compensating for their carbon footprint.", 
     owner_category:"non-profit", 
     level:"", 
     year_established:2007, 
@@ -230,7 +235,7 @@ Ecolabel.create(
     )
 Ecolabel.create(
     name:"CarbonNeutral", 
-    description:"", 
+    description:"CarbonNeutral® is the registered trademark of The CarbonNeutral Company and is a global standard to certify that businesses have measured and reduced their CO2 emissions to net zero for their company, products, operations or services.", 
     owner_category:"for-profit", 
     level:"", 
     year_established:1998, 
@@ -244,7 +249,7 @@ Ecolabel.create(
     name:"Carbon Neutral Certification", 
     description:"", 
     owner_category:"other", 
-    level:"", 
+    level:"A Carbon Neutral Certification is a label given to businesses that offset their Scope 1 and 2 carbon footprint.", 
     year_established:2008, 
     party_verification:"", 
     criteria:"n/a", 
