@@ -388,7 +388,8 @@ Ecolabel.create(
     year_established:, 
     party_verification:"third", 
     criteria:"n/a", 
-    price:"n/a", 
+    price:"n/a",
+    website:"", 
     accepted_elsewhere:"yes"
     )
 Ecolabel.create(
@@ -465,7 +466,8 @@ Ecolabel.create(
     year_established:2008, 
     party_verification:"second", 
     criteria:"n/a", 
-    price:"n/a", 
+    price:"n/a",
+    website:"" 
     accepted_elsewhere:"yes"
     )
 Ecolabel.create(
@@ -476,7 +478,8 @@ Ecolabel.create(
     year_established:1940, 
     party_verification:"second", 
     criteria:"n/a", 
-    price:"n/a", 
+    price:"n/a",
+    website:"https://www.demeter-usa.org/" 
     accepted_elsewhere:"no"
     )
 Ecolabel.create(
@@ -487,7 +490,8 @@ Ecolabel.create(
     year_established:1990, 
     party_verification:"second", 
     criteria:"In order for tuna to be considered “Dolphin Safe”, it must meet the following standards: 1. No intentional chasing, netting or encirclement of dolphins during an entire tuna fishing trip; 2. No use of drift gill nets to catch tuna; 3. No accidental killing or serious injury to any dolphins during net sets; 4. No mixing of dolphin-safe and dolphin-deadly tuna in individual boat wells (for accidental kill of dolphins), or in processing or storage facilities; and 5. Each trip in the Eastern Tropical Pacific Ocean (ETP) by vessels 400 gross tons and above must have an independent observer on board attesting to the compliance with points (1) through (4) above.", 
-    price:"n/a", 
+    price:"n/a",
+    website:"http://savedolphins.eii.org/campaigns/dsf/" 
     accepted_elsewhere:"yes"
     )
 Ecolabel.create(
@@ -498,7 +502,8 @@ Ecolabel.create(
     year_established:2004, 
     party_verification:"second", 
     criteria:"n/a", 
-    price:"n/a", 
+    price:"n/a",
+    website:"https://www.nibe-sustainability-experts.com/nl/dubokeur-milieuclassificaties" 
     accepted_elsewhere:"yes"
     )
 Ecolabel.create(
@@ -509,7 +514,8 @@ Ecolabel.create(
     year_established:2005, 
     party_verification:"third", 
     criteria:"n/a", 
-    price:"n/a", 
+    price:"n/a",
+    website:"https://www.earthadvantage.org/", 
     accepted_elsewhere:"no"
     )
 Ecolabel.create(
@@ -520,7 +526,8 @@ Ecolabel.create(
     year_established:1997, 
     party_verification:"third", 
     criteria:"n/a", 
-    price:"n/a", 
+    price:"n/a",
+    website:"n/a", 
     accepted_elsewhere:"yes"
     )
 Ecolabel.create(
@@ -531,7 +538,8 @@ Ecolabel.create(
     year_established:2008, 
     party_verification:"second", 
     criteria:"n/a", 
-    price:"n/a", 
+    price:"n/a",
+    website:"n/a", 
     accepted_elsewhere:"yes"
     )
 Ecolabel.create(
@@ -542,7 +550,8 @@ Ecolabel.create(
     year_established:2006, 
     party_verification:"third", 
     criteria:"n/a", 
-    price:"n/a", 
+    price:"n/a",
+    website:"https://iere.org/", 
     accepted_elsewhere:"yes"
     )
 Ecolabel.create(
@@ -553,7 +562,8 @@ Ecolabel.create(
     year_established:2010, 
     party_verification:"third", 
     criteria:"n/a", 
-    price:"n/a", 
+    price:"n/a",
+    website:"n/a", 
     accepted_elsewhere:"no"
     )
 Ecolabel.create(
@@ -564,7 +574,8 @@ Ecolabel.create(
     year_established:2003, 
     party_verification:"second", 
     criteria:"n/a", 
-    price:"n/a", 
+    price:"n/a",
+    website:"https://www.ecobroker.com/", 
     accepted_elsewhere:"no"
     )
 Ecolabel.create(
@@ -575,7 +586,8 @@ Ecolabel.create(
     year_established:1991, 
     party_verification:"third", 
     criteria:"n/a", 
-    price:"n/a", 
+    price:"n/a",
+    website:"https://www.ecocert.com/en/certification", 
     accepted_elsewhere:"yes"
     )
 Ecolabel.create(
@@ -586,7 +598,8 @@ Ecolabel.create(
     year_established:2008, 
     party_verification:"first", 
     criteria:"n/a", 
-    price:"n/a", 
+    price:"n/a",
+    website:"https://www.livingdirect.com/", 
     accepted_elsewhere:"no"
     )
 Ecolabel.create(
@@ -597,7 +610,8 @@ Ecolabel.create(
     year_established:1988, 
     party_verification:"third", 
     criteria:"n/a", 
-    price:"n/a", 
+    price:"n/a",
+    website:"https://www.ul.com/resources/ecologo-certification-program", 
     accepted_elsewhere:"yes"
     )
 Ecolabel.create(
@@ -608,7 +622,8 @@ Ecolabel.create(
     year_established:1994, 
     party_verification:"second", 
     criteria:"n/a", 
-    price:"n/a", 
+    price:"n/a",
+    website:"https://www.ecoschools.global/", 
     accepted_elsewhere:"yes"
     )
 Ecolabel.create(
@@ -619,7 +634,8 @@ Ecolabel.create(
     year_established:1992, 
     party_verification:"third", 
     criteria:"n/a", 
-    price:"n/a", 
+    price:"n/a",
+    website:"https://www.energystar.gov/", 
     accepted_elsewhere:"yes"
     )
 Ecolabel.create(
@@ -631,7 +647,7 @@ Ecolabel.create(
     party_verification:"second", 
     criteria:"n/a", 
     price:"n/a",
-    website:"n/a"
+    website:"n/a",
     accepted_elsewhere:"yes"
     )
 Ecolabel.create(
@@ -643,7 +659,7 @@ Ecolabel.create(
     party_verification:"second", 
     criteria:"n/a", 
     price:"n/a",
-    website:"https://envirostars.org/"
+    website:"https://envirostars.org/",
     accepted_elsewhere:"no"
     )
 Ecolabel.create(
@@ -655,7 +671,7 @@ Ecolabel.create(
     party_verification:"second", 
     criteria:"n/a", 
     price:"n/a",
-    website:"n/a"
+    website:"n/a",
     accepted_elsewhere:"no"
     )
 Ecolabel.create(
@@ -667,7 +683,7 @@ Ecolabel.create(
     party_verification:"first", 
     criteria:"n/a", 
     price:"n/a",
-    website:"n/a"
+    website:"n/a",
     accepted_elsewhere:"no"
     )
 Ecolabel.create(
@@ -679,7 +695,7 @@ Ecolabel.create(
     party_verification:"third", 
     criteria:"n/a", 
     price:"n/a",
-    website:"https://www.epeat.net/"
+    website:"https://www.epeat.net/",
     accepted_elsewhere:"yes"
     )
 Ecolabel.create(
@@ -691,7 +707,7 @@ Ecolabel.create(
     party_verification:"third", 
     criteria:"n/a", 
     price:"n/a",
-    website:"https://www.equitableorigin.org/"
+    website:"https://www.equitableorigin.org/",
     accepted_elsewhere:"no"
     )
 Ecolabel.create(
@@ -703,7 +719,7 @@ Ecolabel.create(
     party_verification:"third", 
     criteria:"n/a", 
     price:"n/a",
-    website:"http://e-stewards.org/"
+    website:"http://e-stewards.org/",
     accepted_elsewhere:"yes"
     )
 Ecolabel.create(
@@ -715,7 +731,7 @@ Ecolabel.create(
     party_verification:"third", 
     criteria:"n/a", 
     price:"n/a",
-    website:"https://ec.europa.eu/environment/ecolabel/index_en.htm"
+    website:"https://ec.europa.eu/environment/ecolabel/index_en.htm",
     accepted_elsewhere:"yes"
     )
 Ecolabel.create(
@@ -727,7 +743,7 @@ Ecolabel.create(
     party_verification:"second", 
     criteria:"n/a", 
     price:"n/a",
-    website:"https://www.scsglobalservices.com/services/fair-trade-certification?scscertified=1"
+    website:"https://www.scsglobalservices.com/services/fair-trade-certification?scscertified=1",
     accepted_elsewhere:"yes"
     )
 Ecolabel.create(
@@ -739,7 +755,7 @@ Ecolabel.create(
     party_verification:"third", 
     criteria:"n/a", 
     price:"n/a",
-    website:"https://www.fairtrade.net/"
+    website:"https://www.fairtrade.net/",
     accepted_elsewhere:"yes"
     )
 Ecolabel.create(
@@ -751,7 +767,7 @@ Ecolabel.create(
     party_verification:"third", 
     criteria:"n/a", 
     price:"n/a",
-    website:"https://www.fairtradecertified.org/"
+    website:"https://www.fairtradecertified.org/",
     accepted_elsewhere:"yes"
     )
 Ecolabel.create(
@@ -763,7 +779,7 @@ Ecolabel.create(
     party_verification:"third", 
     criteria:"n/a", 
     price:"n/a",
-    website:"https://www.fairwild.org/"
+    website:"https://www.fairwild.org/",
     accepted_elsewhere:"yes"
     )
 Ecolabel.create(
@@ -775,7 +791,7 @@ Ecolabel.create(
     party_verification:"third", 
     criteria:"n/a", 
     price:"n/a",
-    website:"n/a"
+    website:"n/a",
     accepted_elsewhere:"yes"
     )
 Ecolabel.create(
@@ -787,7 +803,7 @@ Ecolabel.create(
     party_verification:"third", 
     criteria:"n/a", 
     price:"n/a",
-    website:"https://www.wfcforganic.com/"
+    website:"https://www.wfcforganic.com/",
     accepted_elsewhere:"no"
     )
 Ecolabel.create(
@@ -799,7 +815,7 @@ Ecolabel.create(
     party_verification:"first", 
     criteria:"n/a", 
     price:"n/a",
-    website:"https://www.fedex.com/en-us/sustainability.html#5"
+    website:"https://www.fedex.com/en-us/sustainability.html#5",
     accepted_elsewhere:"no"
     )
 Ecolabel.create(
@@ -811,7 +827,7 @@ Ecolabel.create(
     party_verification:"n/a", 
     criteria:"n/a", 
     price:"n/a",
-    website:"https://florverde.org/"
+    website:"https://florverde.org/",
     accepted_elsewhere:"yes"
     )
 Ecolabel.create(
@@ -823,7 +839,7 @@ Ecolabel.create(
     party_verification:"third", 
     criteria:"n/a", 
     price:"n/a",
-    website:"n/a"
+    website:"n/a",
     accepted_elsewhere:"yes"
     )
 Ecolabel.create(
@@ -835,7 +851,7 @@ Ecolabel.create(
     party_verification:"third", 
     criteria:"n/a", 
     price:"n/a",
-    website:"http://foodalliance.org/"
+    website:"http://foodalliance.org/",
     accepted_elsewhere:"yes"
     )
 Ecolabel.create(
@@ -847,7 +863,7 @@ Ecolabel.create(
     party_verification:"third", 
     criteria:"n/a", 
     price:"n/a",
-    website:"https://fsc.org/en"
+    website:"https://fsc.org/en",
     accepted_elsewhere:"yes"
     )
 Ecolabel.create(
@@ -859,7 +875,7 @@ Ecolabel.create(
     party_verification:"third", 
     criteria:"n/a", 
     price:"n/a",
-    website:"https://fsc.org/en"
+    website:"https://fsc.org/en",
     accepted_elsewhere:"yes"
     )
 Ecolabel.create(
@@ -871,7 +887,7 @@ Ecolabel.create(
     party_verification:"first", 
     criteria:"n/a", 
     price:"n/a",
-    website:"https://www.pg.co.uk/environmental-sustainability/"
+    website:"https://www.pg.co.uk/environmental-sustainability/",
     accepted_elsewhere:"no"
     )
 Ecolabel.create(
@@ -883,7 +899,7 @@ Ecolabel.create(
     party_verification:"third", 
     criteria:"n/a", 
     price:"n/a",
-    website:"https://sustainable.golf/"
+    website:"https://sustainable.golf/",
     accepted_elsewhere:"yes"
     )
 Ecolabel.create(
@@ -895,7 +911,7 @@ Ecolabel.create(
     party_verification:"third", 
     criteria:"n/a", 
     price:"n/a",
-    website:"https://www.globalgap.org/uk_en/"
+    website:"https://www.globalgap.org/uk_en/",
     accepted_elsewhere:"yes"
     )
 Ecolabel.create(
@@ -907,7 +923,7 @@ Ecolabel.create(
     party_verification:"third", 
     criteria:"n/a", 
     price:"n/a",
-    website:"https://www.globalgreentag.com/"
+    website:"https://www.globalgreentag.com/",
     accepted_elsewhere:"yes"
     )
 Ecolabel.create(
@@ -919,7 +935,7 @@ Ecolabel.create(
     party_verification:"third", 
     criteria:"n/a", 
     price:"n/a",
-    website:"https://global-standard.org/"
+    website:"https://global-standard.org/",
     accepted_elsewhere:"yes"
     )
 Ecolabel.create(
@@ -931,7 +947,7 @@ Ecolabel.create(
     party_verification:"second", 
     criteria:"n/a", 
     price:"n/a",
-    website:"https://textileexchange.org/documents/grs-4-0-rcs-2-0-consultation-feedback-summary/"
+    website:"https://textileexchange.org/documents/grs-4-0-rcs-2-0-consultation-feedback-summary/",
     accepted_elsewhere:"no"
     )
 Ecolabel.create(
@@ -943,7 +959,7 @@ Ecolabel.create(
     party_verification:"third", 
     criteria:"n/a", 
     price:"n/a",
-    website:"https://www.goldstandard.org/"
+    website:"https://www.goldstandard.org/",
     accepted_elsewhere:"yes"
     )
 Ecolabel.create(
@@ -955,7 +971,7 @@ Ecolabel.create(
     party_verification:"second", 
     criteria:"n/a", 
     price:"n/a",
-    website:"https://goodweave.org/"
+    website:"https://goodweave.org/",
     accepted_elsewhere:"yes"
     )
 Ecolabel.create(
@@ -967,7 +983,7 @@ Ecolabel.create(
     party_verification:"second", 
     criteria:"n/a", 
     price:"n/a",
-    website:"https://greenadvantage.org/"
+    website:"https://greenadvantage.org/",
     accepted_elsewhere:"no"
     )
 Ecolabel.create(
@@ -979,7 +995,7 @@ Ecolabel.create(
     party_verification:"second", 
     criteria:"n/a", 
     price:"n/a",
-    website:"https://www.greenamerica.org/gbn/green-business-certification"
+    website:"https://www.greenamerica.org/gbn/green-business-certification",
     accepted_elsewhere:"no"
     )
 Ecolabel.create(
@@ -991,7 +1007,7 @@ Ecolabel.create(
     party_verification:"third", 
     criteria:"n/a", 
     price:"n/a",
-    website:"https://greenbusinessbureau.com/"
+    website:"https://greenbusinessbureau.com/",
     accepted_elsewhere:"yes"
     )
 Ecolabel.create(
@@ -1003,7 +1019,7 @@ Ecolabel.create(
     party_verification:"third", 
     criteria:"n/a", 
     price:"n/a",
-    website:"n/a"
+    website:"n/a",
     accepted_elsewhere:"yes"
     )
 Ecolabel.create(
@@ -1015,7 +1031,7 @@ Ecolabel.create(
     party_verification:"third", 
     criteria:"n/a", 
     price:"n/a",
-    website:"n/a"
+    website:"n/a",
     accepted_elsewhere:"no"
     )
 Ecolabel.create(
@@ -1027,7 +1043,7 @@ Ecolabel.create(
     party_verification:"n/a", 
     criteria:"n/a", 
     price:"n/a",
-    website:"n/a"
+    website:"n/a",
     accepted_elsewhere:"no"
     )
 Ecolabel.create(
@@ -1039,7 +1055,7 @@ Ecolabel.create(
     party_verification:"n/a", 
     criteria:"n/a", 
     price:"n/a",
-    website:"n/a"
+    website:"n/a",
     accepted_elsewhere:"no"
     )
 Ecolabel.create(
@@ -1051,7 +1067,7 @@ Ecolabel.create(
     party_verification:"third", 
     criteria:"n/a", 
     price:"n/a",
-    website:"https://www.greencirclecertified.com/"
+    website:"https://www.greencirclecertified.com/",
     accepted_elsewhere:"yes"
     )
 Ecolabel.create(
@@ -1063,7 +1079,7 @@ Ecolabel.create(
     party_verification:"third", 
     criteria:"n/a", 
     price:"n/a",
-    website:"https://www.green-e.org/programs/climate"
+    website:"https://www.green-e.org/programs/climate",
     accepted_elsewhere:"no"
     )
 Ecolabel.create(
@@ -1075,24 +1091,45 @@ Ecolabel.create(
     party_verification:"third", 
     criteria:"n/a", 
     price:"n/a",
-    website:"https://www.green-e.org/programs/energy"
+    website:"https://www.green-e.org/programs/energy",
     accepted_elsewhere:"yes"
     )
 Ecolabel.create(
     name:"Green-e Marketplace", 
-    description:"
-    Green-e Marketplace is a unique certification program that recognizes organizations using certified renewable energy and enables them to demonstrate their environmental commitment through the use of the nationally recognized Green-e logo.", 
+    description:"Green-e Marketplace is a unique certification program that recognizes organizations using certified renewable energy and enables them to demonstrate their environmental commitment through the use of the nationally recognized Green-e logo.", 
     owner_category:"non-profit", 
     level:"n/a", 
     year_established:2004, 
     party_verification:"second", 
     criteria:"n/a", 
     price:"n/a",
-    website:"https://www.green-e.org/programs/marketplace"
+    website:"https://www.green-e.org/programs/marketplace",
     accepted_elsewhere:"yes"
     )
-
-
+Ecolabel.create(
+    name:"Greener Product Certification Seal", 
+    description:"The Greener Product Certification Seal demonstrates that a product has been evaluated against the LEED, LEED for Homes and NAHB green building standards using internationally recognized third-party certification organizations, laboratory test results and/or other supporting documentation.", 
+    owner_category:"for-profit", 
+    level:"n/a", 
+    year_established:2011, 
+    party_verification:"third", 
+    criteria:"n/a", 
+    price:"n/a",
+    website:"n/a",
+    accepted_elsewhere:"no"
+    )
+Ecolabel.create(
+    name:"Green Flag Program", 
+    description:"The Green Flag Program promotes student leadership and activism for the creation of safer and healthier school environments.", 
+    owner_category:"non-profit", 
+    level:"n/a", 
+    year_established:2002, 
+    party_verification:"second", 
+    criteria:"n/a", 
+    price:"n/a",
+    website:"n/a",
+    accepted_elsewhere:"no"
+    )
 Category.create(name: "appliances")
 Category.create(name: "bags")
 Category.create(name: "bedding")
