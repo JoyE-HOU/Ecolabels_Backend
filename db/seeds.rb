@@ -1242,3 +1242,5 @@ Category.create(name: "upholstered furniture")
 Category.create(name: "waste management & recycling")
 Category.create(name: "water")
 Category.create(name: "websites")
+
+EcolabelCategory.create(ecolabel_id: 1, category_id:1)
