@@ -1,7 +1,11 @@
 class Api::V1::EcolabelCategoriesController < ApplicationController
     def index
         ecolabel_categories = EcolabelCategory.all
-        render json: ecolabel_categories.to_json(include: [:ecolabel, :category])
+        render json: ecolabel_categories.to_json(
+            :include => {
+                :ecolabel => {only: [:name]},
+                :category => {only: [:name]}
+            })
     end
 
     def show
