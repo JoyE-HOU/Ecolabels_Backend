@@ -416,7 +416,7 @@ Ecolabel.create(
     )
 Ecolabel.create(
     name:"Clean Marine Green Leaf Eco-Rating Program", 
-    description:"The Ontario Marine Operators Association (OMOA) along with over twenty marine industry professionals and Ontario’s boaters’ and anglers’ associations formed the Clean Marine Partnership to develop a voluntary program of "Environmental Best Practices" for the marine industry that is recognized as the leader in North America.", 
+    description:"The Ontario Marine Operators Association (OMOA) along with over twenty marine industry professionals and Ontario’s boaters’ and anglers’ associations formed the Clean Marine Partnership to develop a voluntary program of 'Environmental Best Practices' for the marine industry that is recognized as the leader in North America.", 
     owner_category:"non-profit", 
     level:"n/a", 
     year_established:2000, 
@@ -431,7 +431,7 @@ Ecolabel.create(
     description:"The Climate Registry is a non-profit organization that sets consistent and transparent standards to calculate, verify and publicly report greenhouse gas (GHG) emissions into a single registry.", 
     owner_category:"non-profit", 
     level:"n/a", 
-    year_established:, 
+    year_established:2007, 
     party_verification:"third", 
     criteria:"n/a", 
     price:"n/a",
@@ -1079,7 +1079,7 @@ Ecolabel.create(
     description:"The Green Business League certification is awarded to companies that have been audited annually by an accredited GBL Certified Green Consultant™.", 
     owner_category:"for-profit", 
     level:"n/a", 
-    year_established:, 
+    year_established:0, 
     party_verification:"third", 
     criteria:"n/a", 
     price:"n/a",
