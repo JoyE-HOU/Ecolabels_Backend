@@ -14,7 +14,8 @@ Ecolabel.create(
     year_established:2004, 
     party_verification:"third", 
     criteria:"n/a", 
-    price:"n/a", 
+    price:"n/a",
+    website:"https://www.clearesult.com/80plus/", 
     accepted_elsewhere:"no"
     )
 Ecolabel.create(
@@ -25,7 +26,8 @@ Ecolabel.create(
     year_established:2010, 
     party_verification:"third", 
     criteria:"n/a", 
-    price:"n/a", 
+    price:"n/a",
+    website:"https://www.americangrassfed.org/", 
     accepted_elsewhere:"no"
     )
 Ecolabel.create(
@@ -36,7 +38,8 @@ Ecolabel.create(
     year_established:2006, 
     party_verification:"third", 
     criteria:"n/a", 
-    price:"n/a", 
+    price:"n/a",
+    website:"https://agreenerworld.org/certifications/animal-welfare-approved/", 
     accepted_elsewhere:"yes"
     )
 Ecolabel.create(
@@ -47,7 +50,8 @@ Ecolabel.create(
     year_established:1990, 
     party_verification:"second", 
     criteria:"n/a", 
-    price:"n/a", 
+    price:"n/a",
+    website:"https://auduboninternational.org/", 
     accepted_elsewhere:"yes"
     )
 Ecolabel.create(
@@ -58,7 +62,8 @@ Ecolabel.create(
     year_established:2002, 
     party_verification:"third", 
     criteria:"n/a", 
-    price:"n/a", 
+    price:"n/a",
+    website:"https://www.basf.com/us/en.html", 
     accepted_elsewhere:"yes"
     )
 Ecolabel.create(
@@ -69,7 +74,8 @@ Ecolabel.create(
     year_established:1996, 
     party_verification:"second", 
     criteria:"n/a", 
-    price:"n/a", 
+    price:"n/a",
+    website:"n/a", 
     accepted_elsewhere:"no"
     )
 Ecolabel.create(
@@ -80,7 +86,8 @@ Ecolabel.create(
     year_established:2007, 
     party_verification:"second", 
     criteria:"n/a", 
-    price:"n/a", 
+    price:"n/a",
+    website:"https://bcorporation.net/", 
     accepted_elsewhere:"yes"
     )
 Ecolabel.create(
@@ -92,7 +99,7 @@ Ecolabel.create(
     party_verification:"third", 
     criteria:"n/a", 
     price:"n/a",
-    website:"", 
+    website:"https://bapcertification.org/", 
     accepted_elsewhere:"yes"
     )
 Ecolabel.create(
