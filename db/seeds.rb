@@ -1206,6 +1206,18 @@ Ecolabel.create(
     website:"https://greenglobe.com/",
     accepted_elsewhere:"yes"
     )
+Ecolabel.create(
+    name:"Green Globes", 
+    description:"The Green Globes assessment and rating system for buildings.", 
+    owner_category:"for-profit", 
+    level:"n/a", 
+    year_established:2004, 
+    party_verification:"third", 
+    criteria:"n/a", 
+    price:"n/a",
+    website:"http://www.greenglobes.com/about.asp",
+    accepted_elsewhere:"yes"
+    )
 Category.create(name: "appliances")
 Category.create(name: "bags")
 Category.create(name: "bedding")
@@ -1301,3 +1313,81 @@ EcolabelCategory.create(ecolabel_id: 6, category_id:37) #professional scientific
 EcolabelCategory.create(ecolabel_id: 7, category_id:4) #building materials
 EcolabelCategory.create(ecolabel_id: 8, category_id:5) #buildings
 EcolabelCategory.create(ecolabel_id: 9, category_id:33) #other
+EcolabelCategory.create(ecolabel_id: 10, category_id:19) #fish/fisheries
+EcolabelCategory.create(ecolabel_id: 10, category_id:21) #food
+EcolabelCategory.create(ecolabel_id: 11, category_id:15) #electronics
+EcolabelCategory.create(ecolabel_id: 11, category_id:16) #energy
+EcolabelCategory.create(ecolabel_id: 11, category_id:48) #waste management & recycling
+EcolabelCategory.create(ecolabel_id: 12, category_id:19) #fish/fisheries
+EcolabelCategory.create(ecolabel_id: 12, category_id:21) #food
+EcolabelCategory.create(ecolabel_id: 13, category_id:11) #commodities
+EcolabelCategory.create(ecolabel_id: 13, category_id:21) #food
+EcolabelCategory.create(ecolabel_id: 13, category_id:33) #other
+EcolabelCategory.create(ecolabel_id: 14, category_id:1) #appliances
+EcolabelCategory.create(ecolabel_id: 14, category_id:4) #building products
+EcolabelCategory.create(ecolabel_id: 14, category_id:9) #cleaning products
+EcolabelCategory.create(ecolabel_id: 14, category_id:15) #electronics
+EcolabelCategory.create(ecolabel_id: 14, category_id:23) #forest products/paper
+EcolabelCategory.create(ecolabel_id: 14, category_id:30) #machinery & equipment
+EcolabelCategory.create(ecolabel_id: 14, category_id:34) #packaging
+EcolabelCategory.create(ecolabel_id: 14, category_id:43) #textiles
+EcolabelCategory.create(ecolabel_id: 14, category_id:44) #tourism
+EcolabelCategory.create(ecolabel_id: 14, category_id:45) #transportation
+EcolabelCategory.create(ecolabel_id: 14, category_id:48) #waste management & recycling
+EcolabelCategory.create(ecolabel_id: 15, category_id:4) #building products
+EcolabelCategory.create(ecolabel_id: 15, category_id:16) #energy
+EcolabelCategory.create(ecolabel_id: 15, category_id:33) #other
+EcolabelCategory.create(ecolabel_id: 16, category_id:21) #food
+EcolabelCategory.create(ecolabel_id: 17, category_id:4) #building products
+EcolabelCategory.create(ecolabel_id: 17, category_id:5) #buildings
+EcolabelCategory.create(ecolabel_id: 18, category_id:4) #building products
+EcolabelCategory.create(ecolabel_id: 18, category_id:43) #textiles
+EcolabelCategory.create(ecolabel_id: 19, category_id:23) #forest products/paper
+EcolabelCategory.create(ecolabel_id: 20, category_id:21) #food
+EcolabelCategory.create(ecolabel_id: 20, category_id:33) #other
+EcolabelCategory.create(ecolabel_id: 21, category_id:46) #unknown
+EcolabelCategory.create(ecolabel_id: 22, category_id:4) #building products
+EcolabelCategory.create(ecolabel_id: 22, category_id:6) #carbon
+EcolabelCategory.create(ecolabel_id: 22, category_id:7) #carbon offsets
+EcolabelCategory.create(ecolabel_id: 22, category_id:9) #cleaning products
+EcolabelCategory.create(ecolabel_id: 22, category_id:13) #cosmetics/personal care
+EcolabelCategory.create(ecolabel_id: 22, category_id:15) #electronics
+EcolabelCategory.create(ecolabel_id: 22, category_id:16) #energy
+EcolabelCategory.create(ecolabel_id: 22, category_id:21) #food
+EcolabelCategory.create(ecolabel_id: 22, category_id:23) #forest products/paper
+EcolabelCategory.create(ecolabel_id: 22, category_id:25) #health care services & equipment
+EcolabelCategory.create(ecolabel_id: 22, category_id:30) #machinery & equipment
+EcolabelCategory.create(ecolabel_id: 22, category_id:34) #packaging
+EcolabelCategory.create(ecolabel_id: 22, category_id:43) #textiles
+EcolabelCategory.create(ecolabel_id: 22, category_id:44) #tourism
+EcolabelCategory.create(ecolabel_id: 22, category_id:45) #transportation
+EcolabelCategory.create(ecolabel_id: 22, category_id:48) #waste management & recycling
+EcolabelCategory.create(ecolabel_id: 23, category_id:1) #appliances
+EcolabelCategory.create(ecolabel_id: 23, category_id:4) #building products
+EcolabelCategory.create(ecolabel_id: 23, category_id:6) #carbon
+EcolabelCategory.create(ecolabel_id: 23, category_id:9) #cleaning products
+EcolabelCategory.create(ecolabel_id: 23, category_id:13) #cosmetics/personal care
+EcolabelCategory.create(ecolabel_id: 23, category_id:15) #electronics
+EcolabelCategory.create(ecolabel_id: 23, category_id:16) #energy
+EcolabelCategory.create(ecolabel_id: 23, category_id:18) #financial services
+EcolabelCategory.create(ecolabel_id: 23, category_id:21) #food
+EcolabelCategory.create(ecolabel_id: 23, category_id:23) #forest products/paper
+EcolabelCategory.create(ecolabel_id: 23, category_id:25) #health care services & equipment
+EcolabelCategory.create(ecolabel_id: 23, category_id:30) #machinery & equipment
+EcolabelCategory.create(ecolabel_id: 23, category_id:37) #professional scientific and technical services
+EcolabelCategory.create(ecolabel_id: 23, category_id:43) #textiles
+EcolabelCategory.create(ecolabel_id: 23, category_id:44) #tourism
+EcolabelCategory.create(ecolabel_id: 23, category_id:45) #transportation
+EcolabelCategory.create(ecolabel_id: 23, category_id:48) #waste management & recycling
+EcolabelCategory.create(ecolabel_id: 23, category_id:49) #water
+EcolabelCategory.create(ecolabel_id: 24, category_id:1) #appliances
+EcolabelCategory.create(ecolabel_id: 24, category_id:4) #building products
+EcolabelCategory.create(ecolabel_id: 24, category_id:7) #carbon offsets
+EcolabelCategory.create(ecolabel_id: 24, category_id:9) #cleaning products
+EcolabelCategory.create(ecolabel_id: 24, category_id:13) #cosmetics/personal care
+EcolabelCategory.create(ecolabel_id: 24, category_id:15) #electronics
+EcolabelCategory.create(ecolabel_id: 24, category_id:21) #food
+EcolabelCategory.create(ecolabel_id: 24, category_id:23) #forest products/paper
+EcolabelCategory.create(ecolabel_id: 24, category_id:30) #machinery & equipment
+EcolabelCategory.create(ecolabel_id: 24, category_id:34) #packaging
+EcolabelCategory.create(ecolabel_id: 24, category_id:43) #textiles
