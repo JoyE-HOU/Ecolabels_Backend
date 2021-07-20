@@ -1391,3 +1391,18 @@ EcolabelCategory.create(ecolabel_id: 24, category_id:23) #forest products/paper
 EcolabelCategory.create(ecolabel_id: 24, category_id:30) #machinery & equipment
 EcolabelCategory.create(ecolabel_id: 24, category_id:34) #packaging
 EcolabelCategory.create(ecolabel_id: 24, category_id:43) #textiles
+EcolabelCategory.create(ecolabel_id: 25, category_id:6) #carbon
+EcolabelCategory.create(ecolabel_id: 25, category_id:7) #carbon offsets
+EcolabelCategory.create(ecolabel_id: 26, category_id:33) #other
+EcolabelCategory.create(ecolabel_id: 27, category_id:4) #building products
+EcolabelCategory.create(ecolabel_id: 27, category_id:23) #forest products/paper
+EcolabelCategory.create(ecolabel_id: 28, category_id:1) #appliances
+EcolabelCategory.create(ecolabel_id: 28, category_id:19) #fish/fisheries
+EcolabelCategory.create(ecolabel_id: 28, category_id:21) #food
+EcolabelCategory.create(ecolabel_id: 28, category_id:34) #packaging
+EcolabelCategory.create(ecolabel_id: 28, category_id:44) #tourism
+EcolabelCategory.create(ecolabel_id: 28, category_id:48) #waste management & recycling
+EcolabelCategory.create(ecolabel_id: 29, category_id:21) #food
+EcolabelCategory.create(ecolabel_id: 29, category_id:43) #textiles
+EcolabelCategory.create(ecolabel_id: 29, category_id:33) #other
+EcolabelCategory.create(ecolabel_id: 30, category_id:21) #food
