@@ -1406,3 +1406,45 @@ EcolabelCategory.create(ecolabel_id: 29, category_id:21) #food
 EcolabelCategory.create(ecolabel_id: 29, category_id:43) #textiles
 EcolabelCategory.create(ecolabel_id: 29, category_id:33) #other
 EcolabelCategory.create(ecolabel_id: 30, category_id:21) #food
+EcolabelCategory.create(ecolabel_id: 31, category_id:21) #food
+EcolabelCategory.create(ecolabel_id: 32, category_id:21) #food
+EcolabelCategory.create(ecolabel_id: 33, category_id:13) #cosmetics/personal care
+EcolabelCategory.create(ecolabel_id: 33, category_id:21) #food
+EcolabelCategory.create(ecolabel_id: 33, category_id:23) #forest products/paper
+EcolabelCategory.create(ecolabel_id: 33, category_id:43) #textiles
+EcolabelCategory.create(ecolabel_id: 34, category_id:5) #buildings
+EcolabelCategory.create(ecolabel_id: 34, category_id:33) #other
+EcolabelCategory.create(ecolabel_id: 35, category_id:45) #transportation
+EcolabelCategory.create(ecolabel_id: 36, category_id:33) #other
+EcolabelCategory.create(ecolabel_id: 37, category_id:6) #carbon
+EcolabelCategory.create(ecolabel_id: 38, category_id:23) #forest products/paper
+EcolabelCategory.create(ecolabel_id: 38, category_id:34) #packaging
+EcolabelCategory.create(ecolabel_id: 38, category_id:33) #other
+EcolabelCategory.create(ecolabel_id: 40, category_id:11) #commodities
+EcolabelCategory.create(ecolabel_id: 41, category_id:1) #appliances
+EcolabelCategory.create(ecolabel_id: 41, category_id:4) #building products
+EcolabelCategory.create(ecolabel_id: 41, category_id:9) #cleaning products
+EcolabelCategory.create(ecolabel_id: 41, category_id:13) #cosmetics/personal care
+EcolabelCategory.create(ecolabel_id: 41, category_id:15) #electronics
+EcolabelCategory.create(ecolabel_id: 41, category_id:23) #forest products/paper
+EcolabelCategory.create(ecolabel_id: 41, category_id:24) #furniture
+EcolabelCategory.create(ecolabel_id: 41, category_id:25) #health care services & equipment
+EcolabelCategory.create(ecolabel_id: 41, category_id:30) #machinery & equipment
+EcolabelCategory.create(ecolabel_id: 41, category_id:43) #textiles
+EcolabelCategory.create(ecolabel_id: 41, category_id:33) #other
+EcolabelCategory.create(ecolabel_id: 42, category_id:4) #building products
+EcolabelCategory.create(ecolabel_id: 42, category_id:11) #commodities
+EcolabelCategory.create(ecolabel_id: 43, category_id:4) #building products
+EcolabelCategory.create(ecolabel_id: 43, category_id:5) #buildings
+EcolabelCategory.create(ecolabel_id: 43, category_id:24) #furniture
+EcolabelCategory.create(ecolabel_id: 43, category_id:43) #textiles
+EcolabelCategory.create(ecolabel_id: 44, category_id:4) #building products
+EcolabelCategory.create(ecolabel_id: 45, category_id:4) #building products
+EcolabelCategory.create(ecolabel_id: 45, category_id:9) #cleaning products
+EcolabelCategory.create(ecolabel_id: 45, category_id:13) #cosmetics/personal care
+EcolabelCategory.create(ecolabel_id: 45, category_id:23) #forest products/paper
+EcolabelCategory.create(ecolabel_id: 45, category_id:43) #textiles
+EcolabelCategory.create(ecolabel_id: 46, category_id:13) #cosmetics/personal care
+EcolabelCategory.create(ecolabel_id: 46, category_id:21) #food
+EcolabelCategory.create(ecolabel_id: 46, category_id:23) #forest products/paper
+EcolabelCategory.create(ecolabel_id: 46, category_id:43) #textiles
