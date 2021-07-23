@@ -1557,7 +1557,6 @@ EcolabelCategory.create(ecolabel_id: 61, category_id:15) #electronics
 EcolabelCategory.create(ecolabel_id: 61, category_id:16) #energy
 EcolabelCategory.create(ecolabel_id: 61, category_id:30) #machinery & equipment
 EcolabelCategory.create(ecolabel_id: 61, category_id:45) #transportation
-
 # Florverde Sustainable Flowers
 EcolabelCategory.create(ecolabel_id: 62, category_id:11) #commodities
 EcolabelCategory.create(ecolabel_id: 62, category_id:33) #other
@@ -1571,3 +1570,76 @@ EcolabelCategory.create(ecolabel_id: 65, category_id:23) #forest products/paper
 EcolabelCategory.create(ecolabel_id: 65, category_id:34) #packaging
 # Forest Stewardship Council® (FSC) Forest Management Certification
 EcolabelCategory.create(ecolabel_id: 66, category_id:23) #forest products/paper
+# Future Friendly - Proctor and Gamble
+EcolabelCategory.create(ecolabel_id: 67, category_id:9) #cleaning products
+# GEO Certified
+EcolabelCategory.create(ecolabel_id: 68, category_id:5) #buildings
+EcolabelCategory.create(ecolabel_id: 68, category_id:16) #energy
+EcolabelCategory.create(ecolabel_id: 68, category_id:48) #waste management & recycling
+EcolabelCategory.create(ecolabel_id: 68, category_id:49) #water
+# GREENGUARD
+# EcolabelCategory.create(ecolabel_id: 69, category_id:1) #appliances
+# EcolabelCategory.create(ecolabel_id: 69, category_id:4) #building products
+# EcolabelCategory.create(ecolabel_id: 69, category_id:9) #cleaning products
+# EcolabelCategory.create(ecolabel_id: 69, category_id:15) #electronics
+# EcolabelCategory.create(ecolabel_id: 69, category_id:24) #furniture
+# EcolabelCategory.create(ecolabel_id: 69, category_id:30) #machinery & equipment
+# EcolabelCategory.create(ecolabel_id: 69, category_id:43) #textiles
+# EcolabelCategory.create(ecolabel_id: 69, category_id:33) #other
+# Global Good Agricultural Practice (GAP)
+EcolabelCategory.create(ecolabel_id: 69, category_id:21) #food
+# Global GreenTag Certified
+EcolabelCategory.create(ecolabel_id: 70, category_id:4) #building products
+EcolabelCategory.create(ecolabel_id: 70, category_id:6) #carbon
+EcolabelCategory.create(ecolabel_id: 70, category_id:7) #carbon offsets
+EcolabelCategory.create(ecolabel_id: 70, category_id:9) #cleaning products
+EcolabelCategory.create(ecolabel_id: 70, category_id:13) #cosmetics/personal care
+EcolabelCategory.create(ecolabel_id: 70, category_id:23) #forest products/paper
+EcolabelCategory.create(ecolabel_id: 70, category_id:24) #furniture
+EcolabelCategory.create(ecolabel_id: 70, category_id:30) #machinery & equipment
+EcolabelCategory.create(ecolabel_id: 70, category_id:34) #packaging
+EcolabelCategory.create(ecolabel_id: 70, category_id:43) #textiles
+EcolabelCategory.create(ecolabel_id: 70, category_id:48) #waste management & recycling
+# Global Organic Textile Standard
+EcolabelCategory.create(ecolabel_id: 71, category_id:43) #textiles
+# Global Recycle Standard
+EcolabelCategory.create(ecolabel_id: 72, category_id:34) #packaging
+EcolabelCategory.create(ecolabel_id: 72, category_id:43) #textiles
+EcolabelCategory.create(ecolabel_id: 72, category_id:33) #other
+# Gold Standard
+EcolabelCategory.create(ecolabel_id: 73, category_id:6) #carbon
+EcolabelCategory.create(ecolabel_id: 73, category_id:7) #carbon offsets
+EcolabelCategory.create(ecolabel_id: 73, category_id:16) #energy
+# GoodWeave
+EcolabelCategory.create(ecolabel_id: 74, category_id:43) #textiles
+# Green Advantage Certification
+EcolabelCategory.create(ecolabel_id: 75, category_id:4) #building products
+EcolabelCategory.create(ecolabel_id: 75, category_id:5) #buildings
+EcolabelCategory.create(ecolabel_id: 75, category_id:37) #professional scientific and technical services
+# Green America's Green Business Certification
+EcolabelCategory.create(ecolabel_id: 76, category_id:5) #buildings
+EcolabelCategory.create(ecolabel_id: 76, category_id:7) #carbon offsets
+EcolabelCategory.create(ecolabel_id: 76, category_id:9) #cleaning products
+EcolabelCategory.create(ecolabel_id: 76, category_id:13) #cosmetics/personal care
+EcolabelCategory.create(ecolabel_id: 76, category_id:15) #electronics
+EcolabelCategory.create(ecolabel_id: 76, category_id:16) #energy
+EcolabelCategory.create(ecolabel_id: 76, category_id:18) #financial services
+EcolabelCategory.create(ecolabel_id: 76, category_id:21) #food
+EcolabelCategory.create(ecolabel_id: 76, category_id:23) #forest products/paper
+EcolabelCategory.create(ecolabel_id: 76, category_id:37) #professional scientific and technical services
+EcolabelCategory.create(ecolabel_id: 76, category_id:43) #textiles
+EcolabelCategory.create(ecolabel_id: 76, category_id:44) #tourism
+EcolabelCategory.create(ecolabel_id: 76, category_id:45) #transportation
+EcolabelCategory.create(ecolabel_id: 76, category_id:49) #water
+# Green Business Bureau
+EcolabelCategory.create(ecolabel_id: 77, category_id:5) #buildings
+EcolabelCategory.create(ecolabel_id: 77, category_id:18) #financial services
+EcolabelCategory.create(ecolabel_id: 77, category_id:44) #tourism
+EcolabelCategory.create(ecolabel_id: 77, category_id:48) #waste management & recycling
+
+# Green Business League Certification
+EcolabelCategory.create(ecolabel_id: 78, category_id:46) #unknown
+# Green C
+EcolabelCategory.create(ecolabel_id: 79, category_id:7) #carbon offsets
+EcolabelCategory.create(ecolabel_id: 79, category_id:48) #waste management & recycling
+EcolabelCategory.create(ecolabel_id: 79, category_id:33) #other
