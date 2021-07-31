@@ -1795,3 +1795,10 @@ EcolabelCategory.create(ecolabel_id: 82, category_id:33) #other
 # EcolabelCategory.create(ecolabel_id: 98, category_id:21) #food
 # EcolabelCategory.create(ecolabel_id: 98, category_id:43) #textiles
 # EcolabelCategory.create(ecolabel_id: 98, category_id:33) #other
+# Home Depot Eco Options
+# EcolabelCategory.create(ecolabel_id: 99, category_id:1) #appliances
+# EcolabelCategory.create(ecolabel_id: 99, category_id:4) #building products
+# EcolabelCategory.create(ecolabel_id: 99, category_id:23) #forest products/paper
+# EcolabelCategory.create(ecolabel_id: 99, category_id:30) #machinery & equipment
+# IBU Type III Environmental Declaration (IBU Environmental Product Declaration)
+# EcolabelCategory.create(ecolabel_id: 100, category_id:4) #building products
