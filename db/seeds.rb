@@ -7,7 +7,7 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 # EcolabelCategory.destroy_all
 # EcolabelCategory.delete_all
-
+#1
 Ecolabel.create(
     name:"80 Plus", 
     description:"The original premise of the 80 PLUS program was to enlist utilities and computer manufacturers to participate in an innovative upstream buy-down program to integrate more energy-efficient power supplies into desktop computers.", 
@@ -20,6 +20,7 @@ Ecolabel.create(
     website:"https://www.clearesult.com/80plus/", 
     accepted_elsewhere:"no"
     )
+#2
 Ecolabel.create(
     name:"American Grassfed", 
     description:"The American Grassfed Association (AGA) certification identifies food and agriculture products which meet the standards as set forth in the AGA Grassfed Ruminant Standards and certified through a program approved by the AGA.", 
@@ -32,6 +33,7 @@ Ecolabel.create(
     website:"https://www.americangrassfed.org/", 
     accepted_elsewhere:"no"
     )
+#3
 Ecolabel.create(
     name:"Animal Welfare Approved", 
     description:"Animal Welfare Approved (AWA) is a standard for farm animal welfare - the basic premise is that animals must be able to behave naturally and be in a state of physical and psychological well-being.", 
@@ -44,6 +46,7 @@ Ecolabel.create(
     website:"https://agreenerworld.org/certifications/animal-welfare-approved/", 
     accepted_elsewhere:"yes"
     )
+#4
 Ecolabel.create(
     name:"Audobon International", 
     description:"Audubon International's environmental and sustainability education and certification programs require individuals responsible for the membership type to meet specific environmental or sustainability performance requirements.", 
@@ -56,6 +59,7 @@ Ecolabel.create(
     website:"https://auduboninternational.org/", 
     accepted_elsewhere:"yes"
     )
+#5
 Ecolabel.create(
     name:"BASF Eco-Efficiency", 
     description:"BASF SE has developed a label for products that have been evaluated by an Eco-Efficiency Analysis.", 
@@ -68,30 +72,32 @@ Ecolabel.create(
     website:"https://www.basf.com/us/en.html", 
     accepted_elsewhere:"yes"
     )
-# Ecolabel.create(
-#     name:"Bay Area Green Business", 
-#     description:"The Bay Area Green Business Program distinguishes small businesses that protect, preserve and sustain our environment.", 
-#     owner_category:"government", 
-#     level:"company", 
-#     year_established:1996, 
-#     party_verification:"second", 
-#     criteria:"n/a", 
-#     price:"n/a",
-#     website:"n/a", 
-#     accepted_elsewhere:"no"
-#     )
-# Ecolabel.create(
-#     name:"B Corporation", 
-#     description:"B Corporations are a new type of corporation which uses the power of business to solve social and environmental problems.", 
-#     owner_category:"non-profit", 
-#     level:"company", 
-#     year_established:2007, 
-#     party_verification:"second", 
-#     criteria:"n/a", 
-#     price:"n/a",
-#     website:"https://bcorporation.net/", 
-#     accepted_elsewhere:"yes"
-#     )
+# 6
+Ecolabel.create(
+    name:"Bay Area Green Business", 
+    description:"The Bay Area Green Business Program distinguishes small businesses that protect, preserve and sustain our environment.", 
+    owner_category:"government", 
+    level:"company", 
+    year_established:1996, 
+    party_verification:"second", 
+    criteria:"n/a", 
+    price:"n/a",
+    website:"n/a", 
+    accepted_elsewhere:"no"
+    )
+# 7
+Ecolabel.create(
+    name:"B Corporation", 
+    description:"B Corporations are a new type of corporation which uses the power of business to solve social and environmental problems.", 
+    owner_category:"non-profit", 
+    level:"company", 
+    year_established:2007, 
+    party_verification:"second", 
+    criteria:"n/a", 
+    price:"n/a",
+    website:"https://bcorporation.net/", 
+    accepted_elsewhere:"yes"
+    )
 # Ecolabel.create(
 #     name:"Best Aquaculture Practices", 
 #     description:"The Best Aquaculture Practices Certified (BAP Certified) mark on retail packaging tells consumers that seafood came from BAP certified aquaculture facilities.", 
@@ -1307,6 +1313,8 @@ EcolabelCategory.create(ecolabel_id: 5, category_id:48) #waste management & recy
 EcolabelCategory.create(ecolabel_id: 5, category_id:49) #water
 EcolabelCategory.create(ecolabel_id: 5, category_id:33) #other
 
+EcolabelCategory.create(ecolabel_id: 6, category_id:33) #other
+
 # EcolabelCategory.create(ecolabel_id: 6, category_id:1) #appliances
 # EcolabelCategory.create(ecolabel_id: 6, category_id:4) #building materials
 # EcolabelCategory.create(ecolabel_id: 6, category_id:9) #cleaning products
@@ -1322,7 +1330,6 @@ EcolabelCategory.create(ecolabel_id: 5, category_id:33) #other
 
 # EcolabelCategory.create(ecolabel_id: 8, category_id:5) #buildings
 
-# EcolabelCategory.create(ecolabel_id: 9, category_id:33) #other
 
 # EcolabelCategory.create(ecolabel_id: 10, category_id:19) #fish/fisheries
 # EcolabelCategory.create(ecolabel_id: 10, category_id:21) #food
