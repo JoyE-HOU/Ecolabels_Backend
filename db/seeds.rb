@@ -98,18 +98,18 @@ Ecolabel.create(
     website:"https://bcorporation.net/", 
     accepted_elsewhere:"yes"
     )
-# Ecolabel.create(
-#     name:"Best Aquaculture Practices", 
-#     description:"The Best Aquaculture Practices Certified (BAP Certified) mark on retail packaging tells consumers that seafood came from BAP certified aquaculture facilities.", 
-#     owner_category:"non-profit", 
-#     level:"company", 
-#     year_established:2002, 
-#     party_verification:"third", 
-#     criteria:"n/a", 
-#     price:"n/a",
-#     website:"https://bapcertification.org/", 
-#     accepted_elsewhere:"yes"
-#     )
+Ecolabel.create(
+    name:"Best Aquaculture Practices", 
+    description:"The Best Aquaculture Practices Certified (BAP Certified) mark on retail packaging tells consumers that seafood came from BAP certified aquaculture facilities.", 
+    owner_category:"non-profit", 
+    level:"company", 
+    year_established:2002, 
+    party_verification:"third", 
+    criteria:"n/a", 
+    price:"n/a",
+    website:"https://bapcertification.org/", 
+    accepted_elsewhere:"yes"
+    )
 # Ecolabel.create(
 #     name:"Better Environmental Sustainabilty Targets (BEST) Standard 1001", 
 #     description:"The Better Environmental Sustainability Targets (BEST) certification provides recognition for lead battery manufacturers that meet minimum emission standards and agree to take back used batteries for environmentally sound recycling.", 
@@ -1277,62 +1277,62 @@ Category.create(name: "waste management & recycling")
 Category.create(name: "water")
 Category.create(name: "websites")
 
+# 80 Plus
 EcolabelCategory.create(ecolabel_id: 1, category_id:15) #electronics
-
+# American Grassfed
 EcolabelCategory.create(ecolabel_id: 2, category_id:21) #food
 EcolabelCategory.create(ecolabel_id: 2, category_id:31) #meat
 EcolabelCategory.create(ecolabel_id: 2, category_id:14) #dairy
-
+# Animal Welfare Approved"
 EcolabelCategory.create(ecolabel_id: 3, category_id:21) #food
 EcolabelCategory.create(ecolabel_id: 3, category_id:43) #textiles
-
+# Audobon International
 EcolabelCategory.create(ecolabel_id: 4, category_id:5) #buildings
 EcolabelCategory.create(ecolabel_id: 4, category_id:44) #tourism
 EcolabelCategory.create(ecolabel_id: 4, category_id:48) #waste management & recycling
 EcolabelCategory.create(ecolabel_id: 4, category_id:33) #other
-
+# BASF Eco-Efficiency"
 EcolabelCategory.create(ecolabel_id: 5, category_id:1) #appliances
-EcolabelCategory.create(ecolabel_id: 5, category_id:4) #building products
-EcolabelCategory.create(ecolabel_id: 5, category_id:7) #carbon offsets
+EcolabelCategory.create(ecolabel_id: 5, category_id:4) #building materials
 EcolabelCategory.create(ecolabel_id: 5, category_id:9) #cleaning products
-EcolabelCategory.create(ecolabel_id: 5, category_id:13) #comestics/personal care
+EcolabelCategory.create(ecolabel_id: 5, category_id:13) #cosmetics/personal care
 EcolabelCategory.create(ecolabel_id: 5, category_id:15) #electronics
 EcolabelCategory.create(ecolabel_id: 5, category_id:16) #energy
-EcolabelCategory.create(ecolabel_id: 5, category_id:18) #financial services
-EcolabelCategory.create(ecolabel_id: 5, category_id:19) #fish/fisheries
-EcolabelCategory.create(ecolabel_id: 5, category_id:21) #food
 EcolabelCategory.create(ecolabel_id: 5, category_id:23) #forest products/paper
 EcolabelCategory.create(ecolabel_id: 5, category_id:25) #health care services & equipment
 EcolabelCategory.create(ecolabel_id: 5, category_id:30) #machinery & equipment
-EcolabelCategory.create(ecolabel_id: 5, category_id:34) #packaging
 EcolabelCategory.create(ecolabel_id: 5, category_id:37) #professional scientific and technical services
-EcolabelCategory.create(ecolabel_id: 5, category_id:43) #textiles
-EcolabelCategory.create(ecolabel_id: 5, category_id:44) #tourism
-EcolabelCategory.create(ecolabel_id: 5, category_id:45) #transportation
-EcolabelCategory.create(ecolabel_id: 5, category_id:48) #waste management & recycling
-EcolabelCategory.create(ecolabel_id: 5, category_id:49) #water
-EcolabelCategory.create(ecolabel_id: 5, category_id:33) #other
-
+# Bay Area Green Business
 EcolabelCategory.create(ecolabel_id: 6, category_id:33) #other
-
-# EcolabelCategory.create(ecolabel_id: 6, category_id:1) #appliances
-# EcolabelCategory.create(ecolabel_id: 6, category_id:4) #building materials
-# EcolabelCategory.create(ecolabel_id: 6, category_id:9) #cleaning products
-# EcolabelCategory.create(ecolabel_id: 6, category_id:13) #cosmetics/personal care
-# EcolabelCategory.create(ecolabel_id: 6, category_id:15) #electronics
-# EcolabelCategory.create(ecolabel_id: 6, category_id:16) #energy
-# EcolabelCategory.create(ecolabel_id: 6, category_id:23) #forest products/paper
-# EcolabelCategory.create(ecolabel_id: 6, category_id:25) #health care services & equipment
-# EcolabelCategory.create(ecolabel_id: 6, category_id:30) #machinery & equipment
-# EcolabelCategory.create(ecolabel_id: 6, category_id:37) #professional scientific and technical services
+# B Corporation
+EcolabelCategory.create(ecolabel_id: 7, category_id:1) #appliances
+EcolabelCategory.create(ecolabel_id: 7, category_id:4) #building products
+EcolabelCategory.create(ecolabel_id: 7, category_id:7) #carbon offsets
+EcolabelCategory.create(ecolabel_id: 7, category_id:9) #cleaning products
+EcolabelCategory.create(ecolabel_id: 7, category_id:13) #comestics/personal care
+EcolabelCategory.create(ecolabel_id: 7, category_id:15) #electronics
+EcolabelCategory.create(ecolabel_id: 7, category_id:16) #energy
+EcolabelCategory.create(ecolabel_id: 7, category_id:18) #financial services
+EcolabelCategory.create(ecolabel_id: 7, category_id:19) #fish/fisheries
+EcolabelCategory.create(ecolabel_id: 7, category_id:21) #food
+EcolabelCategory.create(ecolabel_id: 7, category_id:23) #forest products/paper
+EcolabelCategory.create(ecolabel_id: 7, category_id:25) #health care services & equipment
+EcolabelCategory.create(ecolabel_id: 7, category_id:30) #machinery & equipment
+EcolabelCategory.create(ecolabel_id: 7, category_id:34) #packaging
+EcolabelCategory.create(ecolabel_id: 7, category_id:37) #professional scientific and technical services
+EcolabelCategory.create(ecolabel_id: 7, category_id:43) #textiles
+EcolabelCategory.create(ecolabel_id: 7, category_id:44) #tourism
+EcolabelCategory.create(ecolabel_id: 7, category_id:45) #transportation
+EcolabelCategory.create(ecolabel_id: 7, category_id:48) #waste management & recycling
+EcolabelCategory.create(ecolabel_id: 7, category_id:49) #water
+EcolabelCategory.create(ecolabel_id: 7, category_id:33) #other
+# Best Aquaculture Practices
+EcolabelCategory.create(ecolabel_id: 8, category_id:19) #fish/fisheries
+EcolabelCategory.create(ecolabel_id: 8, category_id:21) #food
 
 # EcolabelCategory.create(ecolabel_id: 7, category_id:4) #building materials
 
 # EcolabelCategory.create(ecolabel_id: 8, category_id:5) #buildings
-
-
-# EcolabelCategory.create(ecolabel_id: 10, category_id:19) #fish/fisheries
-# EcolabelCategory.create(ecolabel_id: 10, category_id:21) #food
 
 # EcolabelCategory.create(ecolabel_id: 11, category_id:15) #electronics
 # EcolabelCategory.create(ecolabel_id: 11, category_id:16) #energy
