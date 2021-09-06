@@ -110,18 +110,18 @@ Ecolabel.create(
     website:"https://bapcertification.org/", 
     accepted_elsewhere:"yes"
     )
-# Ecolabel.create(
-#     name:"Better Environmental Sustainabilty Targets (BEST) Standard 1001", 
-#     description:"The Better Environmental Sustainability Targets (BEST) certification provides recognition for lead battery manufacturers that meet minimum emission standards and agree to take back used batteries for environmentally sound recycling.", 
-#     owner_category:"non-profit", 
-#     level:"company", 
-#     year_established:2008, 
-#     party_verification:"third", 
-#     criteria:"n/a", 
-#     price:"n/a",
-#     website:"http://www.okinternational.org/lead-batteries/Background", 
-#     accepted_elsewhere:"yes"
-#     )
+Ecolabel.create(
+    name:"Better Environmental Sustainabilty Targets (BEST) Standard 1001", 
+    description:"The Better Environmental Sustainability Targets (BEST) certification provides recognition for lead battery manufacturers that meet minimum emission standards and agree to take back used batteries for environmentally sound recycling.", 
+    owner_category:"non-profit", 
+    level:"company", 
+    year_established:2008, 
+    party_verification:"third", 
+    criteria:"n/a", 
+    price:"n/a",
+    website:"http://www.okinternational.org/lead-batteries/Background", 
+    accepted_elsewhere:"yes"
+    )
 # Ecolabel.create(
 #     name:"Bio Suisse", 
 #     description:"Indicates fully organic, produced in Switzerland.", 
@@ -1329,14 +1329,15 @@ EcolabelCategory.create(ecolabel_id: 7, category_id:33) #other
 # Best Aquaculture Practices
 EcolabelCategory.create(ecolabel_id: 8, category_id:19) #fish/fisheries
 EcolabelCategory.create(ecolabel_id: 8, category_id:21) #food
+# Better Environmental Sustainability Targets (BEST) Standard 1001
+EcolabelCategory.create(ecolabel_id: 9, category_id:15) #electronics
+EcolabelCategory.create(ecolabel_id: 9, category_id:16) #energy
+EcolabelCategory.create(ecolabel_id: 9, category_id:48) #waste management & recycling
 
 # EcolabelCategory.create(ecolabel_id: 7, category_id:4) #building materials
 
 # EcolabelCategory.create(ecolabel_id: 8, category_id:5) #buildings
 
-# EcolabelCategory.create(ecolabel_id: 11, category_id:15) #electronics
-# EcolabelCategory.create(ecolabel_id: 11, category_id:16) #energy
-# EcolabelCategory.create(ecolabel_id: 11, category_id:48) #waste management & recycling
 
 # EcolabelCategory.create(ecolabel_id: 12, category_id:19) #fish/fisheries
 # EcolabelCategory.create(ecolabel_id: 12, category_id:21) #food
