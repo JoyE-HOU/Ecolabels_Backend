@@ -122,18 +122,18 @@ Ecolabel.create(
     website:"http://www.okinternational.org/lead-batteries/Background", 
     accepted_elsewhere:"yes"
     )
-# Ecolabel.create(
-#     name:"Bio Suisse", 
-#     description:"Indicates fully organic, produced in Switzerland.", 
-#     owner_category:"non-profit", 
-#     level:"company", 
-#     year_established:1981, 
-#     party_verification:"third", 
-#     criteria:"n/a", 
-#     price:"n/a",
-#     website:"https://www.bio-suisse.ch/en/consumer/bud/index.php", 
-#     accepted_elsewhere:"yes"
-#     )
+Ecolabel.create(
+    name:"Bio Suisse", 
+    description:"Indicates fully organic, produced in Switzerland.", 
+    owner_category:"non-profit", 
+    level:"company", 
+    year_established:1981, 
+    party_verification:"third", 
+    criteria:"n/a", 
+    price:"n/a",
+    website:"https://www.bio-suisse.ch/en/consumer/bud/index.php", 
+    accepted_elsewhere:"yes"
+    )
 # Ecolabel.create(
 #     name:"Bird Friendly Coffee", 
 #     description:"Identifies and verifies through third-party, independent inspection and certification that coffee has been grown using shade management practices that provide good bird habitats.", 
@@ -1333,14 +1333,15 @@ EcolabelCategory.create(ecolabel_id: 8, category_id:21) #food
 EcolabelCategory.create(ecolabel_id: 9, category_id:15) #electronics
 EcolabelCategory.create(ecolabel_id: 9, category_id:16) #energy
 EcolabelCategory.create(ecolabel_id: 9, category_id:48) #waste management & recycling
+# Bio Suisse
+EcolabelCategory.create(ecolabel_id: 10, category_id:19) #fish/fisheries
+EcolabelCategory.create(ecolabel_id: 10, category_id:21) #food
 
 # EcolabelCategory.create(ecolabel_id: 7, category_id:4) #building materials
 
 # EcolabelCategory.create(ecolabel_id: 8, category_id:5) #buildings
 
 
-# EcolabelCategory.create(ecolabel_id: 12, category_id:19) #fish/fisheries
-# EcolabelCategory.create(ecolabel_id: 12, category_id:21) #food
 
 # EcolabelCategory.create(ecolabel_id: 13, category_id:11) #commodities
 # EcolabelCategory.create(ecolabel_id: 13, category_id:21) #food
