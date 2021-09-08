@@ -134,18 +134,18 @@ Ecolabel.create(
     website:"https://www.bio-suisse.ch/en/consumer/bud/index.php", 
     accepted_elsewhere:"yes"
     )
-# Ecolabel.create(
-#     name:"Bird Friendly Coffee", 
-#     description:"Identifies and verifies through third-party, independent inspection and certification that coffee has been grown using shade management practices that provide good bird habitats.", 
-#     owner_category:"non-profit", 
-#     level:"company", 
-#     year_established:1998, 
-#     party_verification:"third", 
-#     criteria:"n/a", 
-#     price:"n/a",
-#     website:"n/a", 
-#     accepted_elsewhere:"yes"
-#     )
+Ecolabel.create(
+    name:"Bird Friendly Coffee", 
+    description:"Identifies and verifies through third-party, independent inspection and certification that coffee has been grown using shade management practices that provide good bird habitats.", 
+    owner_category:"non-profit", 
+    level:"company", 
+    year_established:1998, 
+    party_verification:"third", 
+    criteria:"n/a", 
+    price:"n/a",
+    website:"n/a", 
+    accepted_elsewhere:"yes"
+    )
 # Ecolabel.create(
 #     name:"Blue Angel", 
 #     description:"The Blue Angel was initiated by the German government and awarded by an independent Jury to products that are environmentally friendlier than others serving the same use.", 
@@ -1336,16 +1336,14 @@ EcolabelCategory.create(ecolabel_id: 9, category_id:48) #waste management & recy
 # Bio Suisse
 EcolabelCategory.create(ecolabel_id: 10, category_id:19) #fish/fisheries
 EcolabelCategory.create(ecolabel_id: 10, category_id:21) #food
+# Bird Friendly Coffee
+EcolabelCategory.create(ecolabel_id: 11, category_id:11) #commodities
+EcolabelCategory.create(ecolabel_id: 11, category_id:21) #food
+EcolabelCategory.create(ecolabel_id: 11, category_id:33) #other
 
 # EcolabelCategory.create(ecolabel_id: 7, category_id:4) #building materials
 
 # EcolabelCategory.create(ecolabel_id: 8, category_id:5) #buildings
-
-
-
-# EcolabelCategory.create(ecolabel_id: 13, category_id:11) #commodities
-# EcolabelCategory.create(ecolabel_id: 13, category_id:21) #food
-# EcolabelCategory.create(ecolabel_id: 13, category_id:33) #other
 
 # EcolabelCategory.create(ecolabel_id: 14, category_id:1) #appliances
 # EcolabelCategory.create(ecolabel_id: 14, category_id:4) #building products
