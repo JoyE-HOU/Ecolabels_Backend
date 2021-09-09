@@ -5,8 +5,10 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+# Ecolabel.destroy_all
 # EcolabelCategory.destroy_all
-# EcolabelCategory.delete_all
+
 #1
 Ecolabel.create(
     name:"80 Plus", 
@@ -98,6 +100,7 @@ Ecolabel.create(
     website:"https://bcorporation.net/", 
     accepted_elsewhere:"yes"
     )
+# 8
 Ecolabel.create(
     name:"Best Aquaculture Practices", 
     description:"The Best Aquaculture Practices Certified (BAP Certified) mark on retail packaging tells consumers that seafood came from BAP certified aquaculture facilities.", 
@@ -110,6 +113,7 @@ Ecolabel.create(
     website:"https://bapcertification.org/", 
     accepted_elsewhere:"yes"
     )
+# 9
 Ecolabel.create(
     name:"Better Environmental Sustainabilty Targets (BEST) Standard 1001", 
     description:"The Better Environmental Sustainability Targets (BEST) certification provides recognition for lead battery manufacturers that meet minimum emission standards and agree to take back used batteries for environmentally sound recycling.", 
@@ -122,6 +126,7 @@ Ecolabel.create(
     website:"http://www.okinternational.org/lead-batteries/Background", 
     accepted_elsewhere:"yes"
     )
+# 10
 Ecolabel.create(
     name:"Bio Suisse", 
     description:"Indicates fully organic, produced in Switzerland.", 
@@ -134,6 +139,7 @@ Ecolabel.create(
     website:"https://www.bio-suisse.ch/en/consumer/bud/index.php", 
     accepted_elsewhere:"yes"
     )
+# 11
 Ecolabel.create(
     name:"Bird Friendly Coffee", 
     description:"Identifies and verifies through third-party, independent inspection and certification that coffee has been grown using shade management practices that provide good bird habitats.", 
@@ -146,18 +152,20 @@ Ecolabel.create(
     website:"n/a", 
     accepted_elsewhere:"yes"
     )
-# Ecolabel.create(
-#     name:"Blue Angel", 
-#     description:"The Blue Angel was initiated by the German government and awarded by an independent Jury to products that are environmentally friendlier than others serving the same use.", 
-#     owner_category:"government", 
-#     level:"product", 
-#     year_established:1978, 
-#     party_verification:"third", 
-#     criteria:"n/a", 
-#     price:"n/a",
-#     website:"https://www.blauer-engel.de/", 
-#     accepted_elsewhere:"yes"
-#     )
+# 12
+Ecolabel.create(
+    name:"Blue Angel", 
+    description:"The Blue Angel was initiated by the German government and awarded by an independent Jury to products that are environmentally friendlier than others serving the same use.", 
+    owner_category:"government", 
+    level:"product", 
+    year_established:1978, 
+    party_verification:"third", 
+    criteria:"n/a", 
+    price:"n/a",
+    website:"https://www.blauer-engel.de/", 
+    accepted_elsewhere:"yes"
+    )
+#13
 # Ecolabel.create(
 #     name:"bluesign standard", 
 #     description:"The bluesign® standard brings together the entire textile manufacturing chain to jointly reduce the ecological footprint of a responsibly acting textile industry.", 
@@ -1340,22 +1348,23 @@ EcolabelCategory.create(ecolabel_id: 10, category_id:21) #food
 EcolabelCategory.create(ecolabel_id: 11, category_id:11) #commodities
 EcolabelCategory.create(ecolabel_id: 11, category_id:21) #food
 EcolabelCategory.create(ecolabel_id: 11, category_id:33) #other
+# Blue Angel
+EcolabelCategory.create(ecolabel_id: 12, category_id:1) #appliances
+EcolabelCategory.create(ecolabel_id: 12, category_id:4) #building products
+EcolabelCategory.create(ecolabel_id: 12, category_id:9) #cleaning products
+EcolabelCategory.create(ecolabel_id: 12, category_id:15) #electronics
+EcolabelCategory.create(ecolabel_id: 12, category_id:23) #forest products/paper
+EcolabelCategory.create(ecolabel_id: 12, category_id:30) #machinery & equipment
+EcolabelCategory.create(ecolabel_id: 12, category_id:34) #packaging
+EcolabelCategory.create(ecolabel_id: 12, category_id:43) #textiles
+EcolabelCategory.create(ecolabel_id: 12, category_id:44) #tourism
+EcolabelCategory.create(ecolabel_id: 12, category_id:45) #transportation
+EcolabelCategory.create(ecolabel_id: 12, category_id:48) #waste management & recycling
 
 # EcolabelCategory.create(ecolabel_id: 7, category_id:4) #building materials
 
 # EcolabelCategory.create(ecolabel_id: 8, category_id:5) #buildings
 
-# EcolabelCategory.create(ecolabel_id: 14, category_id:1) #appliances
-# EcolabelCategory.create(ecolabel_id: 14, category_id:4) #building products
-# EcolabelCategory.create(ecolabel_id: 14, category_id:9) #cleaning products
-# EcolabelCategory.create(ecolabel_id: 14, category_id:15) #electronics
-# EcolabelCategory.create(ecolabel_id: 14, category_id:23) #forest products/paper
-# EcolabelCategory.create(ecolabel_id: 14, category_id:30) #machinery & equipment
-# EcolabelCategory.create(ecolabel_id: 14, category_id:34) #packaging
-# EcolabelCategory.create(ecolabel_id: 14, category_id:43) #textiles
-# EcolabelCategory.create(ecolabel_id: 14, category_id:44) #tourism
-# EcolabelCategory.create(ecolabel_id: 14, category_id:45) #transportation
-# EcolabelCategory.create(ecolabel_id: 14, category_id:48) #waste management & recycling
 
 # EcolabelCategory.create(ecolabel_id: 15, category_id:4) #building products
 # EcolabelCategory.create(ecolabel_id: 15, category_id:16) #energy
