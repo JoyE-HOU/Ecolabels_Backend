@@ -165,7 +165,7 @@ Ecolabel.create(
     website:"https://www.blauer-engel.de/", 
     accepted_elsewhere:"yes"
     )
-#13
+# 13
 # Ecolabel.create(
 #     name:"bluesign standard", 
 #     description:"The bluesign® standard brings together the entire textile manufacturing chain to jointly reduce the ecological footprint of a responsibly acting textile industry.", 
@@ -178,18 +178,20 @@ Ecolabel.create(
 #     website:"https://www.bluesign.com/en", 
 #     accepted_elsewhere:"yes"
 #     )
-# Ecolabel.create(
-#     name:"BREEAM", 
-#     description:"BREEAM (BRE Environmental Assessment Method) is an environmental assessment method for buildings around the world.", 
-#     owner_category:"non-profit", 
-#     level:"company", 
-#     year_established:1990, 
-#     party_verification:"third", 
-#     criteria:"n/a", 
-#     price:"n/a",
-#     website:"https://www.breeam.com/", 
-#     accepted_elsewhere:"yes"
-#     )
+# 13
+Ecolabel.create(
+    name:"BREEAM", 
+    description:"BREEAM (BRE Environmental Assessment Method) is an environmental assessment method for buildings around the world.", 
+    owner_category:"non-profit", 
+    level:"company", 
+    year_established:1990, 
+    party_verification:"third", 
+    criteria:"n/a", 
+    price:"n/a",
+    website:"https://www.breeam.com/", 
+    accepted_elsewhere:"yes"
+    )
+# 15
 # Ecolabel.create(
 #     name:"BRE Global Cetified Environmental Profile", 
 #     description:"Environmental profiles measure the impacts of a construction material, product or building system throughout its life – not only during its manufacture, but also its use in a building over a typical building lifetime.", 
@@ -1360,11 +1362,10 @@ EcolabelCategory.create(ecolabel_id: 12, category_id:43) #textiles
 EcolabelCategory.create(ecolabel_id: 12, category_id:44) #tourism
 EcolabelCategory.create(ecolabel_id: 12, category_id:45) #transportation
 EcolabelCategory.create(ecolabel_id: 12, category_id:48) #waste management & recycling
+# BREEAM
+EcolabelCategory.create(ecolabel_id: 13, category_id:5) #buildings
 
 # EcolabelCategory.create(ecolabel_id: 7, category_id:4) #building materials
-
-# EcolabelCategory.create(ecolabel_id: 8, category_id:5) #buildings
-
 
 # EcolabelCategory.create(ecolabel_id: 15, category_id:4) #building products
 # EcolabelCategory.create(ecolabel_id: 15, category_id:16) #energy
