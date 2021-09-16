@@ -191,19 +191,19 @@ Ecolabel.create(
     website:"https://www.breeam.com/", 
     accepted_elsewhere:"yes"
     )
-# 15
-# Ecolabel.create(
-#     name:"BRE Global Cetified Environmental Profile", 
-#     description:"Environmental profiles measure the impacts of a construction material, product or building system throughout its life – not only during its manufacture, but also its use in a building over a typical building lifetime.", 
-#     owner_category:"non-profit", 
-#     level:"", 
-#     year_established:2001, 
-#     party_verification:"third", 
-#     criteria:"n/a", 
-#     price:"n/a",
-#     website:"https://www.greenbooklive.com/search/scheme.jsp?id=9", 
-#     accepted_elsewhere:"yes"
-#     )
+# 14
+Ecolabel.create(
+    name:"BRE Global Cetified Environmental Profile", 
+    description:"Environmental profiles measure the impacts of a construction material, product or building system throughout its life – not only during its manufacture, but also its use in a building over a typical building lifetime.", 
+    owner_category:"non-profit", 
+    level:"", 
+    year_established:2001, 
+    party_verification:"third", 
+    criteria:"n/a", 
+    price:"n/a",
+    website:"https://www.greenbooklive.com/search/scheme.jsp?id=9", 
+    accepted_elsewhere:"yes"
+    )
 # Ecolabel.create(
 #     name:"Burnwise EPA", 
 #     description:"Burn Wise is a partnership program of the U.S. Environmental Protection Agency that emphasizes the importance of burning the right wood, the right way, in the right wood-burning appliance to protect your home, health, and the air we breathe.", 
@@ -1364,6 +1364,8 @@ EcolabelCategory.create(ecolabel_id: 12, category_id:45) #transportation
 EcolabelCategory.create(ecolabel_id: 12, category_id:48) #waste management & recycling
 # BREEAM
 EcolabelCategory.create(ecolabel_id: 13, category_id:5) #buildings
+# BRE Global Certified Environmental Profile
+EcolabelCategory.create(ecolabel_id: 14, category_id:4) #building products
 
 # EcolabelCategory.create(ecolabel_id: 7, category_id:4) #building materials
 
