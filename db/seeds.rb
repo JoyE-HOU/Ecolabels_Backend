@@ -204,18 +204,19 @@ Ecolabel.create(
     website:"https://www.greenbooklive.com/search/scheme.jsp?id=9", 
     accepted_elsewhere:"yes"
     )
-# Ecolabel.create(
-#     name:"Burnwise EPA", 
-#     description:"Burn Wise is a partnership program of the U.S. Environmental Protection Agency that emphasizes the importance of burning the right wood, the right way, in the right wood-burning appliance to protect your home, health, and the air we breathe.", 
-#     owner_category:"government", 
-#     level:"", 
-#     year_established:2007, 
-#     party_verification:"first", 
-#     criteria:"n/a", 
-#     price:"n/a",
-#     website:"https://www.epa.gov/burnwise", 
-#     accepted_elsewhere:""
-#     )
+# 15
+Ecolabel.create(
+    name:"Burnwise EPA", 
+    description:"Burn Wise is a partnership program of the U.S. Environmental Protection Agency that emphasizes the importance of burning the right wood, the right way, in the right wood-burning appliance to protect your home, health, and the air we breathe.", 
+    owner_category:"government", 
+    level:"", 
+    year_established:2007, 
+    party_verification:"first", 
+    criteria:"n/a", 
+    price:"n/a",
+    website:"https://www.epa.gov/burnwise", 
+    accepted_elsewhere:""
+    )
 # Ecolabel.create(
 #     name:"C.A.F.E. Practices", 
 #     description:"Coffee and Farmer Equity (C.A.F.E.) Practices evaluates, recognizes and rewards producers of high-quality sustainably grown coffee for Starbucks stores.", 
@@ -1366,12 +1367,13 @@ EcolabelCategory.create(ecolabel_id: 12, category_id:48) #waste management & rec
 EcolabelCategory.create(ecolabel_id: 13, category_id:5) #buildings
 # BRE Global Certified Environmental Profile
 EcolabelCategory.create(ecolabel_id: 14, category_id:4) #building products
+# Burn Wise EPA
+EcolabelCategory.create(ecolabel_id: 15, category_id:4) #building products
+EcolabelCategory.create(ecolabel_id: 15, category_id:16) #energy
+EcolabelCategory.create(ecolabel_id: 15, category_id:33) #other
 
 # EcolabelCategory.create(ecolabel_id: 7, category_id:4) #building materials
 
-# EcolabelCategory.create(ecolabel_id: 15, category_id:4) #building products
-# EcolabelCategory.create(ecolabel_id: 15, category_id:16) #energy
-# EcolabelCategory.create(ecolabel_id: 15, category_id:33) #other
 
 # EcolabelCategory.create(ecolabel_id: 16, category_id:21) #food
 
