@@ -217,18 +217,19 @@ Ecolabel.create(
     website:"https://www.epa.gov/burnwise", 
     accepted_elsewhere:""
     )
-# Ecolabel.create(
-#     name:"C.A.F.E. Practices", 
-#     description:"Coffee and Farmer Equity (C.A.F.E.) Practices evaluates, recognizes and rewards producers of high-quality sustainably grown coffee for Starbucks stores.", 
-#     owner_category:"for-profit", 
-#     level:"", 
-#     year_established:2004, 
-#     party_verification:"", 
-#     criteria:"n/a", 
-#     price:"n/a",
-#     website:"https://www.starbucks.com/responsibility/sourcing/coffee", 
-#     accepted_elsewhere:""
-#     )
+# 16
+Ecolabel.create(
+    name:"C.A.F.E. Practices", 
+    description:"Coffee and Farmer Equity (C.A.F.E.) Practices evaluates, recognizes and rewards producers of high-quality sustainably grown coffee for Starbucks stores.", 
+    owner_category:"for-profit", 
+    level:"", 
+    year_established:2004, 
+    party_verification:"", 
+    criteria:"n/a", 
+    price:"n/a",
+    website:"https://www.starbucks.com/responsibility/sourcing/coffee", 
+    accepted_elsewhere:""
+    )
 # Ecolabel.create(
 #     name:"California Certified Organic Farmers - CCOF", 
 #     description:"CCOF promotes and supports organic food and agriculture through a premier organic certification program, trade support, producer and consumer education and political advocacy.", 
@@ -1371,11 +1372,12 @@ EcolabelCategory.create(ecolabel_id: 14, category_id:4) #building products
 EcolabelCategory.create(ecolabel_id: 15, category_id:4) #building products
 EcolabelCategory.create(ecolabel_id: 15, category_id:16) #energy
 EcolabelCategory.create(ecolabel_id: 15, category_id:33) #other
+# C.A.F.E. Practices
+EcolabelCategory.create(ecolabel_id: 16, category_id:21) #food
 
 # EcolabelCategory.create(ecolabel_id: 7, category_id:4) #building materials
 
 
-# EcolabelCategory.create(ecolabel_id: 16, category_id:21) #food
 
 # EcolabelCategory.create(ecolabel_id: 17, category_id:4) #building products
 # EcolabelCategory.create(ecolabel_id: 17, category_id:5) #buildings
