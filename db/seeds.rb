@@ -165,7 +165,6 @@ Ecolabel.create(
     website:"https://www.blauer-engel.de/", 
     accepted_elsewhere:"yes"
     )
-# 13
 # Ecolabel.create(
 #     name:"bluesign standard", 
 #     description:"The bluesign® standard brings together the entire textile manufacturing chain to jointly reduce the ecological footprint of a responsibly acting textile industry.", 
@@ -230,18 +229,19 @@ Ecolabel.create(
     website:"https://www.starbucks.com/responsibility/sourcing/coffee", 
     accepted_elsewhere:""
     )
-# Ecolabel.create(
-#     name:"California Certified Organic Farmers - CCOF", 
-#     description:"CCOF promotes and supports organic food and agriculture through a premier organic certification program, trade support, producer and consumer education and political advocacy.", 
-#     owner_category:"non-profit", 
-#     level:"", 
-#     year_established:1973, 
-#     party_verification:"third", 
-#     criteria:"n/a", 
-#     price:"n/a",
-#     website:"https://www.ccof.org/", 
-#     accepted_elsewhere:""
-#     )
+# 17
+Ecolabel.create(
+    name:"California Certified Organic Farmers - CCOF", 
+    description:"CCOF promotes and supports organic food and agriculture through a premier organic certification program, trade support, producer and consumer education and political advocacy.", 
+    owner_category:"non-profit", 
+    level:"", 
+    year_established:1973, 
+    party_verification:"third", 
+    criteria:"n/a", 
+    price:"n/a",
+    website:"https://www.ccof.org/", 
+    accepted_elsewhere:""
+    )
 # Ecolabel.create(
 #     name:"Carbon Care Certification", 
 #     description:"The Carbon Care certification offered by Enviro-access recognizes organizations’ efforts to responsibly manage and reduce greenhouse gases (GHGs).", 
@@ -1374,10 +1374,11 @@ EcolabelCategory.create(ecolabel_id: 15, category_id:16) #energy
 EcolabelCategory.create(ecolabel_id: 15, category_id:33) #other
 # C.A.F.E. Practices
 EcolabelCategory.create(ecolabel_id: 16, category_id:21) #food
+# California Certified Organic Farmers - CCOF
+EcolabelCategory.create(ecolabel_id: 17, category_id:21) #food
+EcolabelCategory.create(ecolabel_id: 17, category_id:33) #other
 
 # EcolabelCategory.create(ecolabel_id: 7, category_id:4) #building materials
-
-
 
 # EcolabelCategory.create(ecolabel_id: 17, category_id:4) #building products
 # EcolabelCategory.create(ecolabel_id: 17, category_id:5) #buildings
@@ -1386,9 +1387,6 @@ EcolabelCategory.create(ecolabel_id: 16, category_id:21) #food
 # EcolabelCategory.create(ecolabel_id: 18, category_id:43) #textiles
 
 # EcolabelCategory.create(ecolabel_id: 19, category_id:23) #forest products/paper
-
-# EcolabelCategory.create(ecolabel_id: 20, category_id:21) #food
-# EcolabelCategory.create(ecolabel_id: 20, category_id:33) #other
 
 # EcolabelCategory.create(ecolabel_id: 21, category_id:46) #unknown
 
