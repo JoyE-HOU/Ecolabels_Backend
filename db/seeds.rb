@@ -165,18 +165,6 @@ Ecolabel.create(
     website:"https://www.blauer-engel.de/", 
     accepted_elsewhere:"yes"
     )
-# Ecolabel.create(
-#     name:"bluesign standard", 
-#     description:"The bluesign® standard brings together the entire textile manufacturing chain to jointly reduce the ecological footprint of a responsibly acting textile industry.", 
-#     owner_category:"for-profit", 
-#     level:"company", 
-#     year_established:2001, 
-#     party_verification:"second", 
-#     criteria:"n/a", 
-#     price:"n/a",
-#     website:"https://www.bluesign.com/en", 
-#     accepted_elsewhere:"yes"
-#     )
 # 13
 Ecolabel.create(
     name:"BREEAM", 
@@ -242,6 +230,20 @@ Ecolabel.create(
     website:"https://www.ccof.org/", 
     accepted_elsewhere:""
     )
+
+# Ecolabel.create(
+#     name:"bluesign standard", 
+#     description:"The bluesign® standard brings together the entire textile manufacturing chain to jointly reduce the ecological footprint of a responsibly acting textile industry.", 
+#     owner_category:"for-profit", 
+#     level:"company", 
+#     year_established:2001, 
+#     party_verification:"second", 
+#     criteria:"n/a", 
+#     price:"n/a",
+#     website:"https://www.bluesign.com/en", 
+#     accepted_elsewhere:"yes"
+#     )
+
 # Ecolabel.create(
 #     name:"Carbon Care Certification", 
 #     description:"The Carbon Care certification offered by Enviro-access recognizes organizations’ efforts to responsibly manage and reduce greenhouse gases (GHGs).", 
