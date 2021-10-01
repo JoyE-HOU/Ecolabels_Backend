@@ -230,6 +230,19 @@ Ecolabel.create(
     website:"https://www.ccof.org/", 
     accepted_elsewhere:""
     )
+# 18
+Ecolabel.create(
+    name:"Carbon Care Certification", 
+    description:"The Carbon Care certification offered by Enviro-access recognizes organizations’ efforts to responsibly manage and reduce greenhouse gases (GHGs).", 
+    owner_category:"non-profit", 
+    level:"", 
+    year_established:2013, 
+    party_verification:"", 
+    criteria:"n/a", 
+    price:"n/a",
+    website:"http://www.enviroaccess.ca/expert-conseil/en/carbon-care-certification/", 
+    accepted_elsewhere:""
+    )
 
 # Ecolabel.create(
 #     name:"bluesign standard", 
@@ -242,19 +255,6 @@ Ecolabel.create(
 #     price:"n/a",
 #     website:"https://www.bluesign.com/en", 
 #     accepted_elsewhere:"yes"
-#     )
-
-# Ecolabel.create(
-#     name:"Carbon Care Certification", 
-#     description:"The Carbon Care certification offered by Enviro-access recognizes organizations’ efforts to responsibly manage and reduce greenhouse gases (GHGs).", 
-#     owner_category:"non-profit", 
-#     level:"", 
-#     year_established:2013, 
-#     party_verification:"", 
-#     criteria:"n/a", 
-#     price:"n/a",
-#     website:"http://www.enviroaccess.ca/expert-conseil/en/carbon-care-certification/", 
-#     accepted_elsewhere:""
 #     )
 # Ecolabel.create(
 #     name:"Carbon Free Certified", 
@@ -1379,6 +1379,8 @@ EcolabelCategory.create(ecolabel_id: 16, category_id:21) #food
 # California Certified Organic Farmers - CCOF
 EcolabelCategory.create(ecolabel_id: 17, category_id:21) #food
 EcolabelCategory.create(ecolabel_id: 17, category_id:33) #other
+# Carbon Care Certification
+EcolabelCategory.create(ecolabel_id: 18, category_id:46) #unknown
 
 # EcolabelCategory.create(ecolabel_id: 7, category_id:4) #building materials
 
@@ -1389,8 +1391,6 @@ EcolabelCategory.create(ecolabel_id: 17, category_id:33) #other
 # EcolabelCategory.create(ecolabel_id: 18, category_id:43) #textiles
 
 # EcolabelCategory.create(ecolabel_id: 19, category_id:23) #forest products/paper
-
-# EcolabelCategory.create(ecolabel_id: 21, category_id:46) #unknown
 
 # EcolabelCategory.create(ecolabel_id: 22, category_id:4) #building products
 # EcolabelCategory.create(ecolabel_id: 22, category_id:6) #carbon
