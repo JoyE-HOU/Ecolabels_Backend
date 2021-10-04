@@ -256,18 +256,19 @@ Ecolabel.create(
 #     website:"https://www.bluesign.com/en", 
 #     accepted_elsewhere:"yes"
 #     )
-# Ecolabel.create(
-#     name:"Carbon Free Certified", 
-#     description:"The CarbonFree® Product Certification label is aimed at increasing awareness of product emissions and recognizing companies that are compensating for their carbon footprint.", 
-#     owner_category:"non-profit", 
-#     level:"", 
-#     year_established:2007, 
-#     party_verification:"third", 
-#     criteria:"n/a", 
-#     price:"n/a",
-#     website:"https://carbonfund.org/take-action/businesses/carbonfree-product-certification/product-certification-frequently-asked-questions/", 
-#     accepted_elsewhere:""
-#     )
+# 19
+Ecolabel.create(
+    name:"CarbonFree Certified", 
+    description:"The CarbonFree® Product Certification label is aimed at increasing awareness of product emissions and recognizing companies that are compensating for their carbon footprint.", 
+    owner_category:"non-profit", 
+    level:"", 
+    year_established:2007, 
+    party_verification:"third", 
+    criteria:"n/a", 
+    price:"n/a",
+    website:"https://carbonfund.org/take-action/businesses/carbonfree-product-certification/product-certification-frequently-asked-questions/", 
+    accepted_elsewhere:""
+    )
 # Ecolabel.create(
 #     name:"CarbonNeutral", 
 #     description:"CarbonNeutral® is the registered trademark of The CarbonNeutral Company and is a global standard to certify that businesses have measured and reduced their CO2 emissions to net zero for their company, products, operations or services.", 
@@ -1381,6 +1382,18 @@ EcolabelCategory.create(ecolabel_id: 17, category_id:21) #food
 EcolabelCategory.create(ecolabel_id: 17, category_id:33) #other
 # Carbon Care Certification
 EcolabelCategory.create(ecolabel_id: 18, category_id:46) #unknown
+# CarbonFree Certified
+EcolabelCategory.create(ecolabel_id: 19, category_id:1) #appliances
+EcolabelCategory.create(ecolabel_id: 19, category_id:4) #building products
+EcolabelCategory.create(ecolabel_id: 19, category_id:7) #carbon offsets
+EcolabelCategory.create(ecolabel_id: 19, category_id:9) #cleaning products
+EcolabelCategory.create(ecolabel_id: 19, category_id:13) #cosmetics/personal care
+EcolabelCategory.create(ecolabel_id: 19, category_id:15) #electronics
+EcolabelCategory.create(ecolabel_id: 19, category_id:21) #food
+EcolabelCategory.create(ecolabel_id: 19, category_id:23) #forest products/paper
+EcolabelCategory.create(ecolabel_id: 19, category_id:30) #machinery & equipment
+EcolabelCategory.create(ecolabel_id: 19, category_id:34) #packaging
+EcolabelCategory.create(ecolabel_id: 19, category_id:43) #textiles
 
 # EcolabelCategory.create(ecolabel_id: 7, category_id:4) #building materials
 
@@ -1427,18 +1440,6 @@ EcolabelCategory.create(ecolabel_id: 18, category_id:46) #unknown
 # EcolabelCategory.create(ecolabel_id: 23, category_id:45) #transportation
 # EcolabelCategory.create(ecolabel_id: 23, category_id:48) #waste management & recycling
 # EcolabelCategory.create(ecolabel_id: 23, category_id:49) #water
-
-# EcolabelCategory.create(ecolabel_id: 24, category_id:1) #appliances
-# EcolabelCategory.create(ecolabel_id: 24, category_id:4) #building products
-# EcolabelCategory.create(ecolabel_id: 24, category_id:7) #carbon offsets
-# EcolabelCategory.create(ecolabel_id: 24, category_id:9) #cleaning products
-# EcolabelCategory.create(ecolabel_id: 24, category_id:13) #cosmetics/personal care
-# EcolabelCategory.create(ecolabel_id: 24, category_id:15) #electronics
-# EcolabelCategory.create(ecolabel_id: 24, category_id:21) #food
-# EcolabelCategory.create(ecolabel_id: 24, category_id:23) #forest products/paper
-# EcolabelCategory.create(ecolabel_id: 24, category_id:30) #machinery & equipment
-# EcolabelCategory.create(ecolabel_id: 24, category_id:34) #packaging
-# EcolabelCategory.create(ecolabel_id: 24, category_id:43) #textiles
 
 # EcolabelCategory.create(ecolabel_id: 25, category_id:6) #carbon
 # EcolabelCategory.create(ecolabel_id: 25, category_id:7) #carbon offsets
