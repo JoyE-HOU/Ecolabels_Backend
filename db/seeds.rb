@@ -269,18 +269,19 @@ Ecolabel.create(
     website:"https://carbonfund.org/take-action/businesses/carbonfree-product-certification/product-certification-frequently-asked-questions/", 
     accepted_elsewhere:""
     )
-# Ecolabel.create(
-#     name:"CarbonNeutral", 
-#     description:"CarbonNeutral® is the registered trademark of The CarbonNeutral Company and is a global standard to certify that businesses have measured and reduced their CO2 emissions to net zero for their company, products, operations or services.", 
-#     owner_category:"for-profit", 
-#     level:"", 
-#     year_established:1998, 
-#     party_verification:"third", 
-#     criteria:"n/a", 
-#     price:"n/a",
-#     website:"https://www.carbonneutral.com/", 
-#     accepted_elsewhere:""
-#     )
+# 20
+Ecolabel.create(
+    name:"CarbonNeutral", 
+    description:"CarbonNeutral® is the registered trademark of The CarbonNeutral Company and is a global standard to certify that businesses have measured and reduced their CO2 emissions to net zero for their company, products, operations or services.", 
+    owner_category:"for-profit", 
+    level:"", 
+    year_established:1998, 
+    party_verification:"third", 
+    criteria:"n/a", 
+    price:"n/a",
+    website:"https://www.carbonneutral.com/", 
+    accepted_elsewhere:""
+    )
 # Ecolabel.create(
 #     name:"Carbon Neutral Certification", 
 #     description:"", 
@@ -1394,6 +1395,9 @@ EcolabelCategory.create(ecolabel_id: 19, category_id:23) #forest products/paper
 EcolabelCategory.create(ecolabel_id: 19, category_id:30) #machinery & equipment
 EcolabelCategory.create(ecolabel_id: 19, category_id:34) #packaging
 EcolabelCategory.create(ecolabel_id: 19, category_id:43) #textiles
+# CarbonNeutral
+EcolabelCategory.create(ecolabel_id: 20, category_id:6) #carbon
+EcolabelCategory.create(ecolabel_id: 20, category_id:7) #carbon offsets
 
 # EcolabelCategory.create(ecolabel_id: 7, category_id:4) #building materials
 
@@ -1440,9 +1444,6 @@ EcolabelCategory.create(ecolabel_id: 19, category_id:43) #textiles
 # EcolabelCategory.create(ecolabel_id: 23, category_id:45) #transportation
 # EcolabelCategory.create(ecolabel_id: 23, category_id:48) #waste management & recycling
 # EcolabelCategory.create(ecolabel_id: 23, category_id:49) #water
-
-# EcolabelCategory.create(ecolabel_id: 25, category_id:6) #carbon
-# EcolabelCategory.create(ecolabel_id: 25, category_id:7) #carbon offsets
 
 # EcolabelCategory.create(ecolabel_id: 26, category_id:33) #other
 
