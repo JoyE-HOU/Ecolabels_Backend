@@ -295,18 +295,19 @@ Ecolabel.create(
     website:"http://www.verus-co2.com/certification.html", 
     accepted_elsewhere:""
     )
-# Ecolabel.create(
-#     name:"Carbon Reduction Label", 
-#     description:"The Carbon Reduction Label is a public commitment that the carbon footprint of a product or service has been measured and certified and the owner of the product or service has committed to reduce that footprint over the following two years.", 
-#     owner_category:"other", 
-#     level:"", 
-#     year_established:2007, 
-#     party_verification:"third", 
-#     criteria:"n/a", 
-#     price:"n/a",
-#     website:"https://www.carbontrust.com/what-we-do", 
-#     accepted_elsewhere:"yes"
-#     )
+# 22
+Ecolabel.create(
+    name:"Carbon Reduction Label", 
+    description:"The Carbon Reduction Label is a public commitment that the carbon footprint of a product or service has been measured and certified and the owner of the product or service has committed to reduce that footprint over the following two years.", 
+    owner_category:"other", 
+    level:"", 
+    year_established:2007, 
+    party_verification:"third", 
+    criteria:"n/a", 
+    price:"n/a",
+    website:"https://www.carbontrust.com/what-we-do", 
+    accepted_elsewhere:"yes"
+    )
 # Ecolabel.create(
 #     name:"Certified Green Dealer", 
 #     description:"The Certified Green Dealer® Program is a program for certifying US green lumber and building material dealerships.", 
@@ -1416,6 +1417,25 @@ EcolabelCategory.create(ecolabel_id: 21, category_id:43) #textiles
 EcolabelCategory.create(ecolabel_id: 21, category_id:44) #tourism
 EcolabelCategory.create(ecolabel_id: 21, category_id:45) #transportation
 EcolabelCategory.create(ecolabel_id: 21, category_id:48) #waste management & recycling
+# Carbon Reduction Label
+EcolabelCategory.create(ecolabel_id: 22, category_id:1) #appliances
+EcolabelCategory.create(ecolabel_id: 22, category_id:4) #building products
+EcolabelCategory.create(ecolabel_id: 22, category_id:6) #carbon
+EcolabelCategory.create(ecolabel_id: 22, category_id:9) #cleaning products
+EcolabelCategory.create(ecolabel_id: 22, category_id:13) #cosmetics/personal care
+EcolabelCategory.create(ecolabel_id: 22, category_id:15) #electronics
+EcolabelCategory.create(ecolabel_id: 22, category_id:16) #energy
+EcolabelCategory.create(ecolabel_id: 22, category_id:18) #financial services
+EcolabelCategory.create(ecolabel_id: 22, category_id:21) #food
+EcolabelCategory.create(ecolabel_id: 22, category_id:23) #forest products/paper
+EcolabelCategory.create(ecolabel_id: 22, category_id:25) #health care services & equipment
+EcolabelCategory.create(ecolabel_id: 22, category_id:30) #machinery & equipment
+EcolabelCategory.create(ecolabel_id: 22, category_id:37) #professional scientific and technical services
+EcolabelCategory.create(ecolabel_id: 22, category_id:43) #textiles
+EcolabelCategory.create(ecolabel_id: 22, category_id:44) #tourism
+EcolabelCategory.create(ecolabel_id: 22, category_id:45) #transportation
+EcolabelCategory.create(ecolabel_id: 22, category_id:48) #waste management & recycling
+EcolabelCategory.create(ecolabel_id: 22, category_id:49) #water
 
 # EcolabelCategory.create(ecolabel_id: 7, category_id:4) #building materials
 
@@ -1426,26 +1446,6 @@ EcolabelCategory.create(ecolabel_id: 21, category_id:48) #waste management & rec
 # EcolabelCategory.create(ecolabel_id: 18, category_id:43) #textiles
 
 # EcolabelCategory.create(ecolabel_id: 19, category_id:23) #forest products/paper
-
-
-# EcolabelCategory.create(ecolabel_id: 23, category_id:1) #appliances
-# EcolabelCategory.create(ecolabel_id: 23, category_id:4) #building products
-# EcolabelCategory.create(ecolabel_id: 23, category_id:6) #carbon
-# EcolabelCategory.create(ecolabel_id: 23, category_id:9) #cleaning products
-# EcolabelCategory.create(ecolabel_id: 23, category_id:13) #cosmetics/personal care
-# EcolabelCategory.create(ecolabel_id: 23, category_id:15) #electronics
-# EcolabelCategory.create(ecolabel_id: 23, category_id:16) #energy
-# EcolabelCategory.create(ecolabel_id: 23, category_id:18) #financial services
-# EcolabelCategory.create(ecolabel_id: 23, category_id:21) #food
-# EcolabelCategory.create(ecolabel_id: 23, category_id:23) #forest products/paper
-# EcolabelCategory.create(ecolabel_id: 23, category_id:25) #health care services & equipment
-# EcolabelCategory.create(ecolabel_id: 23, category_id:30) #machinery & equipment
-# EcolabelCategory.create(ecolabel_id: 23, category_id:37) #professional scientific and technical services
-# EcolabelCategory.create(ecolabel_id: 23, category_id:43) #textiles
-# EcolabelCategory.create(ecolabel_id: 23, category_id:44) #tourism
-# EcolabelCategory.create(ecolabel_id: 23, category_id:45) #transportation
-# EcolabelCategory.create(ecolabel_id: 23, category_id:48) #waste management & recycling
-# EcolabelCategory.create(ecolabel_id: 23, category_id:49) #water
 
 # EcolabelCategory.create(ecolabel_id: 26, category_id:33) #other
 
