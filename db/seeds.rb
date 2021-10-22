@@ -308,18 +308,19 @@ Ecolabel.create(
     website:"https://www.carbontrust.com/what-we-do", 
     accepted_elsewhere:"yes"
     )
-# Ecolabel.create(
-#     name:"Certified Green Dealer", 
-#     description:"The Certified Green Dealer® Program is a program for certifying US green lumber and building material dealerships.", 
-#     owner_category:"for-profit", 
-#     level:"", 
-#     year_established:2007, 
-#     party_verification:"n/a", 
-#     criteria:"n/a", 
-#     price:"n/a",
-#     website:"n/a", 
-#     accepted_elsewhere:"no"
-#     )
+#23
+Ecolabel.create(
+    name:"Certified Green Dealer", 
+    description:"The Certified Green Dealer® Program is a program for certifying US green lumber and building material dealerships.", 
+    owner_category:"for-profit", 
+    level:"", 
+    year_established:2007, 
+    party_verification:"n/a", 
+    criteria:"n/a", 
+    price:"n/a",
+    website:"n/a", 
+    accepted_elsewhere:"no"
+    )
 # Ecolabel.create(
 #     name:"Certified Green Restaurant", 
 #     description:"Green Restaurant Association Seal is an ecolabel for restaurants that have committed to sustainability.", 
@@ -1436,6 +1437,9 @@ EcolabelCategory.create(ecolabel_id: 22, category_id:44) #tourism
 EcolabelCategory.create(ecolabel_id: 22, category_id:45) #transportation
 EcolabelCategory.create(ecolabel_id: 22, category_id:48) #waste management & recycling
 EcolabelCategory.create(ecolabel_id: 22, category_id:49) #water
+# Certified Green Dealer
+EcolabelCategory.create(ecolabel_id: 23, category_id:4) #building products
+EcolabelCategory.create(ecolabel_id: 23, category_id:23) #forest products/paper
 
 # EcolabelCategory.create(ecolabel_id: 7, category_id:4) #building materials
 
@@ -1449,8 +1453,6 @@ EcolabelCategory.create(ecolabel_id: 22, category_id:49) #water
 
 # EcolabelCategory.create(ecolabel_id: 26, category_id:33) #other
 
-# EcolabelCategory.create(ecolabel_id: 27, category_id:4) #building products
-# EcolabelCategory.create(ecolabel_id: 27, category_id:23) #forest products/paper
 
 # EcolabelCategory.create(ecolabel_id: 28, category_id:1) #appliances
 # EcolabelCategory.create(ecolabel_id: 28, category_id:19) #fish/fisheries
