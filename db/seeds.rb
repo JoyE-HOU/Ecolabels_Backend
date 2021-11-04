@@ -347,18 +347,19 @@ Ecolabel.create(
     website:"https://certifiedhumane.org/", 
     accepted_elsewhere:"no"
     )
-# Ecolabel.create(
-#     name:"Certified Naturally Grown", 
-#     description:"Certified Naturally Grown is a grassroots alternative to the USDA's National Organic Program meant primarily for direct-market farmers and beekeepers distributing through local channels such as farmer's markets, roadside stands, local restaurants, Community Supported Agriculture (CSA) programs and small local grocery stores.", 
-#     owner_category:"non-profit", 
-#     level:"n/a", 
-#     year_established:2002, 
-#     party_verification:"second", 
-#     criteria:"n/a", 
-#     price:"n/a",
-#     website:"https://www.cngfarming.org/", 
-#     accepted_elsewhere:"yes"
-#     )
+# 26
+Ecolabel.create(
+    name:"Certified Naturally Grown", 
+    description:"Certified Naturally Grown is a grassroots alternative to the USDA's National Organic Program meant primarily for direct-market farmers and beekeepers distributing through local channels such as farmer's markets, roadside stands, local restaurants, Community Supported Agriculture (CSA) programs and small local grocery stores.", 
+    owner_category:"non-profit", 
+    level:"n/a", 
+    year_established:2002, 
+    party_verification:"second", 
+    criteria:"n/a", 
+    price:"n/a",
+    website:"https://www.cngfarming.org/", 
+    accepted_elsewhere:"yes"
+    )
 # Ecolabel.create(
 #     name:"Certified Pesticide Residue Free", 
 #     description:"Means that products are tested for pesticide residues and sets limits of detection for each specific pesticide residues. However this label does not mean that there were no pesticides used.", 
@@ -1453,6 +1454,8 @@ EcolabelCategory.create(ecolabel_id: 24, category_id:48) #waste management & rec
 EcolabelCategory.create(ecolabel_id: 25, category_id:21) #food
 EcolabelCategory.create(ecolabel_id: 25, category_id:43) #textiles
 EcolabelCategory.create(ecolabel_id: 25, category_id:33) #other
+# Certified Naturally Grown
+EcolabelCategory.create(ecolabel_id: 26, category_id:21) #food
 
 # EcolabelCategory.create(ecolabel_id: 7, category_id:4) #building materials
 
@@ -1469,7 +1472,6 @@ EcolabelCategory.create(ecolabel_id: 25, category_id:33) #other
 
 
 
-# EcolabelCategory.create(ecolabel_id: 30, category_id:21) #food
 
 # EcolabelCategory.create(ecolabel_id: 31, category_id:21) #food
 
