@@ -360,18 +360,19 @@ Ecolabel.create(
     website:"https://www.cngfarming.org/", 
     accepted_elsewhere:"yes"
     )
-# Ecolabel.create(
-#     name:"Certified Pesticide Residue Free", 
-#     description:"Means that products are tested for pesticide residues and sets limits of detection for each specific pesticide residues. However this label does not mean that there were no pesticides used.", 
-#     owner_category:"for-profit", 
-#     level:"n/a", 
-#     year_established:1986, 
-#     party_verification:"second", 
-#     criteria:"n/a", 
-#     price:"n/a",
-#     website:"n/a", 
-#     accepted_elsewhere:"no"
-#     )
+# 27
+Ecolabel.create(
+    name:"Certified Pesticide Residue Free", 
+    description:"Means that products are tested for pesticide residues and sets limits of detection for each specific pesticide residues. However this label does not mean that there were no pesticides used.", 
+    owner_category:"for-profit", 
+    level:"n/a", 
+    year_established:1986, 
+    party_verification:"second", 
+    criteria:"n/a", 
+    price:"n/a",
+    website:"n/a", 
+    accepted_elsewhere:"no"
+    )
 # Ecolabel.create(
 #     name:"Certified Vegan", 
 #     description:"Signifies that products are vegan, defined as containing no animal ingredients or by-products, using no animal ingredients or by-products in the manufacturing process, and not tested on animals by any company or independent contractor.", 
@@ -1456,6 +1457,8 @@ EcolabelCategory.create(ecolabel_id: 25, category_id:43) #textiles
 EcolabelCategory.create(ecolabel_id: 25, category_id:33) #other
 # Certified Naturally Grown
 EcolabelCategory.create(ecolabel_id: 26, category_id:21) #food
+# Certified Pesticide Residue Free
+EcolabelCategory.create(ecolabel_id: 27, category_id:21) #food
 
 # EcolabelCategory.create(ecolabel_id: 7, category_id:4) #building materials
 
@@ -1468,12 +1471,6 @@ EcolabelCategory.create(ecolabel_id: 26, category_id:21) #food
 # EcolabelCategory.create(ecolabel_id: 19, category_id:23) #forest products/paper
 
 # EcolabelCategory.create(ecolabel_id: 26, category_id:33) #other
-
-
-
-
-
-# EcolabelCategory.create(ecolabel_id: 31, category_id:21) #food
 
 # EcolabelCategory.create(ecolabel_id: 32, category_id:21) #food
 
