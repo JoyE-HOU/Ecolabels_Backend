@@ -373,18 +373,19 @@ Ecolabel.create(
     website:"n/a", 
     accepted_elsewhere:"no"
     )
-# Ecolabel.create(
-#     name:"Certified Vegan", 
-#     description:"Signifies that products are vegan, defined as containing no animal ingredients or by-products, using no animal ingredients or by-products in the manufacturing process, and not tested on animals by any company or independent contractor.", 
-#     owner_category:"non-profit", 
-#     level:"n/a", 
-#     year_established:1998, 
-#     party_verification:"second", 
-#     criteria:"n/a", 
-#     price:"n/a",
-#     website:"https://vegan.org/", 
-#     accepted_elsewhere:"no"
-#     )
+# 28
+Ecolabel.create(
+    name:"Certified Vegan", 
+    description:"Signifies that products are vegan, defined as containing no animal ingredients or by-products, using no animal ingredients or by-products in the manufacturing process, and not tested on animals by any company or independent contractor.", 
+    owner_category:"non-profit", 
+    level:"n/a", 
+    year_established:1998, 
+    party_verification:"second", 
+    criteria:"n/a", 
+    price:"n/a",
+    website:"https://vegan.org/", 
+    accepted_elsewhere:"no"
+    )
 # Ecolabel.create(
 #     name:"Certified Wildlife Friendly", 
 #     description:"Products may be certified by WFEN if: The product contributes directly to in situ conservation of key species; Production has a positive impact on the local economy; Individuals or communities living with wildlife participate in the production, harvest, processing or manufacture of the product; The product’s conservation mission includes a clear enforcement mechanism, such that failure to follow through with required conservation actions results in immediate consequences, including forfeiture of any economic reward.", 
@@ -1459,6 +1460,8 @@ EcolabelCategory.create(ecolabel_id: 25, category_id:33) #other
 EcolabelCategory.create(ecolabel_id: 26, category_id:21) #food
 # Certified Pesticide Residue Free
 EcolabelCategory.create(ecolabel_id: 27, category_id:21) #food
+# Certified Vegan
+EcolabelCategory.create(ecolabel_id: 28, category_id:21) #food
 
 # EcolabelCategory.create(ecolabel_id: 7, category_id:4) #building materials
 
@@ -1471,8 +1474,6 @@ EcolabelCategory.create(ecolabel_id: 27, category_id:21) #food
 # EcolabelCategory.create(ecolabel_id: 19, category_id:23) #forest products/paper
 
 # EcolabelCategory.create(ecolabel_id: 26, category_id:33) #other
-
-# EcolabelCategory.create(ecolabel_id: 32, category_id:21) #food
 
 # EcolabelCategory.create(ecolabel_id: 33, category_id:13) #cosmetics/personal care
 # EcolabelCategory.create(ecolabel_id: 33, category_id:21) #food
