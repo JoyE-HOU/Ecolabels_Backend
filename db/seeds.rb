@@ -1463,7 +1463,6 @@ EcolabelCategory.create(ecolabel_id: 27, category_id:21) #food
 # Certified Vegan
 EcolabelCategory.create(ecolabel_id: 28, category_id:21) #food
 
-
 # EcolabelCategory.create(ecolabel_id: 7, category_id:4) #building materials
 
 # EcolabelCategory.create(ecolabel_id: 17, category_id:4) #building products
@@ -1475,7 +1474,6 @@ EcolabelCategory.create(ecolabel_id: 28, category_id:21) #food
 # EcolabelCategory.create(ecolabel_id: 19, category_id:23) #forest products/paper
 
 # EcolabelCategory.create(ecolabel_id: 26, category_id:33) #other
-
 
 # EcolabelCategory.create(ecolabel_id: 33, category_id:13) #cosmetics/personal care
 # EcolabelCategory.create(ecolabel_id: 33, category_id:21) #food
