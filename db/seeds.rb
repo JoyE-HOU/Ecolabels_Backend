@@ -386,18 +386,19 @@ Ecolabel.create(
     website:"https://vegan.org/", 
     accepted_elsewhere:"no"
     )
-# Ecolabel.create(
-#     name:"Certified Wildlife Friendly", 
-#     description:"Products may be certified by WFEN if: The product contributes directly to in situ conservation of key species; Production has a positive impact on the local economy; Individuals or communities living with wildlife participate in the production, harvest, processing or manufacture of the product; The product’s conservation mission includes a clear enforcement mechanism, such that failure to follow through with required conservation actions results in immediate consequences, including forfeiture of any economic reward.", 
-#     owner_category:"non-profit", 
-#     level:"n/a", 
-#     year_established:2007, 
-#     party_verification:"second", 
-#     criteria:"n/a", 
-#     price:"n/a",
-#     website:"http://wildlifefriendly.org/", 
-#     accepted_elsewhere:"yes"
-#     )
+# 29
+Ecolabel.create(
+    name:"Certified Wildlife Friendly", 
+    description:"Products may be certified by WFEN if: The product contributes directly to in situ conservation of key species; Production has a positive impact on the local economy; Individuals or communities living with wildlife participate in the production, harvest, processing or manufacture of the product; The product’s conservation mission includes a clear enforcement mechanism, such that failure to follow through with required conservation actions results in immediate consequences, including forfeiture of any economic reward.", 
+    owner_category:"non-profit", 
+    level:"n/a", 
+    year_established:2007, 
+    party_verification:"second", 
+    criteria:"n/a", 
+    price:"n/a",
+    website:"http://wildlifefriendly.org/", 
+    accepted_elsewhere:"yes"
+    )
 # Ecolabel.create(
 #     name:"CertiPUR-US", 
 #     description:"CertiPUR-US® tests for durability, content and indoor emissions.", 
@@ -1462,7 +1463,7 @@ EcolabelCategory.create(ecolabel_id: 26, category_id:21) #food
 EcolabelCategory.create(ecolabel_id: 27, category_id:21) #food
 # Certified Vegan
 EcolabelCategory.create(ecolabel_id: 28, category_id:21) #food
-
+# Certified Wildlife Friendly
 # EcolabelCategory.create(ecolabel_id: 7, category_id:4) #building materials
 
 # EcolabelCategory.create(ecolabel_id: 17, category_id:4) #building products
