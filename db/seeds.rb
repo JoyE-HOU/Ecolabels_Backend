@@ -399,18 +399,19 @@ Ecolabel.create(
     website:"http://wildlifefriendly.org/", 
     accepted_elsewhere:"yes"
     )
-# Ecolabel.create(
-#     name:"CertiPUR-US", 
-#     description:"CertiPUR-US® tests for durability, content and indoor emissions.", 
-#     owner_category:"industry association", 
-#     level:"n/a", 
-#     year_established:2008, 
-#     party_verification:"third", 
-#     criteria:"n/a", 
-#     price:"n/a",
-#     website:"https://certipur.us/", 
-#     accepted_elsewhere:"yes"
-#     )
+# 30
+Ecolabel.create(
+    name:"CertiPUR-US", 
+    description:"CertiPUR-US® tests for durability, content and indoor emissions.", 
+    owner_category:"industry association", 
+    level:"n/a", 
+    year_established:2008, 
+    party_verification:"third", 
+    criteria:"n/a", 
+    price:"n/a",
+    website:"https://certipur.us/", 
+    accepted_elsewhere:"yes"
+    )
 # Ecolabel.create(
 #     name:"CHPS - Collaborative for High Performance Schools", 
 #     description:"CHPS is leading a national movement to improve student performance and the entire educational experience by building the best possible schools.", 
@@ -1464,6 +1465,10 @@ EcolabelCategory.create(ecolabel_id: 27, category_id:21) #food
 # Certified Vegan
 EcolabelCategory.create(ecolabel_id: 28, category_id:21) #food
 # Certified Wildlife Friendly
+
+# CertiPUR-US
+EcolabelCategory.create(ecolabel_id: 30, category_id:33) #other
+
 # EcolabelCategory.create(ecolabel_id: 7, category_id:4) #building materials
 
 # EcolabelCategory.create(ecolabel_id: 17, category_id:4) #building products
@@ -1474,7 +1479,6 @@ EcolabelCategory.create(ecolabel_id: 28, category_id:21) #food
 
 # EcolabelCategory.create(ecolabel_id: 19, category_id:23) #forest products/paper
 
-# EcolabelCategory.create(ecolabel_id: 26, category_id:33) #other
 
 # EcolabelCategory.create(ecolabel_id: 33, category_id:13) #cosmetics/personal care
 # EcolabelCategory.create(ecolabel_id: 33, category_id:21) #food
