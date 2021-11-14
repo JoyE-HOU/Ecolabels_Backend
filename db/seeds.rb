@@ -412,66 +412,71 @@ Ecolabel.create(
     website:"https://certipur.us/", 
     accepted_elsewhere:"yes"
     )
-# Ecolabel.create(
-#     name:"CHPS - Collaborative for High Performance Schools", 
-#     description:"CHPS is leading a national movement to improve student performance and the entire educational experience by building the best possible schools.", 
-#     owner_category:"non-profit", 
-#     level:"n/a", 
-#     year_established:1999, 
-#     party_verification:"second", 
-#     criteria:"n/a", 
-#     price:"n/a",
-#     website:"n/a", 
-#     accepted_elsewhere:"no"
-#     )
-# Ecolabel.create(
-#     name:"Cleaner and Greener Certification", 
-#     description:"The Cleaner & Greener program promotes the reporting and offsetting of emissions by companies, organizations, buildings, events and transportation fleets.", 
-#     owner_category:"non-profit", 
-#     level:"n/a", 
-#     year_established:2000, 
-#     party_verification:"second", 
-#     criteria:"n/a", 
-#     price:"n/a",
-#     website:"http://www.cleanerandgreener.org/", 
-#     accepted_elsewhere:"yes"
-#     )
-# Ecolabel.create(
-#     name:"Cleaning Industry Management Standard (CIMS)", 
-#     description:"CIMS is an organizational Standard and certification program that applies to management, operations, performance systems, and processes.", 
-#     owner_category:"non-profit", 
-#     level:"n/a", 
-#     year_established:2006, 
-#     party_verification:"third", 
-#     criteria:"n/a", 
-#     price:"n/a",
-#     website:"https://www.issa.com/certification-standards/cleaning-industry-management-standard-cims", 
-#     accepted_elsewhere:"yes"
-#     )
-# Ecolabel.create(
-#     name:"Clean Marine Green Leaf Eco-Rating Program", 
-#     description:"The Ontario Marine Operators Association (OMOA) along with over twenty marine industry professionals and Ontario’s boaters’ and anglers’ associations formed the Clean Marine Partnership to develop a voluntary program of 'Environmental Best Practices' for the marine industry that is recognized as the leader in North America.", 
-#     owner_category:"non-profit", 
-#     level:"n/a", 
-#     year_established:2000, 
-#     party_verification:"third", 
-#     criteria:"n/a", 
-#     price:"n/a",
-#     website:"n/a", 
-#     accepted_elsewhere:"yes"
-#     )
-# Ecolabel.create(
-#     name:"Climate Registered", 
-#     description:"The Climate Registry is a non-profit organization that sets consistent and transparent standards to calculate, verify and publicly report greenhouse gas (GHG) emissions into a single registry.", 
-#     owner_category:"non-profit", 
-#     level:"n/a", 
-#     year_established:2007, 
-#     party_verification:"third", 
-#     criteria:"n/a", 
-#     price:"n/a",
-#     website:"https://www.theclimateregistry.org/", 
-#     accepted_elsewhere:"yes"
-#     )
+# 31
+Ecolabel.create(
+    name:"CHPS - Collaborative for High Performance Schools", 
+    description:"CHPS is leading a national movement to improve student performance and the entire educational experience by building the best possible schools.", 
+    owner_category:"non-profit", 
+    level:"n/a", 
+    year_established:1999, 
+    party_verification:"second", 
+    criteria:"n/a", 
+    price:"n/a",
+    website:"n/a", 
+    accepted_elsewhere:"no"
+    )
+# 32
+Ecolabel.create(
+    name:"Cleaner and Greener Certification", 
+    description:"The Cleaner & Greener program promotes the reporting and offsetting of emissions by companies, organizations, buildings, events and transportation fleets.", 
+    owner_category:"non-profit", 
+    level:"n/a", 
+    year_established:2000, 
+    party_verification:"second", 
+    criteria:"n/a", 
+    price:"n/a",
+    website:"http://www.cleanerandgreener.org/", 
+    accepted_elsewhere:"yes"
+    )
+# 33
+Ecolabel.create(
+    name:"Cleaning Industry Management Standard (CIMS)", 
+    description:"CIMS is an organizational Standard and certification program that applies to management, operations, performance systems, and processes.", 
+    owner_category:"non-profit", 
+    level:"n/a", 
+    year_established:2006, 
+    party_verification:"third", 
+    criteria:"n/a", 
+    price:"n/a",
+    website:"https://www.issa.com/certification-standards/cleaning-industry-management-standard-cims", 
+    accepted_elsewhere:"yes"
+    )
+# 34
+Ecolabel.create(
+    name:"Clean Marine Green Leaf Eco-Rating Program", 
+    description:"The Ontario Marine Operators Association (OMOA) along with over twenty marine industry professionals and Ontario’s boaters’ and anglers’ associations formed the Clean Marine Partnership to develop a voluntary program of 'Environmental Best Practices' for the marine industry that is recognized as the leader in North America.", 
+    owner_category:"non-profit", 
+    level:"n/a", 
+    year_established:2000, 
+    party_verification:"third", 
+    criteria:"n/a", 
+    price:"n/a",
+    website:"n/a", 
+    accepted_elsewhere:"yes"
+    )
+# 35
+Ecolabel.create(
+    name:"Climate Registered", 
+    description:"The Climate Registry is a non-profit organization that sets consistent and transparent standards to calculate, verify and publicly report greenhouse gas (GHG) emissions into a single registry.", 
+    owner_category:"non-profit", 
+    level:"n/a", 
+    year_established:2007, 
+    party_verification:"third", 
+    criteria:"n/a", 
+    price:"n/a",
+    website:"https://www.theclimateregistry.org/", 
+    accepted_elsewhere:"yes"
+    )
 # Ecolabel.create(
 #     name:"Compostable: Biodegradable Products Institutes Label", 
 #     description:"The BPI's Compostable Logo identifies products that meet ASTM D6400 (for plastics) or ASTM D6868 (for fibre based applications) and will compost satisfactorily in large scale composting facilities.", 
@@ -1468,11 +1473,21 @@ EcolabelCategory.create(ecolabel_id: 28, category_id:21) #food
 
 # CertiPUR-US
 EcolabelCategory.create(ecolabel_id: 30, category_id:33) #other
+# CHPS - Collaborative for High Performance Schools
+EcolabelCategory.create(ecolabel_id: 31, category_id:4) #building products
+EcolabelCategory.create(ecolabel_id: 31, category_id:5) #buildings
+# Cleaner and Greener Certification
+EcolabelCategory.create(ecolabel_id: 32, category_id:45) #transportation
+# Cleaning Industry Management Standard (CIMS)
+EcolabelCategory.create(ecolabel_id: 33, category_id:33) #other
+# Clean Marine Green Leaf Eco-Rating Program
+EcolabelCategory.create(ecolabel_id: 34, category_id:5) #buildings
+EcolabelCategory.create(ecolabel_id: 34, category_id:33) #other
+# Climate Registered
+EcolabelCategory.create(ecolabel_id: 35, category_id:6) #carbon
 
 # EcolabelCategory.create(ecolabel_id: 7, category_id:4) #building materials
 
-# EcolabelCategory.create(ecolabel_id: 17, category_id:4) #building products
-# EcolabelCategory.create(ecolabel_id: 17, category_id:5) #buildings
 
 # EcolabelCategory.create(ecolabel_id: 18, category_id:4) #building products
 # EcolabelCategory.create(ecolabel_id: 18, category_id:43) #textiles
@@ -1485,14 +1500,9 @@ EcolabelCategory.create(ecolabel_id: 30, category_id:33) #other
 # EcolabelCategory.create(ecolabel_id: 33, category_id:23) #forest products/paper
 # EcolabelCategory.create(ecolabel_id: 33, category_id:43) #textiles
 
-# EcolabelCategory.create(ecolabel_id: 34, category_id:5) #buildings
-# EcolabelCategory.create(ecolabel_id: 34, category_id:33) #other
 
-# EcolabelCategory.create(ecolabel_id: 35, category_id:45) #transportation
 
-# EcolabelCategory.create(ecolabel_id: 36, category_id:33) #other
 
-# EcolabelCategory.create(ecolabel_id: 37, category_id:6) #carbon
 
 # EcolabelCategory.create(ecolabel_id: 38, category_id:23) #forest products/paper
 # EcolabelCategory.create(ecolabel_id: 38, category_id:34) #packaging
