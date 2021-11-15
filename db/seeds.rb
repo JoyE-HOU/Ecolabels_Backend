@@ -183,7 +183,7 @@ Ecolabel.create(
     name:"BRE Global Cetified Environmental Profile", 
     description:"Environmental profiles measure the impacts of a construction material, product or building system throughout its life – not only during its manufacture, but also its use in a building over a typical building lifetime.", 
     owner_category:"non-profit", 
-    level:"", 
+    level:"n/a", 
     year_established:2001, 
     party_verification:"third", 
     criteria:"n/a", 
@@ -196,52 +196,52 @@ Ecolabel.create(
     name:"Burnwise EPA", 
     description:"Burn Wise is a partnership program of the U.S. Environmental Protection Agency that emphasizes the importance of burning the right wood, the right way, in the right wood-burning appliance to protect your home, health, and the air we breathe.", 
     owner_category:"government", 
-    level:"", 
+    level:"n/a", 
     year_established:2007, 
     party_verification:"first", 
     criteria:"n/a", 
     price:"n/a",
     website:"https://www.epa.gov/burnwise", 
-    accepted_elsewhere:""
+    accepted_elsewhere:"n/a"
     )
 # 16
 Ecolabel.create(
     name:"C.A.F.E. Practices", 
     description:"Coffee and Farmer Equity (C.A.F.E.) Practices evaluates, recognizes and rewards producers of high-quality sustainably grown coffee for Starbucks stores.", 
     owner_category:"for-profit", 
-    level:"", 
+    level:"n/a", 
     year_established:2004, 
-    party_verification:"", 
+    party_verification:"n/a", 
     criteria:"n/a", 
     price:"n/a",
     website:"https://www.starbucks.com/responsibility/sourcing/coffee", 
-    accepted_elsewhere:""
+    accepted_elsewhere:"n/a"
     )
 # 17
 Ecolabel.create(
     name:"California Certified Organic Farmers - CCOF", 
     description:"CCOF promotes and supports organic food and agriculture through a premier organic certification program, trade support, producer and consumer education and political advocacy.", 
     owner_category:"non-profit", 
-    level:"", 
+    level:"n/a", 
     year_established:1973, 
     party_verification:"third", 
     criteria:"n/a", 
     price:"n/a",
     website:"https://www.ccof.org/", 
-    accepted_elsewhere:""
+    accepted_elsewhere:"n/a"
     )
 # 18
 Ecolabel.create(
     name:"Carbon Care Certification", 
     description:"The Carbon Care certification offered by Enviro-access recognizes organizations’ efforts to responsibly manage and reduce greenhouse gases (GHGs).", 
     owner_category:"non-profit", 
-    level:"", 
+    level:"n/a", 
     year_established:2013, 
-    party_verification:"", 
+    party_verification:"n/a", 
     criteria:"n/a", 
     price:"n/a",
     website:"http://www.enviroaccess.ca/expert-conseil/en/carbon-care-certification/", 
-    accepted_elsewhere:""
+    accepted_elsewhere:"n/a"
     )
 
 # Ecolabel.create(
@@ -261,46 +261,46 @@ Ecolabel.create(
     name:"CarbonFree Certified", 
     description:"The CarbonFree® Product Certification label is aimed at increasing awareness of product emissions and recognizing companies that are compensating for their carbon footprint.", 
     owner_category:"non-profit", 
-    level:"", 
+    level:"n/a", 
     year_established:2007, 
     party_verification:"third", 
     criteria:"n/a", 
     price:"n/a",
     website:"https://carbonfund.org/take-action/businesses/carbonfree-product-certification/product-certification-frequently-asked-questions/", 
-    accepted_elsewhere:""
+    accepted_elsewhere:"n/a"
     )
 # 20
 Ecolabel.create(
     name:"CarbonNeutral", 
     description:"CarbonNeutral® is the registered trademark of The CarbonNeutral Company and is a global standard to certify that businesses have measured and reduced their CO2 emissions to net zero for their company, products, operations or services.", 
     owner_category:"for-profit", 
-    level:"", 
+    level:"n/a", 
     year_established:1998, 
     party_verification:"third", 
     criteria:"n/a", 
     price:"n/a",
     website:"https://www.carbonneutral.com/", 
-    accepted_elsewhere:""
+    accepted_elsewhere:"n/a"
     )
 # 21
 Ecolabel.create(
     name:"Carbon Neutral Certification", 
-    description:"", 
+    description:"n/a", 
     owner_category:"other", 
     level:"A Carbon Neutral Certification is a label given to businesses that offset their Scope 1 and 2 carbon footprint.", 
     year_established:2008, 
-    party_verification:"", 
+    party_verification:"n/a", 
     criteria:"n/a", 
     price:"n/a",
     website:"http://www.verus-co2.com/certification.html", 
-    accepted_elsewhere:""
+    accepted_elsewhere:"n/a"
     )
 # 22
 Ecolabel.create(
     name:"Carbon Reduction Label", 
     description:"The Carbon Reduction Label is a public commitment that the carbon footprint of a product or service has been measured and certified and the owner of the product or service has committed to reduce that footprint over the following two years.", 
     owner_category:"other", 
-    level:"", 
+    level:"n/a", 
     year_established:2007, 
     party_verification:"third", 
     criteria:"n/a", 
@@ -313,7 +313,7 @@ Ecolabel.create(
     name:"Certified Green Dealer", 
     description:"The Certified Green Dealer® Program is a program for certifying US green lumber and building material dealerships.", 
     owner_category:"for-profit", 
-    level:"", 
+    level:"n/a", 
     year_established:2007, 
     party_verification:"n/a", 
     criteria:"n/a", 
@@ -326,7 +326,7 @@ Ecolabel.create(
     name:"Certified Green Restaurant", 
     description:"Green Restaurant Association Seal is an ecolabel for restaurants that have committed to sustainability.", 
     owner_category:"non-profit", 
-    level:"", 
+    level:"n/a", 
     year_established:1990, 
     party_verification:"second", 
     criteria:"n/a", 
@@ -339,7 +339,7 @@ Ecolabel.create(
     name:"Certified Humane Raised and Handled", 
     description:"Designed to certify that animals raised for dairy, lamb, poultry and beef products are treated in a humane manner.", 
     owner_category:"non-profit", 
-    level:"", 
+    level:"n/a", 
     year_established:2003, 
     party_verification:"second", 
     criteria:"n/a", 
@@ -1475,7 +1475,6 @@ EcolabelCategory.create(ecolabel_id: 27, category_id:21) #food
 # Certified Vegan
 EcolabelCategory.create(ecolabel_id: 28, category_id:21) #food
 # Certified Wildlife Friendly
-
 # CertiPUR-US
 EcolabelCategory.create(ecolabel_id: 30, category_id:33) #other
 # CHPS - Collaborative for High Performance Schools
