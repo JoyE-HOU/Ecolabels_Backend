@@ -477,66 +477,71 @@ Ecolabel.create(
     website:"https://www.theclimateregistry.org/", 
     accepted_elsewhere:"yes"
     )
-# Ecolabel.create(
-#     name:"Compostable: Biodegradable Products Institutes Label", 
-#     description:"The BPI's Compostable Logo identifies products that meet ASTM D6400 (for plastics) or ASTM D6868 (for fibre based applications) and will compost satisfactorily in large scale composting facilities.", 
-#     owner_category:"industry association", 
-#     level:"n/a", 
-#     year_established:1999, 
-#     party_verification:"third", 
-#     criteria:"n/a", 
-#     price:"n/a",
-#     website:"https://bpiworld.org/", 
-#     accepted_elsewhere:"yes"
-#     )
-# Ecolabel.create(
-#     name:"Cotton Made in Africa", 
-#     description:"Cotton made in Africa is an initiative by the Aid by Trade Foundation and follows the principles of a Social Business helping people to help themselves by means of trade.", 
-#     owner_category:"non-profit", 
-#     level:"n/a", 
-#     year_established:2005, 
-#     party_verification:"third", 
-#     criteria:"n/a", 
-#     price:"n/a",
-#     website:"https://cottonmadeinafrica.org/en/", 
-#     accepted_elsewhere:"no"
-#     )
-# Ecolabel.create(
-#     name:"Cradle to Cradle Certified (CM) Products Program", 
-#     description:"The Cradle to Cradle Certified(CM) Products Program provides a company with a means to demonstrate efforts in eco-intelligent design.", 
-#     owner_category:"non-profit", 
-#     level:"n/a", 
-#     year_established:2005, 
-#     party_verification:"second", 
-#     criteria:"n/a", 
-#     price:"n/a",
-#     website:"https://www.c2ccertified.org/", 
-#     accepted_elsewhere:"yes"
-#     )
-# Ecolabel.create(
-#     name:"CRI Green Label", 
-#     description:"In 1992, the Carpet and Rug Institute (CRI) launched its Green Label program to test carpet, cushions and adhesives to help specifiers identify products with very low emissions of VOCs.", 
-#     owner_category:"non-profit", 
-#     level:"n/a", 
-#     year_established:2005, 
-#     party_verification:"second", 
-#     criteria:"n/a", 
-#     price:"n/a",
-#     website:"https://carpet-rug.org/", 
-#     accepted_elsewhere:"yes"
-#     )
-# Ecolabel.create(
-#     name:"CSA Sustainable Forest Management", 
-#     description:"The CAN/CSA-Z809 SFM chain-of-custody label demonstrates that forest products have originated from a forest certified to CAN/CSA-Z809 SFM and have been verified to the Canadian Standards Association (CSA) Chain-of-Custody requirements through an independent third party audit.", 
-#     owner_category:"industry association", 
-#     level:"n/a", 
-#     year_established:1996, 
-#     party_verification:"third", 
-#     criteria:"n/a", 
-#     price:"n/a",
-#     website:"n/a", 
-#     accepted_elsewhere:"yes"
-#     )
+# 36
+Ecolabel.create(
+    name:"Compostable: Biodegradable Products Institutes Label", 
+    description:"The BPI's Compostable Logo identifies products that meet ASTM D6400 (for plastics) or ASTM D6868 (for fibre based applications) and will compost satisfactorily in large scale composting facilities.", 
+    owner_category:"industry association", 
+    level:"n/a", 
+    year_established:1999, 
+    party_verification:"third", 
+    criteria:"n/a", 
+    price:"n/a",
+    website:"https://bpiworld.org/", 
+    accepted_elsewhere:"yes"
+    )
+# 37
+Ecolabel.create(
+    name:"Cotton Made in Africa", 
+    description:"Cotton made in Africa is an initiative by the Aid by Trade Foundation and follows the principles of a Social Business helping people to help themselves by means of trade.", 
+    owner_category:"non-profit", 
+    level:"n/a", 
+    year_established:2005, 
+    party_verification:"third", 
+    criteria:"n/a", 
+    price:"n/a",
+    website:"https://cottonmadeinafrica.org/en/", 
+    accepted_elsewhere:"no"
+    )
+# 38
+Ecolabel.create(
+    name:"Cradle to Cradle Certified (CM) Products Program", 
+    description:"The Cradle to Cradle Certified(CM) Products Program provides a company with a means to demonstrate efforts in eco-intelligent design.", 
+    owner_category:"non-profit", 
+    level:"n/a", 
+    year_established:2005, 
+    party_verification:"second", 
+    criteria:"n/a", 
+    price:"n/a",
+    website:"https://www.c2ccertified.org/", 
+    accepted_elsewhere:"yes"
+    )
+# 39
+Ecolabel.create(
+    name:"CRI Green Label", 
+    description:"In 1992, the Carpet and Rug Institute (CRI) launched its Green Label program to test carpet, cushions and adhesives to help specifiers identify products with very low emissions of VOCs.", 
+    owner_category:"non-profit", 
+    level:"n/a", 
+    year_established:2005, 
+    party_verification:"second", 
+    criteria:"n/a", 
+    price:"n/a",
+    website:"https://carpet-rug.org/", 
+    accepted_elsewhere:"yes"
+    )
+# 40
+Ecolabel.create(
+    name:"CSA Sustainable Forest Management", 
+    description:"The CAN/CSA-Z809 SFM chain-of-custody label demonstrates that forest products have originated from a forest certified to CAN/CSA-Z809 SFM and have been verified to the Canadian Standards Association (CSA) Chain-of-Custody requirements through an independent third party audit.", 
+    owner_category:"industry association", 
+    level:"n/a", 
+    year_established:1996, 
+    party_verification:"third", 
+    criteria:"n/a", 
+    price:"n/a",
+    website:"n/a", 
+    accepted_elsewhere:"yes"
+    )
 # Ecolabel.create(
 #     name:"Danish Indoor Climate Label", 
 #     description:"The Danish Indoor Climate label is a tool for development and selection of indoor air quality friendly products and better understanding of the impact of products and materials on the indoor air quality in buildings.", 
@@ -1485,42 +1490,36 @@ EcolabelCategory.create(ecolabel_id: 34, category_id:5) #buildings
 EcolabelCategory.create(ecolabel_id: 34, category_id:33) #other
 # Climate Registered
 EcolabelCategory.create(ecolabel_id: 35, category_id:6) #carbon
+# Compostable: Biodegradable Products Institutes Label
+EcolabelCategory.create(ecolabel_id: 36, category_id:23) #forest products/paper
+EcolabelCategory.create(ecolabel_id: 36, category_id:34) #packaging
+EcolabelCategory.create(ecolabel_id: 36, category_id:33) #other
+# Cotton Made in Africa
+EcolabelCategory.create(ecolabel_id: 37, category_id:11) #commodities
+# Cradle to Cradle Certified (CM) Products Program
+EcolabelCategory.create(ecolabel_id: 38, category_id:1) #appliances
+EcolabelCategory.create(ecolabel_id: 38, category_id:4) #building products
+EcolabelCategory.create(ecolabel_id: 38, category_id:9) #cleaning products
+EcolabelCategory.create(ecolabel_id: 38, category_id:13) #cosmetics/personal care
+EcolabelCategory.create(ecolabel_id: 38, category_id:15) #electronics
+EcolabelCategory.create(ecolabel_id: 38, category_id:23) #forest products/paper
+EcolabelCategory.create(ecolabel_id: 38, category_id:24) #furniture
+EcolabelCategory.create(ecolabel_id: 38, category_id:25) #health care services & equipment
+EcolabelCategory.create(ecolabel_id: 38, category_id:30) #machinery & equipment
+EcolabelCategory.create(ecolabel_id: 38, category_id:43) #textiles
+EcolabelCategory.create(ecolabel_id: 38, category_id:33) #other
+# CRI Green Label
+EcolabelCategory.create(ecolabel_id: 39, category_id:4) #building products
+EcolabelCategory.create(ecolabel_id: 39, category_id:43) #textiles
+# CSA Sustainable Forest Management
+EcolabelCategory.create(ecolabel_id: 40, category_id:23) #forest products/paper
 
 # EcolabelCategory.create(ecolabel_id: 7, category_id:4) #building materials
-
-
-# EcolabelCategory.create(ecolabel_id: 18, category_id:4) #building products
-# EcolabelCategory.create(ecolabel_id: 18, category_id:43) #textiles
-
-# EcolabelCategory.create(ecolabel_id: 19, category_id:23) #forest products/paper
-
 
 # EcolabelCategory.create(ecolabel_id: 33, category_id:13) #cosmetics/personal care
 # EcolabelCategory.create(ecolabel_id: 33, category_id:21) #food
 # EcolabelCategory.create(ecolabel_id: 33, category_id:23) #forest products/paper
 # EcolabelCategory.create(ecolabel_id: 33, category_id:43) #textiles
-
-
-
-
-
-# EcolabelCategory.create(ecolabel_id: 38, category_id:23) #forest products/paper
-# EcolabelCategory.create(ecolabel_id: 38, category_id:34) #packaging
-# EcolabelCategory.create(ecolabel_id: 38, category_id:33) #other
-
-# EcolabelCategory.create(ecolabel_id: 40, category_id:11) #commodities
-
-# EcolabelCategory.create(ecolabel_id: 41, category_id:1) #appliances
-# EcolabelCategory.create(ecolabel_id: 41, category_id:4) #building products
-# EcolabelCategory.create(ecolabel_id: 41, category_id:9) #cleaning products
-# EcolabelCategory.create(ecolabel_id: 41, category_id:13) #cosmetics/personal care
-# EcolabelCategory.create(ecolabel_id: 41, category_id:15) #electronics
-# EcolabelCategory.create(ecolabel_id: 41, category_id:23) #forest products/paper
-# EcolabelCategory.create(ecolabel_id: 41, category_id:24) #furniture
-# EcolabelCategory.create(ecolabel_id: 41, category_id:25) #health care services & equipment
-# EcolabelCategory.create(ecolabel_id: 41, category_id:30) #machinery & equipment
-# EcolabelCategory.create(ecolabel_id: 41, category_id:43) #textiles
-# EcolabelCategory.create(ecolabel_id: 41, category_id:33) #other
 
 # EcolabelCategory.create(ecolabel_id: 42, category_id:4) #building products
 # EcolabelCategory.create(ecolabel_id: 42, category_id:11) #commodities
