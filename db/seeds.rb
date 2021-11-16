@@ -542,66 +542,71 @@ Ecolabel.create(
     website:"n/a", 
     accepted_elsewhere:"yes"
     )
-# Ecolabel.create(
-#     name:"Danish Indoor Climate Label", 
-#     description:"The Danish Indoor Climate label is a tool for development and selection of indoor air quality friendly products and better understanding of the impact of products and materials on the indoor air quality in buildings.", 
-#     owner_category:"non-profit", 
-#     level:"n/a", 
-#     year_established:1993, 
-#     party_verification:"second", 
-#     criteria:"n/a", 
-#     price:"n/a",
-#     website:"n/a", 
-#     accepted_elsewhere:"yes"
-#     )
-# Ecolabel.create(
-#     name:"Declare", 
-#     description:"The goal of Declare is to position the building product sector within a transparent materials economy.", 
-#     owner_category:"non-profit", 
-#     level:"n/a", 
-#     year_established:2011, 
-#     party_verification:"n/a", 
-#     criteria:"n/a", 
-#     price:"n/a",
-#     website:"https://declare.living-future.org/",  
-#     accepted_elsewhere:"yes"
-#     )
-# Ecolabel.create(
-#     name:"Degree of Green", 
-#     description:"The Degree of Green® rating program aims at helping consumers by rating products and explaining those ratings in clear language.", 
-#     owner_category:"other", 
-#     level:"n/a", 
-#     year_established:2008, 
-#     party_verification:"second", 
-#     criteria:"n/a", 
-#     price:"n/a",
-#     website:"https://www.degreeofgreen.com/", 
-#     accepted_elsewhere:"yes"
-#     )
-# Ecolabel.create(
-#     name:"Demeter Biodynamic", 
-#     description:"Demeter Biodynamic® is a certification indicating that Biodynamic farming practices have been used.", 
-#     owner_category:"non-profit", 
-#     level:"n/a", 
-#     year_established:1940, 
-#     party_verification:"second", 
-#     criteria:"n/a", 
-#     price:"n/a",
-#     website:"https://www.demeter-usa.org/", 
-#     accepted_elsewhere:"no"
-#     )
-# Ecolabel.create(
-#     name:"Dolphin Safe/ Dolphin Friendly", 
-#     description:"The Earth Island Institute monitors tuna companies around the world to ensure the tuna is caught by methods that do not harm dolphins and protect the marine ecosystem.", 
-#     owner_category:"non-profit", 
-#     level:"n/a", 
-#     year_established:1990, 
-#     party_verification:"second", 
-#     criteria:"In order for tuna to be considered “Dolphin Safe”, it must meet the following standards: 1. No intentional chasing, netting or encirclement of dolphins during an entire tuna fishing trip; 2. No use of drift gill nets to catch tuna; 3. No accidental killing or serious injury to any dolphins during net sets; 4. No mixing of dolphin-safe and dolphin-deadly tuna in individual boat wells (for accidental kill of dolphins), or in processing or storage facilities; and 5. Each trip in the Eastern Tropical Pacific Ocean (ETP) by vessels 400 gross tons and above must have an independent observer on board attesting to the compliance with points (1) through (4) above.", 
-#     price:"n/a",
-#     website:"http://savedolphins.eii.org/campaigns/dsf/", 
-#     accepted_elsewhere:"yes"
-#     )
+# 41
+Ecolabel.create(
+    name:"Danish Indoor Climate Label", 
+    description:"The Danish Indoor Climate label is a tool for development and selection of indoor air quality friendly products and better understanding of the impact of products and materials on the indoor air quality in buildings.", 
+    owner_category:"non-profit", 
+    level:"n/a", 
+    year_established:1993, 
+    party_verification:"second", 
+    criteria:"n/a", 
+    price:"n/a",
+    website:"n/a", 
+    accepted_elsewhere:"yes"
+    )
+# 42
+Ecolabel.create(
+    name:"Declare", 
+    description:"The goal of Declare is to position the building product sector within a transparent materials economy.", 
+    owner_category:"non-profit", 
+    level:"n/a", 
+    year_established:2011, 
+    party_verification:"n/a", 
+    criteria:"n/a", 
+    price:"n/a",
+    website:"https://declare.living-future.org/",  
+    accepted_elsewhere:"yes"
+    )
+# 43
+Ecolabel.create(
+    name:"Degree of Green", 
+    description:"The Degree of Green® rating program aims at helping consumers by rating products and explaining those ratings in clear language.", 
+    owner_category:"other", 
+    level:"n/a", 
+    year_established:2008, 
+    party_verification:"second", 
+    criteria:"n/a", 
+    price:"n/a",
+    website:"https://www.degreeofgreen.com/", 
+    accepted_elsewhere:"yes"
+    )
+# 44
+Ecolabel.create(
+    name:"Demeter Biodynamic", 
+    description:"Demeter Biodynamic® is a certification indicating that Biodynamic farming practices have been used.", 
+    owner_category:"non-profit", 
+    level:"n/a", 
+    year_established:1940, 
+    party_verification:"second", 
+    criteria:"n/a", 
+    price:"n/a",
+    website:"https://www.demeter-usa.org/", 
+    accepted_elsewhere:"no"
+    )
+# 45
+Ecolabel.create(
+    name:"Dolphin Safe/ Dolphin Friendly", 
+    description:"The Earth Island Institute monitors tuna companies around the world to ensure the tuna is caught by methods that do not harm dolphins and protect the marine ecosystem.", 
+    owner_category:"non-profit", 
+    level:"n/a", 
+    year_established:1990, 
+    party_verification:"second", 
+    criteria:"In order for tuna to be considered “Dolphin Safe”, it must meet the following standards: 1. No intentional chasing, netting or encirclement of dolphins during an entire tuna fishing trip; 2. No use of drift gill nets to catch tuna; 3. No accidental killing or serious injury to any dolphins during net sets; 4. No mixing of dolphin-safe and dolphin-deadly tuna in individual boat wells (for accidental kill of dolphins), or in processing or storage facilities; and 5. Each trip in the Eastern Tropical Pacific Ocean (ETP) by vessels 400 gross tons and above must have an independent observer on board attesting to the compliance with points (1) through (4) above.", 
+    price:"n/a",
+    website:"http://savedolphins.eii.org/campaigns/dsf/", 
+    accepted_elsewhere:"yes"
+    )
 # Ecolabel.create(
 #     name:"DUBOkeur", 
 #     description:"In 2004 NIBE developed a quality label to compare the environmental friendliness of multiple building products.", 
@@ -1512,13 +1517,26 @@ EcolabelCategory.create(ecolabel_id: 39, category_id:4) #building products
 EcolabelCategory.create(ecolabel_id: 39, category_id:43) #textiles
 # CSA Sustainable Forest Management
 EcolabelCategory.create(ecolabel_id: 40, category_id:23) #forest products/paper
+# Danish Indoor Climate Label
+EcolabelCategory.create(ecolabel_id: 41, category_id:23) #forest products/paper
+# Declare
+EcolabelCategory.create(ecolabel_id: 42, category_id:4) #building products
+# Degree of Green
+EcolabelCategory.create(ecolabel_id: 43, category_id:4) #building products
+EcolabelCategory.create(ecolabel_id: 43, category_id:9) #cleaning products
+EcolabelCategory.create(ecolabel_id: 43, category_id:13) #cosmetics/personal care
+EcolabelCategory.create(ecolabel_id: 43, category_id:23) #forest products/paper
+EcolabelCategory.create(ecolabel_id: 43, category_id:43) #textiles
+# Demeter Biodynamic
+EcolabelCategory.create(ecolabel_id: 44, category_id:13) #cosmetics/personal care
+EcolabelCategory.create(ecolabel_id: 44, category_id:21) #food
+EcolabelCategory.create(ecolabel_id: 44, category_id:23) #forest products/paper
+EcolabelCategory.create(ecolabel_id: 44, category_id:43) #textiles
+# Dolphin Safe/ Dolphin Friendly
+EcolabelCategory.create(ecolabel_id: 45, category_id:19) #fish/fisheries
+EcolabelCategory.create(ecolabel_id: 45, category_id:21) #food
 
 # EcolabelCategory.create(ecolabel_id: 7, category_id:4) #building materials
-
-# EcolabelCategory.create(ecolabel_id: 33, category_id:13) #cosmetics/personal care
-# EcolabelCategory.create(ecolabel_id: 33, category_id:21) #food
-# EcolabelCategory.create(ecolabel_id: 33, category_id:23) #forest products/paper
-# EcolabelCategory.create(ecolabel_id: 33, category_id:43) #textiles
 
 # EcolabelCategory.create(ecolabel_id: 42, category_id:4) #building products
 # EcolabelCategory.create(ecolabel_id: 42, category_id:11) #commodities
@@ -1528,21 +1546,10 @@ EcolabelCategory.create(ecolabel_id: 40, category_id:23) #forest products/paper
 # EcolabelCategory.create(ecolabel_id: 43, category_id:24) #furniture
 # EcolabelCategory.create(ecolabel_id: 43, category_id:43) #textiles
 
-# EcolabelCategory.create(ecolabel_id: 44, category_id:4) #building products
-
-# EcolabelCategory.create(ecolabel_id: 45, category_id:4) #building products
-# EcolabelCategory.create(ecolabel_id: 45, category_id:9) #cleaning products
-# EcolabelCategory.create(ecolabel_id: 45, category_id:13) #cosmetics/personal care
-# EcolabelCategory.create(ecolabel_id: 45, category_id:23) #forest products/paper
-# EcolabelCategory.create(ecolabel_id: 45, category_id:43) #textiles
-
 # EcolabelCategory.create(ecolabel_id: 46, category_id:13) #cosmetics/personal care
 # EcolabelCategory.create(ecolabel_id: 46, category_id:21) #food
 # EcolabelCategory.create(ecolabel_id: 46, category_id:23) #forest products/paper
 # EcolabelCategory.create(ecolabel_id: 46, category_id:43) #textiles
-
-# EcolabelCategory.create(ecolabel_id: 47, category_id:19) #fish/fisheries
-# EcolabelCategory.create(ecolabel_id: 47, category_id:21) #food
 
 # EcolabelCategory.create(ecolabel_id: 48, category_id:4) #building products
 # EcolabelCategory.create(ecolabel_id: 48, category_id:9) #cleaning products
