@@ -672,66 +672,71 @@ Ecolabel.create(
     website:"https://iere.org/", 
     accepted_elsewhere:"yes"
     )
-# Ecolabel.create(
-#     name:"Eco3Home", 
-#     description:"Eco3Home is a label for home furnishings in the USA.", 
-#     owner_category:"industry association", 
-#     level:"n/a", 
-#     year_established:2010, 
-#     party_verification:"third", 
-#     criteria:"n/a", 
-#     price:"n/a",
-#     website:"n/a", 
-#     accepted_elsewhere:"no"
-#     )
-# Ecolabel.create(
-#     name:"EcoBroker", 
-#     description:"The EcoBroker logo is a symbol of environmentally responsible and sustainable practices in the real estate industry.", 
-#     owner_category:"industry association", 
-#     level:"n/a", 
-#     year_established:2003, 
-#     party_verification:"second", 
-#     criteria:"n/a", 
-#     price:"n/a",
-#     website:"https://www.ecobroker.com/", 
-#     accepted_elsewhere:"no"
-#     )
-# Ecolabel.create(
-#     name:"Ecocert", 
-#     description:"It is an inspection and certification body established in France by agronomists aware of the need to develop environmentally friendly agriculture and of the importance of offering some form of recognition to those committed to this method of production.", 
-#     owner_category:"for-profit", 
-#     level:"n/a", 
-#     year_established:1991, 
-#     party_verification:"third", 
-#     criteria:"n/a", 
-#     price:"n/a",
-#     website:"https://www.ecocert.com/en/certification", 
-#     accepted_elsewhere:"yes"
-#     )
-# Ecolabel.create(
-#     name:"Eco-Living Seal", 
-#     description:"The eco-living seal is a private label for Living Direct, an online retail company, specializing inconsumer appliances, indoor air quality products, and lawn and garden furniture.", 
-#     owner_category:"for-profit", 
-#     level:"n/a", 
-#     year_established:2008, 
-#     party_verification:"first", 
-#     criteria:"n/a", 
-#     price:"n/a",
-#     website:"https://www.livingdirect.com/", 
-#     accepted_elsewhere:"no"
-#     )
-# Ecolabel.create(
-#     name:"ECOLOGO", 
-#     description:"The ECOLOGO Certification Program was aquired by UL Environment, a division of UL (Underwriters Laboratories) in 2010.", 
-#     owner_category:"for-profit", 
-#     level:"n/a", 
-#     year_established:1988, 
-#     party_verification:"third", 
-#     criteria:"n/a", 
-#     price:"n/a",
-#     website:"https://www.ul.com/resources/ecologo-certification-program", 
-#     accepted_elsewhere:"yes"
-#     )
+# 51
+Ecolabel.create(
+    name:"Eco3Home", 
+    description:"Eco3Home is a label for home furnishings in the USA.", 
+    owner_category:"industry association", 
+    level:"n/a", 
+    year_established:2010, 
+    party_verification:"third", 
+    criteria:"n/a", 
+    price:"n/a",
+    website:"n/a", 
+    accepted_elsewhere:"no"
+    )
+#52
+Ecolabel.create(
+    name:"EcoBroker", 
+    description:"The EcoBroker logo is a symbol of environmentally responsible and sustainable practices in the real estate industry.", 
+    owner_category:"industry association", 
+    level:"n/a", 
+    year_established:2003, 
+    party_verification:"second", 
+    criteria:"n/a", 
+    price:"n/a",
+    website:"https://www.ecobroker.com/", 
+    accepted_elsewhere:"no"
+    )
+# 53
+Ecolabel.create(
+    name:"Ecocert", 
+    description:"It is an inspection and certification body established in France by agronomists aware of the need to develop environmentally friendly agriculture and of the importance of offering some form of recognition to those committed to this method of production.", 
+    owner_category:"for-profit", 
+    level:"n/a", 
+    year_established:1991, 
+    party_verification:"third", 
+    criteria:"n/a", 
+    price:"n/a",
+    website:"https://www.ecocert.com/en/certification", 
+    accepted_elsewhere:"yes"
+    )
+# 54
+Ecolabel.create(
+    name:"Eco-Living Seal", 
+    description:"The eco-living seal is a private label for Living Direct, an online retail company, specializing inconsumer appliances, indoor air quality products, and lawn and garden furniture.", 
+    owner_category:"for-profit", 
+    level:"n/a", 
+    year_established:2008, 
+    party_verification:"first", 
+    criteria:"n/a", 
+    price:"n/a",
+    website:"https://www.livingdirect.com/", 
+    accepted_elsewhere:"no"
+    )
+# 55
+Ecolabel.create(
+    name:"ECOLOGO", 
+    description:"The ECOLOGO Certification Program was aquired by UL Environment, a division of UL (Underwriters Laboratories) in 2010.", 
+    owner_category:"for-profit", 
+    level:"n/a", 
+    year_established:1988, 
+    party_verification:"third", 
+    criteria:"n/a", 
+    price:"n/a",
+    website:"https://www.ul.com/resources/ecologo-certification-program", 
+    accepted_elsewhere:"yes"
+    )
 # Ecolabel.create(
 #     name:"Eco-Schools", 
 #     description:"A programme for environmental management and certification, and sustainable development education, for schools.", 
@@ -1571,6 +1576,28 @@ EcolabelCategory.create(ecolabel_id: 50, category_id:43) #textiles
 EcolabelCategory.create(ecolabel_id: 50, category_id:44) #tourism
 EcolabelCategory.create(ecolabel_id: 50, category_id:45) #transportation
 EcolabelCategory.create(ecolabel_id: 50, category_id:48) #waste management & recycling
+# Eco3Home
+EcolabelCategory.create(ecolabel_id: 51, category_id:24) #furniture
+# EcoBroker
+EcolabelCategory.create(ecolabel_id: 52, category_id:33) #other
+# Ecocert
+EcolabelCategory.create(ecolabel_id: 53, category_id:13) #cosmetics/personal care
+EcolabelCategory.create(ecolabel_id: 53, category_id:21) #food
+EcolabelCategory.create(ecolabel_id: 53, category_id:43) #textiles
+# Eco-Living seal
+EcolabelCategory.create(ecolabel_id: 54, category_id:15) #electronics
+# ECOLOGO
+EcolabelCategory.create(ecolabel_id: 55, category_id:4) #building products
+EcolabelCategory.create(ecolabel_id: 55, category_id:9) #cleaning products
+EcolabelCategory.create(ecolabel_id: 55, category_id:13) #cosmetics/personal care
+EcolabelCategory.create(ecolabel_id: 55, category_id:15) #electronics
+EcolabelCategory.create(ecolabel_id: 55, category_id:16) #energy
+EcolabelCategory.create(ecolabel_id: 55, category_id:23) #forest products/paper
+EcolabelCategory.create(ecolabel_id: 55, category_id:24) #furniture
+EcolabelCategory.create(ecolabel_id: 55, category_id:34) #packaging
+EcolabelCategory.create(ecolabel_id: 55, category_id:43) #textiles
+EcolabelCategory.create(ecolabel_id: 55, category_id:45) #transportation
+EcolabelCategory.create(ecolabel_id: 55, category_id:33) #other
 
 # EcolabelCategory.create(ecolabel_id: 7, category_id:4) #building materials
 
@@ -1583,18 +1610,6 @@ EcolabelCategory.create(ecolabel_id: 50, category_id:48) #waste management & rec
 # EcolabelCategory.create(ecolabel_id: 46, category_id:21) #food
 # EcolabelCategory.create(ecolabel_id: 46, category_id:23) #forest products/paper
 # EcolabelCategory.create(ecolabel_id: 46, category_id:43) #textiles
-
-# EcolabelCategory.create(ecolabel_id: 48, category_id:4) #building products
-# EcolabelCategory.create(ecolabel_id: 48, category_id:9) #cleaning products
-# EcolabelCategory.create(ecolabel_id: 48, category_id:13) #cosmetics/personal care
-# EcolabelCategory.create(ecolabel_id: 48, category_id:15) #electronics
-# EcolabelCategory.create(ecolabel_id: 48, category_id:16) #energy
-# EcolabelCategory.create(ecolabel_id: 48, category_id:23) #forest products/paper
-# EcolabelCategory.create(ecolabel_id: 48, category_id:24) #furniture
-# EcolabelCategory.create(ecolabel_id: 48, category_id:34) #packaging
-# EcolabelCategory.create(ecolabel_id: 48, category_id:43) #textiles
-# EcolabelCategory.create(ecolabel_id: 48, category_id:45) #transportation
-# EcolabelCategory.create(ecolabel_id: 48, category_id:33) #other
 
 # EcolabelCategory.create(ecolabel_id: 49, category_id:1) #appliances
 # EcolabelCategory.create(ecolabel_id: 49, category_id:4) #building products
@@ -1644,19 +1659,9 @@ EcolabelCategory.create(ecolabel_id: 50, category_id:48) #waste management & rec
 # EcolabelCategory.create(ecolabel_id: 39, category_id:44) #tourism
 # EcolabelCategory.create(ecolabel_id: 39, category_id:45) #transportation
 # EcolabelCategory.create(ecolabel_id: 39, category_id:48) #waste management & recycling
-# # Eco-Living seal
-# EcolabelCategory.create(ecolabel_id: 43, category_id:15) #electronics
 # # Eco-Schools
 # EcolabelCategory.create(ecolabel_id: 45, category_id:5) #buildings
 # EcolabelCategory.create(ecolabel_id: 45, category_id:33) #other
-# # Eco3Home
-# EcolabelCategory.create(ecolabel_id: 40, category_id:24) #furniture
-# # EcoBroker
-# EcolabelCategory.create(ecolabel_id: 41, category_id:33) #other
-# # Ecocert
-# EcolabelCategory.create(ecolabel_id: 42, category_id:13) #cosmetics/personal care
-# EcolabelCategory.create(ecolabel_id: 42, category_id:21) #food
-# EcolabelCategory.create(ecolabel_id: 42, category_id:43) #textiles
 # # EnviroStars
 # EcolabelCategory.create(ecolabel_id: 48, category_id:46) #unknown
 # # Environmentally Preferable Product (EPP) Downstream
