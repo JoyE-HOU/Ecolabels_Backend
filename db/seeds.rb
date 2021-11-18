@@ -607,66 +607,71 @@ Ecolabel.create(
     website:"http://savedolphins.eii.org/campaigns/dsf/", 
     accepted_elsewhere:"yes"
     )
-# Ecolabel.create(
-#     name:"DUBOkeur", 
-#     description:"In 2004 NIBE developed a quality label to compare the environmental friendliness of multiple building products.", 
-#     owner_category:"for-profit", 
-#     level:"n/a", 
-#     year_established:2004, 
-#     party_verification:"second", 
-#     criteria:"n/a", 
-#     price:"n/a",
-#     website:"https://www.nibe-sustainability-experts.com/nl/dubokeur-milieuclassificaties", 
-#     accepted_elsewhere:"yes"
-#     )
-# Ecolabel.create(
-#     name:"Earth Advantage", 
-#     description:"Earth Advantage Institute is a nonprofit organization that works with the building industry to help implement sustainable building practices.", 
-#     owner_category:"non-profit", 
-#     level:"n/a", 
-#     year_established:2005, 
-#     party_verification:"third", 
-#     criteria:"n/a", 
-#     price:"n/a",
-#     website:"https://www.earthadvantage.org/", 
-#     accepted_elsewhere:"no"
-#     )
-# Ecolabel.create(
-#     name:"EarthCheck", 
-#     description:"EarthCheck is a benchmarking certification and advisory group for travel and tourism.", 
-#     owner_category:"for-profit", 
-#     level:"n/a", 
-#     year_established:1997, 
-#     party_verification:"third", 
-#     criteria:"n/a", 
-#     price:"n/a",
-#     website:"n/a", 
-#     accepted_elsewhere:"yes"
-#     )
-# Ecolabel.create(
-#     name:"EarthRight Business Certification", 
-#     description:"The EarthRight standards are structured to serve as practical and instructive guidelines for organizations interested in taking a proactive, staged approach to improving their environmental stewardship and financial performance.", 
-#     owner_category:"for-profit", 
-#     level:"n/a", 
-#     year_established:2008, 
-#     party_verification:"second", 
-#     criteria:"n/a", 
-#     price:"n/a",
-#     website:"n/a", 
-#     accepted_elsewhere:"yes"
-#     )
-# Ecolabel.create(
-#     name:"Earthsure", 
-#     description:"The purpose of the Earth sure program is to provide comprehensive environmental data to purchasers (business and individuals) so that the power of the market can moves the economy towards overall environmental improvement.", 
-#     owner_category:"non-profit", 
-#     level:"n/a", 
-#     year_established:2006, 
-#     party_verification:"third", 
-#     criteria:"n/a", 
-#     price:"n/a",
-#     website:"https://iere.org/", 
-#     accepted_elsewhere:"yes"
-#     )
+# 46
+Ecolabel.create(
+    name:"DUBOkeur", 
+    description:"In 2004 NIBE developed a quality label to compare the environmental friendliness of multiple building products.", 
+    owner_category:"for-profit", 
+    level:"n/a", 
+    year_established:2004, 
+    party_verification:"second", 
+    criteria:"n/a", 
+    price:"n/a",
+    website:"https://www.nibe-sustainability-experts.com/nl/dubokeur-milieuclassificaties", 
+    accepted_elsewhere:"yes"
+    )
+# 47
+Ecolabel.create(
+    name:"Earth Advantage", 
+    description:"Earth Advantage Institute is a nonprofit organization that works with the building industry to help implement sustainable building practices.", 
+    owner_category:"non-profit", 
+    level:"n/a", 
+    year_established:2005, 
+    party_verification:"third", 
+    criteria:"n/a", 
+    price:"n/a",
+    website:"https://www.earthadvantage.org/", 
+    accepted_elsewhere:"no"
+    )
+# 48
+Ecolabel.create(
+    name:"EarthCheck", 
+    description:"EarthCheck is a benchmarking certification and advisory group for travel and tourism.", 
+    owner_category:"for-profit", 
+    level:"n/a", 
+    year_established:1997, 
+    party_verification:"third", 
+    criteria:"n/a", 
+    price:"n/a",
+    website:"n/a", 
+    accepted_elsewhere:"yes"
+    )
+# 49
+Ecolabel.create(
+    name:"EarthRight Business Certification", 
+    description:"The EarthRight standards are structured to serve as practical and instructive guidelines for organizations interested in taking a proactive, staged approach to improving their environmental stewardship and financial performance.", 
+    owner_category:"for-profit", 
+    level:"n/a", 
+    year_established:2008, 
+    party_verification:"second", 
+    criteria:"n/a", 
+    price:"n/a",
+    website:"n/a", 
+    accepted_elsewhere:"yes"
+    )
+# 50
+Ecolabel.create(
+    name:"Earthsure", 
+    description:"The purpose of the Earth sure program is to provide comprehensive environmental data to purchasers (business and individuals) so that the power of the market can moves the economy towards overall environmental improvement.", 
+    owner_category:"non-profit", 
+    level:"n/a", 
+    year_established:2006, 
+    party_verification:"third", 
+    criteria:"n/a", 
+    price:"n/a",
+    website:"https://iere.org/", 
+    accepted_elsewhere:"yes"
+    )
 # Ecolabel.create(
 #     name:"Eco3Home", 
 #     description:"Eco3Home is a label for home furnishings in the USA.", 
@@ -1535,11 +1540,39 @@ EcolabelCategory.create(ecolabel_id: 44, category_id:43) #textiles
 # Dolphin Safe/ Dolphin Friendly
 EcolabelCategory.create(ecolabel_id: 45, category_id:19) #fish/fisheries
 EcolabelCategory.create(ecolabel_id: 45, category_id:21) #food
+# DUBOkeur
+EcolabelCategory.create(ecolabel_id: 46, category_id:4) #building products
+EcolabelCategory.create(ecolabel_id: 46, category_id:11) #commodities
+# Earth Advantage
+EcolabelCategory.create(ecolabel_id: 47, category_id:5) #buildings
+# EarthCheck
+EcolabelCategory.create(ecolabel_id: 48, category_id:5) #buildings
+EcolabelCategory.create(ecolabel_id: 48, category_id:6) #carbon
+EcolabelCategory.create(ecolabel_id: 48, category_id:44) #tourism
+EcolabelCategory.create(ecolabel_id: 48, category_id:45) #transportation
+# EarthRight Business Certification
+EcolabelCategory.create(ecolabel_id: 49, category_id:33) #other
+# Earthsure
+EcolabelCategory.create(ecolabel_id: 50, category_id:1) #appliances
+EcolabelCategory.create(ecolabel_id: 50, category_id:4) #building products
+EcolabelCategory.create(ecolabel_id: 50, category_id:5) #buildings
+EcolabelCategory.create(ecolabel_id: 50, category_id:9) #cleaning products
+EcolabelCategory.create(ecolabel_id: 50, category_id:13) #cosmetics/personal care
+EcolabelCategory.create(ecolabel_id: 50, category_id:15) #electronics
+EcolabelCategory.create(ecolabel_id: 50, category_id:18) #financial services
+EcolabelCategory.create(ecolabel_id: 50, category_id:19) #fish/fisheries
+EcolabelCategory.create(ecolabel_id: 50, category_id:21) #food
+EcolabelCategory.create(ecolabel_id: 50, category_id:23) #forest products/paper
+EcolabelCategory.create(ecolabel_id: 50, category_id:25) #health care services & equipment
+EcolabelCategory.create(ecolabel_id: 50, category_id:30) #machinery & equipment
+EcolabelCategory.create(ecolabel_id: 50, category_id:34) #packaging
+EcolabelCategory.create(ecolabel_id: 50, category_id:37) #professional scientific and technical services
+EcolabelCategory.create(ecolabel_id: 50, category_id:43) #textiles
+EcolabelCategory.create(ecolabel_id: 50, category_id:44) #tourism
+EcolabelCategory.create(ecolabel_id: 50, category_id:45) #transportation
+EcolabelCategory.create(ecolabel_id: 50, category_id:48) #waste management & recycling
 
 # EcolabelCategory.create(ecolabel_id: 7, category_id:4) #building materials
-
-# EcolabelCategory.create(ecolabel_id: 42, category_id:4) #building products
-# EcolabelCategory.create(ecolabel_id: 42, category_id:11) #commodities
 
 # EcolabelCategory.create(ecolabel_id: 43, category_id:4) #building products
 # EcolabelCategory.create(ecolabel_id: 43, category_id:5) #buildings
