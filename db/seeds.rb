@@ -115,7 +115,7 @@ Ecolabel.create(
     )
 # 9
 Ecolabel.create(
-    name:"Better Environmental Sustainabilty Targets (BEST) Standard 1001", 
+    name:"Better Environmental Sustainability Targets (BEST) Standard 1001", 
     description:"The Better Environmental Sustainability Targets (BEST) certification provides recognition for lead battery manufacturers that meet minimum emission standards and agree to take back used batteries for environmentally sound recycling.", 
     owner_category:"non-profit", 
     level:"company", 
@@ -167,6 +167,19 @@ Ecolabel.create(
     )
 # 13
 Ecolabel.create(
+    name:"bluesign standard", 
+    description:"The bluesign® standard brings together the entire textile manufacturing chain to jointly reduce the ecological footprint of a responsibly acting textile industry.", 
+    owner_category:"for-profit", 
+    level:"company", 
+    year_established:2001, 
+    party_verification:"second", 
+    criteria:"n/a", 
+    price:"n/a",
+    website:"https://www.bluesign.com/en", 
+    accepted_elsewhere:"yes"
+    )
+# 14
+Ecolabel.create(
     name:"BREEAM", 
     description:"BREEAM (BRE Environmental Assessment Method) is an environmental assessment method for buildings around the world.", 
     owner_category:"non-profit", 
@@ -178,9 +191,9 @@ Ecolabel.create(
     website:"https://www.breeam.com/", 
     accepted_elsewhere:"yes"
     )
-# 14
+# 15
 Ecolabel.create(
-    name:"BRE Global Cetified Environmental Profile", 
+    name:"BRE Global Certified Environmental Profile", 
     description:"Environmental profiles measure the impacts of a construction material, product or building system throughout its life – not only during its manufacture, but also its use in a building over a typical building lifetime.", 
     owner_category:"non-profit", 
     level:"n/a", 
@@ -191,9 +204,9 @@ Ecolabel.create(
     website:"https://www.greenbooklive.com/search/scheme.jsp?id=9", 
     accepted_elsewhere:"yes"
     )
-# 15
+# 16
 Ecolabel.create(
-    name:"Burnwise EPA", 
+    name:"Burn wise EPA", 
     description:"Burn Wise is a partnership program of the U.S. Environmental Protection Agency that emphasizes the importance of burning the right wood, the right way, in the right wood-burning appliance to protect your home, health, and the air we breathe.", 
     owner_category:"government", 
     level:"n/a", 
@@ -204,7 +217,7 @@ Ecolabel.create(
     website:"https://www.epa.gov/burnwise", 
     accepted_elsewhere:"n/a"
     )
-# 16
+# 17
 Ecolabel.create(
     name:"C.A.F.E. Practices", 
     description:"Coffee and Farmer Equity (C.A.F.E.) Practices evaluates, recognizes and rewards producers of high-quality sustainably grown coffee for Starbucks stores.", 
@@ -217,7 +230,7 @@ Ecolabel.create(
     website:"https://www.starbucks.com/responsibility/sourcing/coffee", 
     accepted_elsewhere:"n/a"
     )
-# 17
+# 18
 Ecolabel.create(
     name:"California Certified Organic Farmers - CCOF", 
     description:"CCOF promotes and supports organic food and agriculture through a premier organic certification program, trade support, producer and consumer education and political advocacy.", 
@@ -230,7 +243,7 @@ Ecolabel.create(
     website:"https://www.ccof.org/", 
     accepted_elsewhere:"n/a"
     )
-# 18
+# 19
 Ecolabel.create(
     name:"Carbon Care Certification", 
     description:"The Carbon Care certification offered by Enviro-access recognizes organizations’ efforts to responsibly manage and reduce greenhouse gases (GHGs).", 
@@ -243,20 +256,7 @@ Ecolabel.create(
     website:"http://www.enviroaccess.ca/expert-conseil/en/carbon-care-certification/", 
     accepted_elsewhere:"n/a"
     )
-
-# Ecolabel.create(
-#     name:"bluesign standard", 
-#     description:"The bluesign® standard brings together the entire textile manufacturing chain to jointly reduce the ecological footprint of a responsibly acting textile industry.", 
-#     owner_category:"for-profit", 
-#     level:"company", 
-#     year_established:2001, 
-#     party_verification:"second", 
-#     criteria:"n/a", 
-#     price:"n/a",
-#     website:"https://www.bluesign.com/en", 
-#     accepted_elsewhere:"yes"
-#     )
-# 19
+# 20
 Ecolabel.create(
     name:"CarbonFree Certified", 
     description:"The CarbonFree® Product Certification label is aimed at increasing awareness of product emissions and recognizing companies that are compensating for their carbon footprint.", 
@@ -269,7 +269,7 @@ Ecolabel.create(
     website:"https://carbonfund.org/take-action/businesses/carbonfree-product-certification/product-certification-frequently-asked-questions/", 
     accepted_elsewhere:"n/a"
     )
-# 20
+# 21
 Ecolabel.create(
     name:"CarbonNeutral", 
     description:"CarbonNeutral® is the registered trademark of The CarbonNeutral Company and is a global standard to certify that businesses have measured and reduced their CO2 emissions to net zero for their company, products, operations or services.", 
@@ -282,7 +282,7 @@ Ecolabel.create(
     website:"https://www.carbonneutral.com/", 
     accepted_elsewhere:"n/a"
     )
-# 21
+# 22
 Ecolabel.create(
     name:"Carbon Neutral Certification", 
     description:"n/a", 
@@ -295,7 +295,7 @@ Ecolabel.create(
     website:"http://www.verus-co2.com/certification.html", 
     accepted_elsewhere:"n/a"
     )
-# 22
+# 23
 Ecolabel.create(
     name:"Carbon Reduction Label", 
     description:"The Carbon Reduction Label is a public commitment that the carbon footprint of a product or service has been measured and certified and the owner of the product or service has committed to reduce that footprint over the following two years.", 
@@ -308,7 +308,7 @@ Ecolabel.create(
     website:"https://www.carbontrust.com/what-we-do", 
     accepted_elsewhere:"yes"
     )
-#23
+#24
 Ecolabel.create(
     name:"Certified Green Dealer", 
     description:"The Certified Green Dealer® Program is a program for certifying US green lumber and building material dealerships.", 
@@ -321,7 +321,7 @@ Ecolabel.create(
     website:"n/a", 
     accepted_elsewhere:"no"
     )
-# 24
+# 25
 Ecolabel.create(
     name:"Certified Green Restaurant", 
     description:"Green Restaurant Association Seal is an ecolabel for restaurants that have committed to sustainability.", 
@@ -334,7 +334,7 @@ Ecolabel.create(
     website:"https://www.dinegreen.com/", 
     accepted_elsewhere:"yes"
     )
-# 25
+# 26
 Ecolabel.create(
     name:"Certified Humane Raised and Handled", 
     description:"Designed to certify that animals raised for dairy, lamb, poultry and beef products are treated in a humane manner.", 
@@ -347,7 +347,7 @@ Ecolabel.create(
     website:"https://certifiedhumane.org/", 
     accepted_elsewhere:"no"
     )
-# 26
+# 27
 Ecolabel.create(
     name:"Certified Naturally Grown", 
     description:"Certified Naturally Grown is a grassroots alternative to the USDA's National Organic Program meant primarily for direct-market farmers and beekeepers distributing through local channels such as farmer's markets, roadside stands, local restaurants, Community Supported Agriculture (CSA) programs and small local grocery stores.", 
@@ -360,7 +360,7 @@ Ecolabel.create(
     website:"https://www.cngfarming.org/", 
     accepted_elsewhere:"yes"
     )
-# 27
+# 28
 Ecolabel.create(
     name:"Certified Pesticide Residue Free", 
     description:"Means that products are tested for pesticide residues and sets limits of detection for each specific pesticide residues. However this label does not mean that there were no pesticides used.", 
@@ -373,7 +373,7 @@ Ecolabel.create(
     website:"n/a", 
     accepted_elsewhere:"no"
     )
-# 28
+# 29
 Ecolabel.create(
     name:"Certified Vegan", 
     description:"Signifies that products are vegan, defined as containing no animal ingredients or by-products, using no animal ingredients or by-products in the manufacturing process, and not tested on animals by any company or independent contractor.", 
@@ -386,7 +386,7 @@ Ecolabel.create(
     website:"https://vegan.org/", 
     accepted_elsewhere:"no"
     )
-# 29
+# 30
 Ecolabel.create(
     name:"Certified Wildlife Friendly", 
     description:"Products may be certified by WFEN if: The product contributes directly to in situ conservation of key species; Production has a positive impact on the local economy; Individuals or communities living with wildlife participate in the production, harvest, processing or manufacture of the product; The product’s conservation mission includes a clear enforcement mechanism, such that failure to follow through with required conservation actions results in immediate consequences, including forfeiture of any economic reward.", 
@@ -399,7 +399,7 @@ Ecolabel.create(
     website:"http://wildlifefriendly.org/", 
     accepted_elsewhere:"yes"
     )
-# 30
+# 31
 Ecolabel.create(
     name:"CertiPUR-US", 
     description:"CertiPUR-US® tests for durability, content and indoor emissions.", 
@@ -412,7 +412,7 @@ Ecolabel.create(
     website:"https://certipur.us/", 
     accepted_elsewhere:"yes"
     )
-# 31
+# 32
 Ecolabel.create(
     name:"CHPS - Collaborative for High Performance Schools", 
     description:"CHPS is leading a national movement to improve student performance and the entire educational experience by building the best possible schools.", 
@@ -425,7 +425,7 @@ Ecolabel.create(
     website:"n/a", 
     accepted_elsewhere:"no"
     )
-# 32
+# 33
 Ecolabel.create(
     name:"Cleaner and Greener Certification", 
     description:"The Cleaner & Greener program promotes the reporting and offsetting of emissions by companies, organizations, buildings, events and transportation fleets.", 
@@ -438,7 +438,7 @@ Ecolabel.create(
     website:"http://www.cleanerandgreener.org/", 
     accepted_elsewhere:"yes"
     )
-# 33
+# 34
 Ecolabel.create(
     name:"Cleaning Industry Management Standard (CIMS)", 
     description:"CIMS is an organizational Standard and certification program that applies to management, operations, performance systems, and processes.", 
@@ -451,7 +451,7 @@ Ecolabel.create(
     website:"https://www.issa.com/certification-standards/cleaning-industry-management-standard-cims", 
     accepted_elsewhere:"yes"
     )
-# 34
+# 35
 Ecolabel.create(
     name:"Clean Marine Green Leaf Eco-Rating Program", 
     description:"The Ontario Marine Operators Association (OMOA) along with over twenty marine industry professionals and Ontario’s boaters’ and anglers’ associations formed the Clean Marine Partnership to develop a voluntary program of 'Environmental Best Practices' for the marine industry that is recognized as the leader in North America.", 
@@ -464,7 +464,7 @@ Ecolabel.create(
     website:"n/a", 
     accepted_elsewhere:"yes"
     )
-# 35
+# 36
 Ecolabel.create(
     name:"Climate Registered", 
     description:"The Climate Registry is a non-profit organization that sets consistent and transparent standards to calculate, verify and publicly report greenhouse gas (GHG) emissions into a single registry.", 
@@ -477,7 +477,7 @@ Ecolabel.create(
     website:"https://www.theclimateregistry.org/", 
     accepted_elsewhere:"yes"
     )
-# 36
+# 37
 Ecolabel.create(
     name:"Compostable: Biodegradable Products Institutes Label", 
     description:"The BPI's Compostable Logo identifies products that meet ASTM D6400 (for plastics) or ASTM D6868 (for fibre based applications) and will compost satisfactorily in large scale composting facilities.", 
@@ -490,7 +490,7 @@ Ecolabel.create(
     website:"https://bpiworld.org/", 
     accepted_elsewhere:"yes"
     )
-# 37
+# 38
 Ecolabel.create(
     name:"Cotton Made in Africa", 
     description:"Cotton made in Africa is an initiative by the Aid by Trade Foundation and follows the principles of a Social Business helping people to help themselves by means of trade.", 
@@ -503,7 +503,7 @@ Ecolabel.create(
     website:"https://cottonmadeinafrica.org/en/", 
     accepted_elsewhere:"no"
     )
-# 38
+# 39
 Ecolabel.create(
     name:"Cradle to Cradle Certified (CM) Products Program", 
     description:"The Cradle to Cradle Certified(CM) Products Program provides a company with a means to demonstrate efforts in eco-intelligent design.", 
@@ -516,7 +516,7 @@ Ecolabel.create(
     website:"https://www.c2ccertified.org/", 
     accepted_elsewhere:"yes"
     )
-# 39
+# 40
 Ecolabel.create(
     name:"CRI Green Label", 
     description:"In 1992, the Carpet and Rug Institute (CRI) launched its Green Label program to test carpet, cushions and adhesives to help specifiers identify products with very low emissions of VOCs.", 
@@ -529,7 +529,7 @@ Ecolabel.create(
     website:"https://carpet-rug.org/", 
     accepted_elsewhere:"yes"
     )
-# 40
+# 41
 Ecolabel.create(
     name:"CSA Sustainable Forest Management", 
     description:"The CAN/CSA-Z809 SFM chain-of-custody label demonstrates that forest products have originated from a forest certified to CAN/CSA-Z809 SFM and have been verified to the Canadian Standards Association (CSA) Chain-of-Custody requirements through an independent third party audit.", 
@@ -542,7 +542,7 @@ Ecolabel.create(
     website:"n/a", 
     accepted_elsewhere:"yes"
     )
-# 41
+# 42
 Ecolabel.create(
     name:"Danish Indoor Climate Label", 
     description:"The Danish Indoor Climate label is a tool for development and selection of indoor air quality friendly products and better understanding of the impact of products and materials on the indoor air quality in buildings.", 
@@ -555,7 +555,7 @@ Ecolabel.create(
     website:"n/a", 
     accepted_elsewhere:"yes"
     )
-# 42
+# 43
 Ecolabel.create(
     name:"Declare", 
     description:"The goal of Declare is to position the building product sector within a transparent materials economy.", 
@@ -568,7 +568,7 @@ Ecolabel.create(
     website:"https://declare.living-future.org/",  
     accepted_elsewhere:"yes"
     )
-# 43
+# 44
 Ecolabel.create(
     name:"Degree of Green", 
     description:"The Degree of Green® rating program aims at helping consumers by rating products and explaining those ratings in clear language.", 
@@ -581,7 +581,7 @@ Ecolabel.create(
     website:"https://www.degreeofgreen.com/", 
     accepted_elsewhere:"yes"
     )
-# 44
+# 45
 Ecolabel.create(
     name:"Demeter Biodynamic", 
     description:"Demeter Biodynamic® is a certification indicating that Biodynamic farming practices have been used.", 
@@ -594,7 +594,7 @@ Ecolabel.create(
     website:"https://www.demeter-usa.org/", 
     accepted_elsewhere:"no"
     )
-# 45
+# 46
 Ecolabel.create(
     name:"Dolphin Safe/ Dolphin Friendly", 
     description:"The Earth Island Institute monitors tuna companies around the world to ensure the tuna is caught by methods that do not harm dolphins and protect the marine ecosystem.", 
@@ -607,7 +607,7 @@ Ecolabel.create(
     website:"http://savedolphins.eii.org/campaigns/dsf/", 
     accepted_elsewhere:"yes"
     )
-# 46
+# 47
 Ecolabel.create(
     name:"DUBOkeur", 
     description:"In 2004 NIBE developed a quality label to compare the environmental friendliness of multiple building products.", 
@@ -620,7 +620,7 @@ Ecolabel.create(
     website:"https://www.nibe-sustainability-experts.com/nl/dubokeur-milieuclassificaties", 
     accepted_elsewhere:"yes"
     )
-# 47
+# 48
 Ecolabel.create(
     name:"Earth Advantage", 
     description:"Earth Advantage Institute is a nonprofit organization that works with the building industry to help implement sustainable building practices.", 
@@ -633,7 +633,7 @@ Ecolabel.create(
     website:"https://www.earthadvantage.org/", 
     accepted_elsewhere:"no"
     )
-# 48
+# 49
 Ecolabel.create(
     name:"EarthCheck", 
     description:"EarthCheck is a benchmarking certification and advisory group for travel and tourism.", 
@@ -646,7 +646,7 @@ Ecolabel.create(
     website:"n/a", 
     accepted_elsewhere:"yes"
     )
-# 49
+# 50
 Ecolabel.create(
     name:"EarthRight Business Certification", 
     description:"The EarthRight standards are structured to serve as practical and instructive guidelines for organizations interested in taking a proactive, staged approach to improving their environmental stewardship and financial performance.", 
@@ -659,7 +659,7 @@ Ecolabel.create(
     website:"n/a", 
     accepted_elsewhere:"yes"
     )
-# 50
+# 51
 Ecolabel.create(
     name:"Earthsure", 
     description:"The purpose of the Earth sure program is to provide comprehensive environmental data to purchasers (business and individuals) so that the power of the market can moves the economy towards overall environmental improvement.", 
@@ -672,7 +672,7 @@ Ecolabel.create(
     website:"https://iere.org/", 
     accepted_elsewhere:"yes"
     )
-# 51
+# 52
 Ecolabel.create(
     name:"Eco3Home", 
     description:"Eco3Home is a label for home furnishings in the USA.", 
@@ -685,7 +685,7 @@ Ecolabel.create(
     website:"n/a", 
     accepted_elsewhere:"no"
     )
-#52
+#53
 Ecolabel.create(
     name:"EcoBroker", 
     description:"The EcoBroker logo is a symbol of environmentally responsible and sustainable practices in the real estate industry.", 
@@ -698,7 +698,7 @@ Ecolabel.create(
     website:"https://www.ecobroker.com/", 
     accepted_elsewhere:"no"
     )
-# 53
+# 54
 Ecolabel.create(
     name:"Ecocert", 
     description:"It is an inspection and certification body established in France by agronomists aware of the need to develop environmentally friendly agriculture and of the importance of offering some form of recognition to those committed to this method of production.", 
@@ -711,7 +711,7 @@ Ecolabel.create(
     website:"https://www.ecocert.com/en/certification", 
     accepted_elsewhere:"yes"
     )
-# 54
+# 55
 Ecolabel.create(
     name:"Eco-Living Seal", 
     description:"The eco-living seal is a private label for Living Direct, an online retail company, specializing inconsumer appliances, indoor air quality products, and lawn and garden furniture.", 
@@ -724,7 +724,7 @@ Ecolabel.create(
     website:"https://www.livingdirect.com/", 
     accepted_elsewhere:"no"
     )
-# 55
+# 56
 Ecolabel.create(
     name:"ECOLOGO", 
     description:"The ECOLOGO Certification Program was aquired by UL Environment, a division of UL (Underwriters Laboratories) in 2010.", 
@@ -737,7 +737,7 @@ Ecolabel.create(
     website:"https://www.ul.com/resources/ecologo-certification-program", 
     accepted_elsewhere:"yes"
     )
-# 56
+# 57
 Ecolabel.create(
     name:"Eco-Schools", 
     description:"A programme for environmental management and certification, and sustainable development education, for schools.", 
@@ -750,7 +750,7 @@ Ecolabel.create(
     website:"https://www.ecoschools.global/", 
     accepted_elsewhere:"yes"
     )
-# 57
+# 58
 Ecolabel.create(
     name:"ENERGY STAR: USA", 
     description:"ENERGY STAR is a voluntary government-backed program dedicated to helping individuals protect the environment through energy efficiency.", 
@@ -763,7 +763,7 @@ Ecolabel.create(
     website:"https://www.energystar.gov/", 
     accepted_elsewhere:"yes"
     )
-# 58
+# 59
 Ecolabel.create(
     name:"Environmentally Preferable Product (EPP) Downstream", 
     description:"The Composite Panel Association’s (CPA) Environmentally Preferable Panel (EPP) Downstream Program is an easy way for consumers to identify environmentally responsible composite wood products.", 
@@ -776,7 +776,7 @@ Ecolabel.create(
     website:"n/a",
     accepted_elsewhere:"yes"
     )
-# 59
+# 60
 Ecolabel.create(
     name:"EnviroStars", 
     description:"EnviroStars is an environmental certification program designed to address hazardous wastes being generated by small businesses in Washington State.", 
@@ -789,7 +789,7 @@ Ecolabel.create(
     website:"https://envirostars.org/",
     accepted_elsewhere:"no"
     )
-# 60
+# 61
 Ecolabel.create(
     name:"EPA Lead-Safe Certification", 
     description:"The EPA mandates that all renovation and repair contractors working in pre-1978 homes, schools, and day care centers who disrupt more than six square feet of lead paint are required to become EPA Lead-Safe Certified in lead-safe work practices.", 
@@ -802,54 +802,58 @@ Ecolabel.create(
     website:"n/a",
     accepted_elsewhere:"no"
     )
-# Ecolabel.create(
-#     name:"EPA SmartWay", 
-#     description:"To earn the SmartWay designation, a vehicle must receive a combined score from both scales that is much better than the average vehicle.", 
-#     owner_category:"government", 
-#     level:"n/a", 
-#     year_established:2005, 
-#     party_verification:"first", 
-#     criteria:"n/a", 
-#     price:"n/a",
-#     website:"n/a",
-#     accepted_elsewhere:"no"
-#     )
-# Ecolabel.create(
-#     name:"EPEAT", 
-#     description:"EPEAT is a global rating system for greener electronics.", 
-#     owner_category:"non-profit", 
-#     level:"n/a", 
-#     year_established:2006, 
-#     party_verification:"third", 
-#     criteria:"n/a", 
-#     price:"n/a",
-#     website:"https://www.epeat.net/",
-#     accepted_elsewhere:"yes"
-#     )
-# Ecolabel.create(
-#     name:"Equitable Origin Certified", 
-#     description:"Our mission is to protect people and the environment by helping to ensure that oil and gas exploration and production is conducted to the highest social and environmental standards.", 
-#     owner_category:"for-profit", 
-#     level:"n/a", 
-#     year_established:2014, 
-#     party_verification:"third", 
-#     criteria:"n/a", 
-#     price:"n/a",
-#     website:"https://www.equitableorigin.org/",
-#     accepted_elsewhere:"no"
-#     )
-# Ecolabel.create(
-#     name:"e-Stewards Certification", 
-#     description:"e-Stewards Certification is a global program designed to enable individuals and organizations who dispose of their old electronic equipment to easily identify recyclers that adhere to the highest standard of environmental responsibility and worker protection.", 
-#     owner_category:"non-profit", 
-#     level:"n/a", 
-#     year_established:2003, 
-#     party_verification:"third", 
-#     criteria:"n/a", 
-#     price:"n/a",
-#     website:"http://e-stewards.org/",
-#     accepted_elsewhere:"yes"
-#     )
+# 62
+Ecolabel.create(
+    name:"EPA SmartWay", 
+    description:"To earn the SmartWay designation, a vehicle must receive a combined score from both scales that is much better than the average vehicle.", 
+    owner_category:"government", 
+    level:"n/a", 
+    year_established:2005, 
+    party_verification:"first", 
+    criteria:"n/a", 
+    price:"n/a",
+    website:"n/a",
+    accepted_elsewhere:"no"
+    )
+# 63
+Ecolabel.create(
+    name:"EPEAT", 
+    description:"EPEAT is a global rating system for greener electronics.", 
+    owner_category:"non-profit", 
+    level:"n/a", 
+    year_established:2006, 
+    party_verification:"third", 
+    criteria:"n/a", 
+    price:"n/a",
+    website:"https://www.epeat.net/",
+    accepted_elsewhere:"yes"
+    )
+# 64
+Ecolabel.create(
+    name:"Equitable Origin Certified", 
+    description:"Our mission is to protect people and the environment by helping to ensure that oil and gas exploration and production is conducted to the highest social and environmental standards.", 
+    owner_category:"for-profit", 
+    level:"n/a", 
+    year_established:2014, 
+    party_verification:"third", 
+    criteria:"n/a", 
+    price:"n/a",
+    website:"https://www.equitableorigin.org/",
+    accepted_elsewhere:"no"
+    )
+# 65
+Ecolabel.create(
+    name:"e-Stewards Certification", 
+    description:"e-Stewards Certification is a global program designed to enable individuals and organizations who dispose of their old electronic equipment to easily identify recyclers that adhere to the highest standard of environmental responsibility and worker protection.", 
+    owner_category:"non-profit", 
+    level:"n/a", 
+    year_established:2003, 
+    party_verification:"third", 
+    criteria:"n/a", 
+    price:"n/a",
+    website:"http://e-stewards.org/",
+    accepted_elsewhere:"yes"
+    )
 # Ecolabel.create(
 #     name:"EU Ecolabel", 
 #     description:"A voluntary scheme designed to encourage businesses to market products and services that are kinder to the environment and for European consumers - including public and private purchasers - to easily identify them.", 
@@ -1408,217 +1412,227 @@ EcolabelCategory.create(ecolabel_id: 12, category_id:43) #textiles
 EcolabelCategory.create(ecolabel_id: 12, category_id:44) #tourism
 EcolabelCategory.create(ecolabel_id: 12, category_id:45) #transportation
 EcolabelCategory.create(ecolabel_id: 12, category_id:48) #waste management & recycling
+# bluesign standard
 # BREEAM
-EcolabelCategory.create(ecolabel_id: 13, category_id:5) #buildings
+EcolabelCategory.create(ecolabel_id: 14, category_id:5) #buildings
 # BRE Global Certified Environmental Profile
-EcolabelCategory.create(ecolabel_id: 14, category_id:4) #building products
-# Burn Wise EPA
 EcolabelCategory.create(ecolabel_id: 15, category_id:4) #building products
-EcolabelCategory.create(ecolabel_id: 15, category_id:16) #energy
-EcolabelCategory.create(ecolabel_id: 15, category_id:33) #other
+# Burn Wise EPA
+EcolabelCategory.create(ecolabel_id: 16, category_id:4) #building products
+EcolabelCategory.create(ecolabel_id: 16, category_id:16) #energy
+EcolabelCategory.create(ecolabel_id: 16, category_id:33) #other
 # C.A.F.E. Practices
-EcolabelCategory.create(ecolabel_id: 16, category_id:21) #food
-# California Certified Organic Farmers - CCOF
 EcolabelCategory.create(ecolabel_id: 17, category_id:21) #food
-EcolabelCategory.create(ecolabel_id: 17, category_id:33) #other
+# California Certified Organic Farmers - CCOF
+EcolabelCategory.create(ecolabel_id: 18, category_id:21) #food
+EcolabelCategory.create(ecolabel_id: 18, category_id:33) #other
 # Carbon Care Certification
-EcolabelCategory.create(ecolabel_id: 18, category_id:46) #unknown
+EcolabelCategory.create(ecolabel_id: 19, category_id:46) #unknown
 # CarbonFree Certified
-EcolabelCategory.create(ecolabel_id: 19, category_id:1) #appliances
-EcolabelCategory.create(ecolabel_id: 19, category_id:4) #building products
-EcolabelCategory.create(ecolabel_id: 19, category_id:7) #carbon offsets
-EcolabelCategory.create(ecolabel_id: 19, category_id:9) #cleaning products
-EcolabelCategory.create(ecolabel_id: 19, category_id:13) #cosmetics/personal care
-EcolabelCategory.create(ecolabel_id: 19, category_id:15) #electronics
-EcolabelCategory.create(ecolabel_id: 19, category_id:21) #food
-EcolabelCategory.create(ecolabel_id: 19, category_id:23) #forest products/paper
-EcolabelCategory.create(ecolabel_id: 19, category_id:30) #machinery & equipment
-EcolabelCategory.create(ecolabel_id: 19, category_id:34) #packaging
-EcolabelCategory.create(ecolabel_id: 19, category_id:43) #textiles
-# CarbonNeutral
-EcolabelCategory.create(ecolabel_id: 20, category_id:6) #carbon
+EcolabelCategory.create(ecolabel_id: 20, category_id:1) #appliances
+EcolabelCategory.create(ecolabel_id: 20, category_id:4) #building products
 EcolabelCategory.create(ecolabel_id: 20, category_id:7) #carbon offsets
-# Carbon Neutral Certification
-EcolabelCategory.create(ecolabel_id: 21, category_id:4) #building products
+EcolabelCategory.create(ecolabel_id: 20, category_id:9) #cleaning products
+EcolabelCategory.create(ecolabel_id: 20, category_id:13) #cosmetics/personal care
+EcolabelCategory.create(ecolabel_id: 20, category_id:15) #electronics
+EcolabelCategory.create(ecolabel_id: 20, category_id:21) #food
+EcolabelCategory.create(ecolabel_id: 20, category_id:23) #forest products/paper
+EcolabelCategory.create(ecolabel_id: 20, category_id:30) #machinery & equipment
+EcolabelCategory.create(ecolabel_id: 20, category_id:34) #packaging
+EcolabelCategory.create(ecolabel_id: 20, category_id:43) #textiles
+# CarbonNeutral
 EcolabelCategory.create(ecolabel_id: 21, category_id:6) #carbon
 EcolabelCategory.create(ecolabel_id: 21, category_id:7) #carbon offsets
-EcolabelCategory.create(ecolabel_id: 21, category_id:9) #cleaning products
-EcolabelCategory.create(ecolabel_id: 21, category_id:13) #cosmetics/personal care
-EcolabelCategory.create(ecolabel_id: 21, category_id:15) #electronics
-EcolabelCategory.create(ecolabel_id: 21, category_id:16) #energy
-EcolabelCategory.create(ecolabel_id: 21, category_id:21) #food
-EcolabelCategory.create(ecolabel_id: 21, category_id:23) #forest products/paper
-EcolabelCategory.create(ecolabel_id: 21, category_id:25) #health care services & equipment
-EcolabelCategory.create(ecolabel_id: 21, category_id:30) #machinery & equipment
-EcolabelCategory.create(ecolabel_id: 21, category_id:34) #packaging
-EcolabelCategory.create(ecolabel_id: 21, category_id:43) #textiles
-EcolabelCategory.create(ecolabel_id: 21, category_id:44) #tourism
-EcolabelCategory.create(ecolabel_id: 21, category_id:45) #transportation
-EcolabelCategory.create(ecolabel_id: 21, category_id:48) #waste management & recycling
-# Carbon Reduction Label
-EcolabelCategory.create(ecolabel_id: 22, category_id:1) #appliances
+# Carbon Neutral Certification
 EcolabelCategory.create(ecolabel_id: 22, category_id:4) #building products
 EcolabelCategory.create(ecolabel_id: 22, category_id:6) #carbon
+EcolabelCategory.create(ecolabel_id: 22, category_id:7) #carbon offsets
 EcolabelCategory.create(ecolabel_id: 22, category_id:9) #cleaning products
 EcolabelCategory.create(ecolabel_id: 22, category_id:13) #cosmetics/personal care
 EcolabelCategory.create(ecolabel_id: 22, category_id:15) #electronics
 EcolabelCategory.create(ecolabel_id: 22, category_id:16) #energy
-EcolabelCategory.create(ecolabel_id: 22, category_id:18) #financial services
 EcolabelCategory.create(ecolabel_id: 22, category_id:21) #food
 EcolabelCategory.create(ecolabel_id: 22, category_id:23) #forest products/paper
 EcolabelCategory.create(ecolabel_id: 22, category_id:25) #health care services & equipment
 EcolabelCategory.create(ecolabel_id: 22, category_id:30) #machinery & equipment
-EcolabelCategory.create(ecolabel_id: 22, category_id:37) #professional scientific and technical services
+EcolabelCategory.create(ecolabel_id: 22, category_id:34) #packaging
 EcolabelCategory.create(ecolabel_id: 22, category_id:43) #textiles
 EcolabelCategory.create(ecolabel_id: 22, category_id:44) #tourism
 EcolabelCategory.create(ecolabel_id: 22, category_id:45) #transportation
 EcolabelCategory.create(ecolabel_id: 22, category_id:48) #waste management & recycling
-EcolabelCategory.create(ecolabel_id: 22, category_id:49) #water
-# Certified Green Dealer
+# Carbon Reduction Label
+EcolabelCategory.create(ecolabel_id: 23, category_id:1) #appliances
 EcolabelCategory.create(ecolabel_id: 23, category_id:4) #building products
+EcolabelCategory.create(ecolabel_id: 23, category_id:6) #carbon
+EcolabelCategory.create(ecolabel_id: 23, category_id:9) #cleaning products
+EcolabelCategory.create(ecolabel_id: 23, category_id:13) #cosmetics/personal care
+EcolabelCategory.create(ecolabel_id: 23, category_id:15) #electronics
+EcolabelCategory.create(ecolabel_id: 23, category_id:16) #energy
+EcolabelCategory.create(ecolabel_id: 23, category_id:18) #financial services
+EcolabelCategory.create(ecolabel_id: 23, category_id:21) #food
 EcolabelCategory.create(ecolabel_id: 23, category_id:23) #forest products/paper
+EcolabelCategory.create(ecolabel_id: 23, category_id:25) #health care services & equipment
+EcolabelCategory.create(ecolabel_id: 23, category_id:30) #machinery & equipment
+EcolabelCategory.create(ecolabel_id: 23, category_id:37) #professional scientific and technical services
+EcolabelCategory.create(ecolabel_id: 23, category_id:43) #textiles
+EcolabelCategory.create(ecolabel_id: 23, category_id:44) #tourism
+EcolabelCategory.create(ecolabel_id: 23, category_id:45) #transportation
+EcolabelCategory.create(ecolabel_id: 23, category_id:48) #waste management & recycling
+EcolabelCategory.create(ecolabel_id: 23, category_id:49) #water
+# Certified Green Dealer
+EcolabelCategory.create(ecolabel_id: 24, category_id:4) #building products
+EcolabelCategory.create(ecolabel_id: 24, category_id:23) #forest products/paper
 # Certified Green Restaurant
-EcolabelCategory.create(ecolabel_id: 24, category_id:1) #appliances
-EcolabelCategory.create(ecolabel_id: 24, category_id:19) #fish/fisheries
-EcolabelCategory.create(ecolabel_id: 24, category_id:21) #food
-EcolabelCategory.create(ecolabel_id: 24, category_id:34) #packaging
-EcolabelCategory.create(ecolabel_id: 24, category_id:44) #tourism
-EcolabelCategory.create(ecolabel_id: 24, category_id:48) #waste management & recycling
-# Certified Humane Raised and Handled
+EcolabelCategory.create(ecolabel_id: 25, category_id:1) #appliances
+EcolabelCategory.create(ecolabel_id: 25, category_id:19) #fish/fisheries
 EcolabelCategory.create(ecolabel_id: 25, category_id:21) #food
-EcolabelCategory.create(ecolabel_id: 25, category_id:43) #textiles
-EcolabelCategory.create(ecolabel_id: 25, category_id:33) #other
-# Certified Naturally Grown
+EcolabelCategory.create(ecolabel_id: 25, category_id:34) #packaging
+EcolabelCategory.create(ecolabel_id: 25, category_id:44) #tourism
+EcolabelCategory.create(ecolabel_id: 25, category_id:48) #waste management & recycling
+# Certified Humane Raised and Handled
 EcolabelCategory.create(ecolabel_id: 26, category_id:21) #food
-# Certified Pesticide Residue Free
+EcolabelCategory.create(ecolabel_id: 26, category_id:43) #textiles
+EcolabelCategory.create(ecolabel_id: 26, category_id:33) #other
+# Certified Naturally Grown
 EcolabelCategory.create(ecolabel_id: 27, category_id:21) #food
-# Certified Vegan
+# Certified Pesticide Residue Free
 EcolabelCategory.create(ecolabel_id: 28, category_id:21) #food
+# Certified Vegan
+EcolabelCategory.create(ecolabel_id: 29, category_id:21) #food
 # Certified Wildlife Friendly
 # CertiPUR-US
-EcolabelCategory.create(ecolabel_id: 30, category_id:33) #other
+EcolabelCategory.create(ecolabel_id: 31, category_id:33) #other
 # CHPS - Collaborative for High Performance Schools
-EcolabelCategory.create(ecolabel_id: 31, category_id:4) #building products
-EcolabelCategory.create(ecolabel_id: 31, category_id:5) #buildings
+EcolabelCategory.create(ecolabel_id: 32, category_id:4) #building products
+EcolabelCategory.create(ecolabel_id: 32, category_id:5) #buildings
 # Cleaner and Greener Certification
-EcolabelCategory.create(ecolabel_id: 32, category_id:45) #transportation
+EcolabelCategory.create(ecolabel_id: 33, category_id:45) #transportation
 # Cleaning Industry Management Standard (CIMS)
-EcolabelCategory.create(ecolabel_id: 33, category_id:33) #other
-# Clean Marine Green Leaf Eco-Rating Program
-EcolabelCategory.create(ecolabel_id: 34, category_id:5) #buildings
 EcolabelCategory.create(ecolabel_id: 34, category_id:33) #other
+# Clean Marine Green Leaf Eco-Rating Program
+EcolabelCategory.create(ecolabel_id: 35, category_id:5) #buildings
+EcolabelCategory.create(ecolabel_id: 35, category_id:33) #other
 # Climate Registered
-EcolabelCategory.create(ecolabel_id: 35, category_id:6) #carbon
+EcolabelCategory.create(ecolabel_id: 36, category_id:6) #carbon
 # Compostable: Biodegradable Products Institutes Label
-EcolabelCategory.create(ecolabel_id: 36, category_id:23) #forest products/paper
-EcolabelCategory.create(ecolabel_id: 36, category_id:34) #packaging
-EcolabelCategory.create(ecolabel_id: 36, category_id:33) #other
+EcolabelCategory.create(ecolabel_id: 37, category_id:23) #forest products/paper
+EcolabelCategory.create(ecolabel_id: 37, category_id:34) #packaging
+EcolabelCategory.create(ecolabel_id: 37, category_id:33) #other
 # Cotton Made in Africa
-EcolabelCategory.create(ecolabel_id: 37, category_id:11) #commodities
+EcolabelCategory.create(ecolabel_id: 38, category_id:11) #commodities
 # Cradle to Cradle Certified (CM) Products Program
-EcolabelCategory.create(ecolabel_id: 38, category_id:1) #appliances
-EcolabelCategory.create(ecolabel_id: 38, category_id:4) #building products
-EcolabelCategory.create(ecolabel_id: 38, category_id:9) #cleaning products
-EcolabelCategory.create(ecolabel_id: 38, category_id:13) #cosmetics/personal care
-EcolabelCategory.create(ecolabel_id: 38, category_id:15) #electronics
-EcolabelCategory.create(ecolabel_id: 38, category_id:23) #forest products/paper
-EcolabelCategory.create(ecolabel_id: 38, category_id:24) #furniture
-EcolabelCategory.create(ecolabel_id: 38, category_id:25) #health care services & equipment
-EcolabelCategory.create(ecolabel_id: 38, category_id:30) #machinery & equipment
-EcolabelCategory.create(ecolabel_id: 38, category_id:43) #textiles
-EcolabelCategory.create(ecolabel_id: 38, category_id:33) #other
-# CRI Green Label
+EcolabelCategory.create(ecolabel_id: 39, category_id:1) #appliances
 EcolabelCategory.create(ecolabel_id: 39, category_id:4) #building products
+EcolabelCategory.create(ecolabel_id: 39, category_id:9) #cleaning products
+EcolabelCategory.create(ecolabel_id: 39, category_id:13) #cosmetics/personal care
+EcolabelCategory.create(ecolabel_id: 39, category_id:15) #electronics
+EcolabelCategory.create(ecolabel_id: 39, category_id:23) #forest products/paper
+EcolabelCategory.create(ecolabel_id: 39, category_id:24) #furniture
+EcolabelCategory.create(ecolabel_id: 39, category_id:25) #health care services & equipment
+EcolabelCategory.create(ecolabel_id: 39, category_id:30) #machinery & equipment
 EcolabelCategory.create(ecolabel_id: 39, category_id:43) #textiles
+EcolabelCategory.create(ecolabel_id: 39, category_id:33) #other
+# CRI Green Label
+EcolabelCategory.create(ecolabel_id: 40, category_id:4) #building products
+EcolabelCategory.create(ecolabel_id: 40, category_id:43) #textiles
 # CSA Sustainable Forest Management
-EcolabelCategory.create(ecolabel_id: 40, category_id:23) #forest products/paper
-# Danish Indoor Climate Label
 EcolabelCategory.create(ecolabel_id: 41, category_id:23) #forest products/paper
+# Danish Indoor Climate Label
+EcolabelCategory.create(ecolabel_id: 42, category_id:23) #forest products/paper
 # Declare
-EcolabelCategory.create(ecolabel_id: 42, category_id:4) #building products
-# Degree of Green
 EcolabelCategory.create(ecolabel_id: 43, category_id:4) #building products
-EcolabelCategory.create(ecolabel_id: 43, category_id:9) #cleaning products
-EcolabelCategory.create(ecolabel_id: 43, category_id:13) #cosmetics/personal care
-EcolabelCategory.create(ecolabel_id: 43, category_id:23) #forest products/paper
-EcolabelCategory.create(ecolabel_id: 43, category_id:43) #textiles
-# Demeter Biodynamic
+# Degree of Green
+EcolabelCategory.create(ecolabel_id: 44, category_id:4) #building products
+EcolabelCategory.create(ecolabel_id: 44, category_id:9) #cleaning products
 EcolabelCategory.create(ecolabel_id: 44, category_id:13) #cosmetics/personal care
-EcolabelCategory.create(ecolabel_id: 44, category_id:21) #food
 EcolabelCategory.create(ecolabel_id: 44, category_id:23) #forest products/paper
 EcolabelCategory.create(ecolabel_id: 44, category_id:43) #textiles
-# Dolphin Safe/ Dolphin Friendly
-EcolabelCategory.create(ecolabel_id: 45, category_id:19) #fish/fisheries
+# Demeter Biodynamic
+EcolabelCategory.create(ecolabel_id: 45, category_id:13) #cosmetics/personal care
 EcolabelCategory.create(ecolabel_id: 45, category_id:21) #food
+EcolabelCategory.create(ecolabel_id: 45, category_id:23) #forest products/paper
+EcolabelCategory.create(ecolabel_id: 45, category_id:43) #textiles
+# Dolphin Safe/ Dolphin Friendly
+EcolabelCategory.create(ecolabel_id: 46, category_id:19) #fish/fisheries
+EcolabelCategory.create(ecolabel_id: 46, category_id:21) #food
 # DUBOkeur
-EcolabelCategory.create(ecolabel_id: 46, category_id:4) #building products
-EcolabelCategory.create(ecolabel_id: 46, category_id:11) #commodities
+EcolabelCategory.create(ecolabel_id: 47, category_id:4) #building products
+EcolabelCategory.create(ecolabel_id: 47, category_id:11) #commodities
 # Earth Advantage
-EcolabelCategory.create(ecolabel_id: 47, category_id:5) #buildings
-# EarthCheck
 EcolabelCategory.create(ecolabel_id: 48, category_id:5) #buildings
-EcolabelCategory.create(ecolabel_id: 48, category_id:6) #carbon
-EcolabelCategory.create(ecolabel_id: 48, category_id:44) #tourism
-EcolabelCategory.create(ecolabel_id: 48, category_id:45) #transportation
+# EarthCheck
+EcolabelCategory.create(ecolabel_id: 49, category_id:5) #buildings
+EcolabelCategory.create(ecolabel_id: 49, category_id:6) #carbon
+EcolabelCategory.create(ecolabel_id: 49, category_id:44) #tourism
+EcolabelCategory.create(ecolabel_id: 49, category_id:45) #transportation
 # EarthRight Business Certification
-EcolabelCategory.create(ecolabel_id: 49, category_id:33) #other
+EcolabelCategory.create(ecolabel_id: 50, category_id:33) #other
 # Earthsure
-EcolabelCategory.create(ecolabel_id: 50, category_id:1) #appliances
-EcolabelCategory.create(ecolabel_id: 50, category_id:4) #building products
-EcolabelCategory.create(ecolabel_id: 50, category_id:5) #buildings
-EcolabelCategory.create(ecolabel_id: 50, category_id:9) #cleaning products
-EcolabelCategory.create(ecolabel_id: 50, category_id:13) #cosmetics/personal care
-EcolabelCategory.create(ecolabel_id: 50, category_id:15) #electronics
-EcolabelCategory.create(ecolabel_id: 50, category_id:18) #financial services
-EcolabelCategory.create(ecolabel_id: 50, category_id:19) #fish/fisheries
-EcolabelCategory.create(ecolabel_id: 50, category_id:21) #food
-EcolabelCategory.create(ecolabel_id: 50, category_id:23) #forest products/paper
-EcolabelCategory.create(ecolabel_id: 50, category_id:25) #health care services & equipment
-EcolabelCategory.create(ecolabel_id: 50, category_id:30) #machinery & equipment
-EcolabelCategory.create(ecolabel_id: 50, category_id:34) #packaging
-EcolabelCategory.create(ecolabel_id: 50, category_id:37) #professional scientific and technical services
-EcolabelCategory.create(ecolabel_id: 50, category_id:43) #textiles
-EcolabelCategory.create(ecolabel_id: 50, category_id:44) #tourism
-EcolabelCategory.create(ecolabel_id: 50, category_id:45) #transportation
-EcolabelCategory.create(ecolabel_id: 50, category_id:48) #waste management & recycling
+EcolabelCategory.create(ecolabel_id: 51, category_id:1) #appliances
+EcolabelCategory.create(ecolabel_id: 51, category_id:4) #building products
+EcolabelCategory.create(ecolabel_id: 51, category_id:5) #buildings
+EcolabelCategory.create(ecolabel_id: 51, category_id:9) #cleaning products
+EcolabelCategory.create(ecolabel_id: 51, category_id:13) #cosmetics/personal care
+EcolabelCategory.create(ecolabel_id: 51, category_id:15) #electronics
+EcolabelCategory.create(ecolabel_id: 51, category_id:18) #financial services
+EcolabelCategory.create(ecolabel_id: 51, category_id:19) #fish/fisheries
+EcolabelCategory.create(ecolabel_id: 51, category_id:21) #food
+EcolabelCategory.create(ecolabel_id: 51, category_id:23) #forest products/paper
+EcolabelCategory.create(ecolabel_id: 51, category_id:25) #health care services & equipment
+EcolabelCategory.create(ecolabel_id: 51, category_id:30) #machinery & equipment
+EcolabelCategory.create(ecolabel_id: 51, category_id:34) #packaging
+EcolabelCategory.create(ecolabel_id: 51, category_id:37) #professional scientific and technical services
+EcolabelCategory.create(ecolabel_id: 51, category_id:43) #textiles
+EcolabelCategory.create(ecolabel_id: 51, category_id:44) #tourism
+EcolabelCategory.create(ecolabel_id: 51, category_id:45) #transportation
+EcolabelCategory.create(ecolabel_id: 51, category_id:48) #waste management & recycling
 # Eco3Home
-EcolabelCategory.create(ecolabel_id: 51, category_id:24) #furniture
+EcolabelCategory.create(ecolabel_id: 52, category_id:24) #furniture
 # EcoBroker
-EcolabelCategory.create(ecolabel_id: 52, category_id:33) #other
+EcolabelCategory.create(ecolabel_id: 53, category_id:33) #other
 # Ecocert
-EcolabelCategory.create(ecolabel_id: 53, category_id:13) #cosmetics/personal care
-EcolabelCategory.create(ecolabel_id: 53, category_id:21) #food
-EcolabelCategory.create(ecolabel_id: 53, category_id:43) #textiles
+EcolabelCategory.create(ecolabel_id: 54, category_id:13) #cosmetics/personal care
+EcolabelCategory.create(ecolabel_id: 54, category_id:21) #food
+EcolabelCategory.create(ecolabel_id: 54, category_id:43) #textiles
 # Eco-Living seal
-EcolabelCategory.create(ecolabel_id: 54, category_id:15) #electronics
-# ECOLOGO
-EcolabelCategory.create(ecolabel_id: 55, category_id:4) #building products
-EcolabelCategory.create(ecolabel_id: 55, category_id:9) #cleaning products
-EcolabelCategory.create(ecolabel_id: 55, category_id:13) #cosmetics/personal care
 EcolabelCategory.create(ecolabel_id: 55, category_id:15) #electronics
-EcolabelCategory.create(ecolabel_id: 55, category_id:16) #energy
-EcolabelCategory.create(ecolabel_id: 55, category_id:23) #forest products/paper
-EcolabelCategory.create(ecolabel_id: 55, category_id:24) #furniture
-EcolabelCategory.create(ecolabel_id: 55, category_id:34) #packaging
-EcolabelCategory.create(ecolabel_id: 55, category_id:43) #textiles
-EcolabelCategory.create(ecolabel_id: 55, category_id:45) #transportation
-EcolabelCategory.create(ecolabel_id: 55, category_id:33) #other
-# Eco-Schools
-EcolabelCategory.create(ecolabel_id: 56, category_id:5) #buildings
+# ECOLOGO
+EcolabelCategory.create(ecolabel_id: 56, category_id:4) #building products
+EcolabelCategory.create(ecolabel_id: 56, category_id:9) #cleaning products
+EcolabelCategory.create(ecolabel_id: 56, category_id:13) #cosmetics/personal care
+EcolabelCategory.create(ecolabel_id: 56, category_id:15) #electronics
+EcolabelCategory.create(ecolabel_id: 56, category_id:16) #energy
+EcolabelCategory.create(ecolabel_id: 56, category_id:23) #forest products/paper
+EcolabelCategory.create(ecolabel_id: 56, category_id:24) #furniture
+EcolabelCategory.create(ecolabel_id: 56, category_id:34) #packaging
+EcolabelCategory.create(ecolabel_id: 56, category_id:43) #textiles
+EcolabelCategory.create(ecolabel_id: 56, category_id:45) #transportation
 EcolabelCategory.create(ecolabel_id: 56, category_id:33) #other
-# ENERGY STAR: USA
-EcolabelCategory.create(ecolabel_id: 57, category_id:1) #appliances
-EcolabelCategory.create(ecolabel_id: 57, category_id:4) #building products
+# Eco-Schools
 EcolabelCategory.create(ecolabel_id: 57, category_id:5) #buildings
-EcolabelCategory.create(ecolabel_id: 57, category_id:15) #electronics
-EcolabelCategory.create(ecolabel_id: 57, category_id:30) #machinery & equipment
-# Environmentally Preferable Product (EPP) Downstream
+EcolabelCategory.create(ecolabel_id: 57, category_id:33) #other
+# ENERGY STAR: USA
+EcolabelCategory.create(ecolabel_id: 58, category_id:1) #appliances
 EcolabelCategory.create(ecolabel_id: 58, category_id:4) #building products
-EcolabelCategory.create(ecolabel_id: 58, category_id:23) #forest products/paper
+EcolabelCategory.create(ecolabel_id: 58, category_id:5) #buildings
+EcolabelCategory.create(ecolabel_id: 58, category_id:15) #electronics
+EcolabelCategory.create(ecolabel_id: 58, category_id:30) #machinery & equipment
+# Environmentally Preferable Product (EPP) Downstream
+EcolabelCategory.create(ecolabel_id: 59, category_id:4) #building products
+EcolabelCategory.create(ecolabel_id: 59, category_id:23) #forest products/paper
 # EnviroStars
-EcolabelCategory.create(ecolabel_id: 59, category_id:46) #unknown
-# EPA Lead-Safe Certification
 EcolabelCategory.create(ecolabel_id: 60, category_id:46) #unknown
+# EPA Lead-Safe Certification
+EcolabelCategory.create(ecolabel_id: 61, category_id:46) #unknown
+# EPA SmartWay
+EcolabelCategory.create(ecolabel_id: 62, category_id:45) #transportation
+# EPEAT
+EcolabelCategory.create(ecolabel_id: 63, category_id:15) #electronics
+# Equitable Origin Certified
+EcolabelCategory.create(ecolabel_id: 64, category_id:11) #commodities
+EcolabelCategory.create(ecolabel_id: 64, category_id:16) #energy
+EcolabelCategory.create(ecolabel_id: 64, category_id:33) #other
+# e-Stewards Certification
 
 # EcolabelCategory.create(ecolabel_id: 7, category_id:4) #building materials
 
@@ -1632,10 +1646,6 @@ EcolabelCategory.create(ecolabel_id: 60, category_id:46) #unknown
 # EcolabelCategory.create(ecolabel_id: 46, category_id:23) #forest products/paper
 # EcolabelCategory.create(ecolabel_id: 46, category_id:43) #textiles
 
-# # EPA SmartWay
-# EcolabelCategory.create(ecolabel_id: 50, category_id:45) #transportation
-# # EPEAT
-# EcolabelCategory.create(ecolabel_id: 51, category_id:15) #electronics
 # # EU Ecolabel
 # EcolabelCategory.create(ecolabel_id: 54, category_id:1) #appliances
 # EcolabelCategory.create(ecolabel_id: 54, category_id:4) #building products
@@ -1645,38 +1655,6 @@ EcolabelCategory.create(ecolabel_id: 60, category_id:46) #unknown
 # EcolabelCategory.create(ecolabel_id: 54, category_id:43) #textiles
 # EcolabelCategory.create(ecolabel_id: 54, category_id:44) #tourism
 # EcolabelCategory.create(ecolabel_id: 54, category_id:33) #other
-# # Earth Advantage
-# EcolabelCategory.create(ecolabel_id: 36, category_id:5) #buildings
-# # EarthCheck
-# EcolabelCategory.create(ecolabel_id: 37, category_id:5) #buildings
-# EcolabelCategory.create(ecolabel_id: 37, category_id:6) #carbon
-# EcolabelCategory.create(ecolabel_id: 37, category_id:44) #tourism
-# EcolabelCategory.create(ecolabel_id: 37, category_id:45) #transportation
-# # EarthRight Business Certification
-# EcolabelCategory.create(ecolabel_id: 38, category_id:33) #other
-# # Earthsure
-# EcolabelCategory.create(ecolabel_id: 39, category_id:1) #appliances
-# EcolabelCategory.create(ecolabel_id: 39, category_id:4) #building products
-# EcolabelCategory.create(ecolabel_id: 39, category_id:5) #buildings
-# EcolabelCategory.create(ecolabel_id: 39, category_id:9) #cleaning products
-# EcolabelCategory.create(ecolabel_id: 39, category_id:13) #cosmetics/personal care
-# EcolabelCategory.create(ecolabel_id: 39, category_id:15) #electronics
-# EcolabelCategory.create(ecolabel_id: 39, category_id:18) #financial services
-# EcolabelCategory.create(ecolabel_id: 39, category_id:19) #fish/fisheries
-# EcolabelCategory.create(ecolabel_id: 39, category_id:21) #food
-# EcolabelCategory.create(ecolabel_id: 39, category_id:23) #forest products/paper
-# EcolabelCategory.create(ecolabel_id: 39, category_id:25) #health care services & equipment
-# EcolabelCategory.create(ecolabel_id: 39, category_id:30) #machinery & equipment
-# EcolabelCategory.create(ecolabel_id: 39, category_id:34) #packaging
-# EcolabelCategory.create(ecolabel_id: 39, category_id:37) #professional scientific and technical services
-# EcolabelCategory.create(ecolabel_id: 39, category_id:43) #textiles
-# EcolabelCategory.create(ecolabel_id: 39, category_id:44) #tourism
-# EcolabelCategory.create(ecolabel_id: 39, category_id:45) #transportation
-# EcolabelCategory.create(ecolabel_id: 39, category_id:48) #waste management & recycling
-# # Equitable Origin Certified
-# EcolabelCategory.create(ecolabel_id: 52, category_id:11) #commodities
-# EcolabelCategory.create(ecolabel_id: 52, category_id:16) #energy
-# EcolabelCategory.create(ecolabel_id: 52, category_id:33) #other
 # # Fair Labor Practices and Community Benefits
 # EcolabelCategory.create(ecolabel_id: 55, category_id:21) #food
 # EcolabelCategory.create(ecolabel_id: 55, category_id:43) #textiles
