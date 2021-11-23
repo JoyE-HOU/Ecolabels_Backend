@@ -854,66 +854,72 @@ Ecolabel.create(
     website:"http://e-stewards.org/",
     accepted_elsewhere:"yes"
     )
-# Ecolabel.create(
-#     name:"EU Ecolabel", 
-#     description:"A voluntary scheme designed to encourage businesses to market products and services that are kinder to the environment and for European consumers - including public and private purchasers - to easily identify them.", 
-#     owner_category:"government", 
-#     level:"n/a", 
-#     year_established:1992, 
-#     party_verification:"third", 
-#     criteria:"n/a", 
-#     price:"n/a",
-#     website:"https://ec.europa.eu/environment/ecolabel/index_en.htm",
-#     accepted_elsewhere:"yes"
-#     )
-# Ecolabel.create(
-#     name:"Fair Labor Practices and Community Benefits", 
-#     description:"Social responsibility certification to complement Organic Fair Labor Practices and Community Benefits certification – developed by Scientific Certification Systems (SCS) in conjunction with key stakeholders – validates socially responsible practices in agricultural production and processing.", 
-#     owner_category:"for-profit", 
-#     level:"n/a", 
-#     year_established:2007, 
-#     party_verification:"second", 
-#     criteria:"n/a", 
-#     price:"n/a",
-#     website:"https://www.scsglobalservices.com/services/fair-trade-certification?scscertified=1",
-#     accepted_elsewhere:"yes"
-#     )
-# Ecolabel.create(
-#     name:"Fairtrade", 
-#     description:"Fairtrade offers farmers and workers in developing countries a better deal, and the opportunity to improve their lives and invest in their future.", 
-#     owner_category:"non-profit", 
-#     level:"n/a", 
-#     year_established:1997, 
-#     party_verification:"third", 
-#     criteria:"n/a", 
-#     price:"n/a",
-#     website:"https://www.fairtrade.net/",
-#     accepted_elsewhere:"yes"
-#     )
-# Ecolabel.create(
-#     name:"Fair Trade Certified", 
-#     description:"Fair Trade is a market-based approach to alleviating poverty in ways that improve lives and protect the environment.", 
-#     owner_category:"non-profit", 
-#     level:"n/a", 
-#     year_established:1998, 
-#     party_verification:"third", 
-#     criteria:"n/a", 
-#     price:"n/a",
-#     website:"https://www.fairtradecertified.org/",
-#     accepted_elsewhere:"yes"
-#     )
-# Ecolabel.create(
-#     name:"FairWild", 
-#     description:"FairWild aims to provide a worldwide framework for implementing a sustainable, fair and value-added management and trading system for wild-collected natural ingredients and products thereof.", 
-#     owner_category:"non-profit", 
-#     level:"n/a", 
-#     year_established:2007, 
-#     party_verification:"third", 
-#     criteria:"n/a", 
-#     price:"n/a",
-#     website:"https://www.fairwild.org/",
-#     accepted_elsewhere:"yes"
-#     )
+# 66
+Ecolabel.create(
+    name:"EU Ecolabel", 
+    description:"A voluntary scheme designed to encourage businesses to market products and services that are kinder to the environment and for European consumers - including public and private purchasers - to easily identify them.", 
+    owner_category:"government", 
+    level:"n/a", 
+    year_established:1992, 
+    party_verification:"third", 
+    criteria:"n/a", 
+    price:"n/a",
+    website:"https://ec.europa.eu/environment/ecolabel/index_en.htm",
+    accepted_elsewhere:"yes"
+    )
+# 67
+Ecolabel.create(
+    name:"Fair Labor Practices and Community Benefits", 
+    description:"Social responsibility certification to complement Organic Fair Labor Practices and Community Benefits certification – developed by Scientific Certification Systems (SCS) in conjunction with key stakeholders – validates socially responsible practices in agricultural production and processing.", 
+    owner_category:"for-profit", 
+    level:"n/a", 
+    year_established:2007, 
+    party_verification:"second", 
+    criteria:"n/a", 
+    price:"n/a",
+    website:"https://www.scsglobalservices.com/services/fair-trade-certification?scscertified=1",
+    accepted_elsewhere:"yes"
+    )
+# 68
+Ecolabel.create(
+    name:"Fairtrade", 
+    description:"Fairtrade offers farmers and workers in developing countries a better deal, and the opportunity to improve their lives and invest in their future.", 
+    owner_category:"non-profit", 
+    level:"n/a", 
+    year_established:1997, 
+    party_verification:"third", 
+    criteria:"n/a", 
+    price:"n/a",
+    website:"https://www.fairtrade.net/",
+    accepted_elsewhere:"yes"
+    )
+# 69
+Ecolabel.create(
+    name:"Fair Trade Certified", 
+    description:"Fair Trade is a market-based approach to alleviating poverty in ways that improve lives and protect the environment.", 
+    owner_category:"non-profit", 
+    level:"n/a", 
+    year_established:1998, 
+    party_verification:"third", 
+    criteria:"n/a", 
+    price:"n/a",
+    website:"https://www.fairtradecertified.org/",
+    accepted_elsewhere:"yes"
+    )
+# 70
+Ecolabel.create(
+    name:"FairWild", 
+    description:"FairWild aims to provide a worldwide framework for implementing a sustainable, fair and value-added management and trading system for wild-collected natural ingredients and products thereof.", 
+    owner_category:"non-profit", 
+    level:"n/a", 
+    year_established:2007, 
+    party_verification:"third", 
+    criteria:"n/a", 
+    price:"n/a",
+    website:"https://www.fairwild.org/",
+    accepted_elsewhere:"yes"
+    )
+# 71
 # Ecolabel.create(
 #     name:"Farm and Ranch Certification Program", 
 #     description:"Distinguishes farmers and ranchers who: provide safe and fair working conditions, provide healthy and humane treatment of animals; raise animals without added hormones and antibiotics; raise crops without genetically modified organisms; reduce pesticides usage and toxicity; conserve soil and water resources; preserve and protect wildlife habitat; and, commit to continuous improvement of these practices.", 
@@ -1633,6 +1639,33 @@ EcolabelCategory.create(ecolabel_id: 64, category_id:11) #commodities
 EcolabelCategory.create(ecolabel_id: 64, category_id:16) #energy
 EcolabelCategory.create(ecolabel_id: 64, category_id:33) #other
 # e-Stewards Certification
+# EU Ecolabel
+EcolabelCategory.create(ecolabel_id: 66, category_id:1) #appliances
+EcolabelCategory.create(ecolabel_id: 66, category_id:4) #building products
+EcolabelCategory.create(ecolabel_id: 66, category_id:9) #cleaning products
+EcolabelCategory.create(ecolabel_id: 66, category_id:15) #electronics
+EcolabelCategory.create(ecolabel_id: 66, category_id:23) #forest products/paper
+EcolabelCategory.create(ecolabel_id: 66, category_id:43) #textiles
+EcolabelCategory.create(ecolabel_id: 66, category_id:44) #tourism
+EcolabelCategory.create(ecolabel_id: 66, category_id:33) #other
+# Fair Labor Practices and Community Benefits
+EcolabelCategory.create(ecolabel_id: 67, category_id:21) #food
+EcolabelCategory.create(ecolabel_id: 67, category_id:43) #textiles
+# Fairtrade
+EcolabelCategory.create(ecolabel_id: 68, category_id:13) #cosmetics/personal care
+EcolabelCategory.create(ecolabel_id: 68, category_id:21) #food
+EcolabelCategory.create(ecolabel_id: 68, category_id:43) #textiles
+EcolabelCategory.create(ecolabel_id: 68, category_id:33) #other
+# Fair Trade Certified
+EcolabelCategory.create(ecolabel_id: 69, category_id:11) #commodities
+EcolabelCategory.create(ecolabel_id: 69, category_id:19) #fish/fisheries
+EcolabelCategory.create(ecolabel_id: 69, category_id:21) #food
+EcolabelCategory.create(ecolabel_id: 69, category_id:43) #textiles
+EcolabelCategory.create(ecolabel_id: 69, category_id:33) #other
+# FairWild
+EcolabelCategory.create(ecolabel_id: 70, category_id:13) #cosmetics/personal care
+EcolabelCategory.create(ecolabel_id: 70, category_id:21) #food
+EcolabelCategory.create(ecolabel_id: 70, category_id:23) #forest products/paper
 
 # EcolabelCategory.create(ecolabel_id: 7, category_id:4) #building materials
 
@@ -1646,33 +1679,6 @@ EcolabelCategory.create(ecolabel_id: 64, category_id:33) #other
 # EcolabelCategory.create(ecolabel_id: 46, category_id:23) #forest products/paper
 # EcolabelCategory.create(ecolabel_id: 46, category_id:43) #textiles
 
-# # EU Ecolabel
-# EcolabelCategory.create(ecolabel_id: 54, category_id:1) #appliances
-# EcolabelCategory.create(ecolabel_id: 54, category_id:4) #building products
-# EcolabelCategory.create(ecolabel_id: 54, category_id:9) #cleaning products
-# EcolabelCategory.create(ecolabel_id: 54, category_id:15) #electronics
-# EcolabelCategory.create(ecolabel_id: 54, category_id:23) #forest products/paper
-# EcolabelCategory.create(ecolabel_id: 54, category_id:43) #textiles
-# EcolabelCategory.create(ecolabel_id: 54, category_id:44) #tourism
-# EcolabelCategory.create(ecolabel_id: 54, category_id:33) #other
-# # Fair Labor Practices and Community Benefits
-# EcolabelCategory.create(ecolabel_id: 55, category_id:21) #food
-# EcolabelCategory.create(ecolabel_id: 55, category_id:43) #textiles
-# # Fair Trade Certified
-# EcolabelCategory.create(ecolabel_id: 57, category_id:11) #commodities
-# EcolabelCategory.create(ecolabel_id: 57, category_id:19) #fish/fisheries
-# EcolabelCategory.create(ecolabel_id: 57, category_id:21) #food
-# EcolabelCategory.create(ecolabel_id: 57, category_id:43) #textiles
-# EcolabelCategory.create(ecolabel_id: 57, category_id:33) #other
-# # FairWild
-# EcolabelCategory.create(ecolabel_id: 58, category_id:13) #cosmetics/personal care
-# EcolabelCategory.create(ecolabel_id: 58, category_id:21) #food
-# EcolabelCategory.create(ecolabel_id: 58, category_id:23) #forest products/paper
-# # Fairtrade
-# EcolabelCategory.create(ecolabel_id: 56, category_id:13) #cosmetics/personal care
-# EcolabelCategory.create(ecolabel_id: 56, category_id:21) #food
-# EcolabelCategory.create(ecolabel_id: 56, category_id:43) #textiles
-# EcolabelCategory.create(ecolabel_id: 56, category_id:33) #other
 # # Farm Verified Organic
 # EcolabelCategory.create(ecolabel_id: 60, category_id:21) #food
 # # Farm and Ranch Certification Program
