@@ -920,66 +920,71 @@ Ecolabel.create(
     accepted_elsewhere:"yes"
     )
 # 71
-# Ecolabel.create(
-#     name:"Farm and Ranch Certification Program", 
-#     description:"Distinguishes farmers and ranchers who: provide safe and fair working conditions, provide healthy and humane treatment of animals; raise animals without added hormones and antibiotics; raise crops without genetically modified organisms; reduce pesticides usage and toxicity; conserve soil and water resources; preserve and protect wildlife habitat; and, commit to continuous improvement of these practices.", 
-#     owner_category:"non-profit", 
-#     level:"n/a", 
-#     year_established:1997, 
-#     party_verification:"third", 
-#     criteria:"n/a", 
-#     price:"n/a",
-#     website:"n/a",
-#     accepted_elsewhere:"yes"
-#     )
-# Ecolabel.create(
-#     name:"Farm Verified Organic", 
-#     description:"The Farm Verified Organic program provides organic certification services to companies and individuals, to enable them to market a credible organic product to the consumer.", 
-#     owner_category:"non-profit", 
-#     level:"n/a", 
-#     year_established:1995, 
-#     party_verification:"third", 
-#     criteria:"n/a", 
-#     price:"n/a",
-#     website:"https://www.wfcforganic.com/",
-#     accepted_elsewhere:"no"
-#     )
-# Ecolabel.create(
-#     name:"FedEx EarthSmart Solutions", 
-#     description:"EarthSmart Solutions encourages innovation at FedEx by offering an internal company designation for any of their assets — including planes, trucks and facilities — that meet environmental sustainability criteria.", 
-#     owner_category:"for-profit", 
-#     level:"n/a", 
-#     year_established:2010, 
-#     party_verification:"first", 
-#     criteria:"n/a", 
-#     price:"n/a",
-#     website:"https://www.fedex.com/en-us/sustainability.html#5",
-#     accepted_elsewhere:"no"
-#     )
-# Ecolabel.create(
-#     name:"Florverde Sustainable Flowers", 
-#     description:"Ensures all flowers grown and harvested in Colombia meet specific social and environmental standards.", 
-#     owner_category:"industry association", 
-#     level:"n/a", 
-#     year_established:1996, 
-#     party_verification:"n/a", 
-#     criteria:"n/a", 
-#     price:"n/a",
-#     website:"https://florverde.org/",
-#     accepted_elsewhere:"yes"
-#     )
-# Ecolabel.create(
-#     name:"Flower Label Program (FLP)", 
-#     description:"Flower Label Program (FLP) is an association carried by human rights organisations, trade unions, flower traders and producers.", 
-#     owner_category:"non-profit", 
-#     level:"n/a", 
-#     year_established:1998, 
-#     party_verification:"third", 
-#     criteria:"n/a", 
-#     price:"n/a",
-#     website:"n/a",
-#     accepted_elsewhere:"yes"
-#     )
+Ecolabel.create(
+    name:"Farm and Ranch Certification Program", 
+    description:"Distinguishes farmers and ranchers who: provide safe and fair working conditions, provide healthy and humane treatment of animals; raise animals without added hormones and antibiotics; raise crops without genetically modified organisms; reduce pesticides usage and toxicity; conserve soil and water resources; preserve and protect wildlife habitat; and, commit to continuous improvement of these practices.", 
+    owner_category:"non-profit", 
+    level:"n/a", 
+    year_established:1997, 
+    party_verification:"third", 
+    criteria:"n/a", 
+    price:"n/a",
+    website:"n/a",
+    accepted_elsewhere:"yes"
+    )
+# 72
+Ecolabel.create(
+    name:"Farm Verified Organic", 
+    description:"The Farm Verified Organic program provides organic certification services to companies and individuals, to enable them to market a credible organic product to the consumer.", 
+    owner_category:"non-profit", 
+    level:"n/a", 
+    year_established:1995, 
+    party_verification:"third", 
+    criteria:"n/a", 
+    price:"n/a",
+    website:"https://www.wfcforganic.com/",
+    accepted_elsewhere:"no"
+    )
+# 73
+Ecolabel.create(
+    name:"FedEx EarthSmart Solutions", 
+    description:"EarthSmart Solutions encourages innovation at FedEx by offering an internal company designation for any of their assets — including planes, trucks and facilities — that meet environmental sustainability criteria.", 
+    owner_category:"for-profit", 
+    level:"n/a", 
+    year_established:2010, 
+    party_verification:"first", 
+    criteria:"n/a", 
+    price:"n/a",
+    website:"https://www.fedex.com/en-us/sustainability.html#5",
+    accepted_elsewhere:"no"
+    )
+# 74
+Ecolabel.create(
+    name:"Florverde Sustainable Flowers", 
+    description:"Ensures all flowers grown and harvested in Colombia meet specific social and environmental standards.", 
+    owner_category:"industry association", 
+    level:"n/a", 
+    year_established:1996, 
+    party_verification:"n/a", 
+    criteria:"n/a", 
+    price:"n/a",
+    website:"https://florverde.org/",
+    accepted_elsewhere:"yes"
+    )
+# 75
+Ecolabel.create(
+    name:"Flower Label Program (FLP)", 
+    description:"Flower Label Program (FLP) is an association carried by human rights organisations, trade unions, flower traders and producers.", 
+    owner_category:"non-profit", 
+    level:"n/a", 
+    year_established:1998, 
+    party_verification:"third", 
+    criteria:"n/a", 
+    price:"n/a",
+    website:"n/a",
+    accepted_elsewhere:"yes"
+    )
+# 76
 # Ecolabel.create(
 #     name:"Food Alliance Certified", 
 #     description:"Food Alliance is a nonprofit organization that certifies farms, ranches, and food processors and distributors for sustainable agricultural and facility management practices.", 
@@ -1666,6 +1671,20 @@ EcolabelCategory.create(ecolabel_id: 69, category_id:33) #other
 EcolabelCategory.create(ecolabel_id: 70, category_id:13) #cosmetics/personal care
 EcolabelCategory.create(ecolabel_id: 70, category_id:21) #food
 EcolabelCategory.create(ecolabel_id: 70, category_id:23) #forest products/paper
+# Farm and Ranch Certification Program
+EcolabelCategory.create(ecolabel_id: 71, category_id:21) #food
+# Farm Verified Organic
+EcolabelCategory.create(ecolabel_id: 72, category_id:21) #food
+# FedEx EarthSmart Solutions
+EcolabelCategory.create(ecolabel_id: 73, category_id:15) #electronics
+EcolabelCategory.create(ecolabel_id: 73, category_id:16) #energy
+EcolabelCategory.create(ecolabel_id: 73, category_id:30) #machinery & equipment
+EcolabelCategory.create(ecolabel_id: 73, category_id:45) #transportation
+# Florverde Sustainable Flowers
+EcolabelCategory.create(ecolabel_id: 74, category_id:11) #commodities
+EcolabelCategory.create(ecolabel_id: 74, category_id:33) #other
+# Flower Label Program (FLP)
+EcolabelCategory.create(ecolabel_id: 75, category_id:33) #other
 
 # EcolabelCategory.create(ecolabel_id: 7, category_id:4) #building materials
 
@@ -1679,20 +1698,6 @@ EcolabelCategory.create(ecolabel_id: 70, category_id:23) #forest products/paper
 # EcolabelCategory.create(ecolabel_id: 46, category_id:23) #forest products/paper
 # EcolabelCategory.create(ecolabel_id: 46, category_id:43) #textiles
 
-# # Farm Verified Organic
-# EcolabelCategory.create(ecolabel_id: 60, category_id:21) #food
-# # Farm and Ranch Certification Program
-# EcolabelCategory.create(ecolabel_id: 59, category_id:21) #food
-# # FedEx EarthSmart Solutions
-# EcolabelCategory.create(ecolabel_id: 61, category_id:15) #electronics
-# EcolabelCategory.create(ecolabel_id: 61, category_id:16) #energy
-# EcolabelCategory.create(ecolabel_id: 61, category_id:30) #machinery & equipment
-# EcolabelCategory.create(ecolabel_id: 61, category_id:45) #transportation
-# # Florverde Sustainable Flowers
-# EcolabelCategory.create(ecolabel_id: 62, category_id:11) #commodities
-# EcolabelCategory.create(ecolabel_id: 62, category_id:33) #other
-# # Flower Label Program (FLP)
-# EcolabelCategory.create(ecolabel_id: 63, category_id:33) #other
 # # Food Alliance Certified
 # EcolabelCategory.create(ecolabel_id: 64, category_id:21) #food
 # # Forest Stewardship Council (FSC) Chain of Custody Certification
