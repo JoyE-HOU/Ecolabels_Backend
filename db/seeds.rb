@@ -985,66 +985,71 @@ Ecolabel.create(
     accepted_elsewhere:"yes"
     )
 # 76
-# Ecolabel.create(
-#     name:"Food Alliance Certified", 
-#     description:"Food Alliance is a nonprofit organization that certifies farms, ranches, and food processors and distributors for sustainable agricultural and facility management practices.", 
-#     owner_category:"non-profit", 
-#     level:"n/a", 
-#     year_established:1996, 
-#     party_verification:"third", 
-#     criteria:"n/a", 
-#     price:"n/a",
-#     website:"http://foodalliance.org/",
-#     accepted_elsewhere:"yes"
-#     )
-# Ecolabel.create(
-#     name:"Forest Stewardship Council (FSC) Chain of Custody Certification", 
-#     description:"The Forest Stewardship Council® (FSC) promotes environmentally appropriate, socially beneficial, and economically viable management of the world's forests.", 
-#     owner_category:"non-profit", 
-#     level:"n/a", 
-#     year_established:1994, 
-#     party_verification:"third", 
-#     criteria:"n/a", 
-#     price:"n/a",
-#     website:"https://fsc.org/en",
-#     accepted_elsewhere:"yes"
-#     )
-# Ecolabel.create(
-#     name:"Forest Stewardship Council (FSC) Forest Management Certification", 
-#     description:"The Forest Stewardship Council® (FSC) promotes environmentally appropriate, socially beneficial, and economically viable management of the world's forests.", 
-#     owner_category:"non-profit", 
-#     level:"n/a", 
-#     year_established:1994, 
-#     party_verification:"third", 
-#     criteria:"n/a", 
-#     price:"n/a",
-#     website:"https://fsc.org/en",
-#     accepted_elsewhere:"yes"
-#     )
-# Ecolabel.create(
-#     name:"Future Friendly - Proctor and Gamble", 
-#     description:"Future Friendly is a designation for Proctor and Gamble products that save energy, save water, reduce waste, and or are produced from sustainably-harvested materials.", 
-#     owner_category:"for-profit", 
-#     level:"n/a", 
-#     year_established:2007, 
-#     party_verification:"first", 
-#     criteria:"n/a", 
-#     price:"n/a",
-#     website:"https://www.pg.co.uk/environmental-sustainability/",
-#     accepted_elsewhere:"no"
-#     )
-# Ecolabel.create(
-#     name:"GEO Certified", 
-#     description:"GEO is a stakeholder-funded, not-for-profit organization, dedicated to helping the global golf community establish leadership in environmental enhancement and corporate responsibility.", 
-#     owner_category:"non-profit", 
-#     level:"n/a", 
-#     year_established:2009, 
-#     party_verification:"third", 
-#     criteria:"n/a", 
-#     price:"n/a",
-#     website:"https://sustainable.golf/",
-#     accepted_elsewhere:"yes"
-#     )
+Ecolabel.create(
+    name:"Food Alliance Certified", 
+    description:"Food Alliance is a nonprofit organization that certifies farms, ranches, and food processors and distributors for sustainable agricultural and facility management practices.", 
+    owner_category:"non-profit", 
+    level:"n/a", 
+    year_established:1996, 
+    party_verification:"third", 
+    criteria:"n/a", 
+    price:"n/a",
+    website:"http://foodalliance.org/",
+    accepted_elsewhere:"yes"
+    )
+# 77
+Ecolabel.create(
+    name:"Forest Stewardship Council (FSC) Chain of Custody Certification", 
+    description:"The Forest Stewardship Council® (FSC) promotes environmentally appropriate, socially beneficial, and economically viable management of the world's forests.", 
+    owner_category:"non-profit", 
+    level:"n/a", 
+    year_established:1994, 
+    party_verification:"third", 
+    criteria:"n/a", 
+    price:"n/a",
+    website:"https://fsc.org/en",
+    accepted_elsewhere:"yes"
+    )
+# 78
+Ecolabel.create(
+    name:"Forest Stewardship Council (FSC) Forest Management Certification", 
+    description:"The Forest Stewardship Council® (FSC) promotes environmentally appropriate, socially beneficial, and economically viable management of the world's forests.", 
+    owner_category:"non-profit", 
+    level:"n/a", 
+    year_established:1994, 
+    party_verification:"third", 
+    criteria:"n/a", 
+    price:"n/a",
+    website:"https://fsc.org/en",
+    accepted_elsewhere:"yes"
+    )
+# 79
+Ecolabel.create(
+    name:"Future Friendly - Proctor and Gamble", 
+    description:"Future Friendly is a designation for Proctor and Gamble products that save energy, save water, reduce waste, and or are produced from sustainably-harvested materials.", 
+    owner_category:"for-profit", 
+    level:"n/a", 
+    year_established:2007, 
+    party_verification:"first", 
+    criteria:"n/a", 
+    price:"n/a",
+    website:"https://www.pg.co.uk/environmental-sustainability/",
+    accepted_elsewhere:"no"
+    )
+# 80
+Ecolabel.create(
+    name:"GEO Certified", 
+    description:"GEO is a stakeholder-funded, not-for-profit organization, dedicated to helping the global golf community establish leadership in environmental enhancement and corporate responsibility.", 
+    owner_category:"non-profit", 
+    level:"n/a", 
+    year_established:2009, 
+    party_verification:"third", 
+    criteria:"n/a", 
+    price:"n/a",
+    website:"https://sustainable.golf/",
+    accepted_elsewhere:"yes"
+    )
+# 81
 # Ecolabel.create(
 #     name:"Global Good Agricultural Practice (GAP)", 
 #     description:"Global G.A.P. is a private sector body that sets voluntary standards for the certification of agricultural products around the globe.", 
@@ -1685,6 +1690,21 @@ EcolabelCategory.create(ecolabel_id: 74, category_id:11) #commodities
 EcolabelCategory.create(ecolabel_id: 74, category_id:33) #other
 # Flower Label Program (FLP)
 EcolabelCategory.create(ecolabel_id: 75, category_id:33) #other
+# Food Alliance Certified
+EcolabelCategory.create(ecolabel_id: 76, category_id:21) #food
+# Forest Stewardship Council (FSC) Chain of Custody Certification
+EcolabelCategory.create(ecolabel_id: 77, category_id:4) #building products
+EcolabelCategory.create(ecolabel_id: 77, category_id:23) #forest products/paper
+EcolabelCategory.create(ecolabel_id: 77, category_id:34) #packaging
+# Forest Stewardship Council (FSC) Forest Management Certification
+EcolabelCategory.create(ecolabel_id: 78, category_id:23) #forest products/paper
+# Future Friendly - Proctor and Gamble
+EcolabelCategory.create(ecolabel_id: 79, category_id:9) #cleaning products
+# GEO Certified
+EcolabelCategory.create(ecolabel_id: 80, category_id:5) #buildings
+EcolabelCategory.create(ecolabel_id: 80, category_id:16) #energy
+EcolabelCategory.create(ecolabel_id: 80, category_id:48) #waste management & recycling
+EcolabelCategory.create(ecolabel_id: 80, category_id:49) #water
 
 # EcolabelCategory.create(ecolabel_id: 7, category_id:4) #building materials
 
@@ -1698,21 +1718,6 @@ EcolabelCategory.create(ecolabel_id: 75, category_id:33) #other
 # EcolabelCategory.create(ecolabel_id: 46, category_id:23) #forest products/paper
 # EcolabelCategory.create(ecolabel_id: 46, category_id:43) #textiles
 
-# # Food Alliance Certified
-# EcolabelCategory.create(ecolabel_id: 64, category_id:21) #food
-# # Forest Stewardship Council (FSC) Chain of Custody Certification
-# EcolabelCategory.create(ecolabel_id: 65, category_id:4) #building products
-# EcolabelCategory.create(ecolabel_id: 65, category_id:23) #forest products/paper
-# EcolabelCategory.create(ecolabel_id: 65, category_id:34) #packaging
-# # Forest Stewardship Council® (FSC) Forest Management Certification
-# EcolabelCategory.create(ecolabel_id: 66, category_id:23) #forest products/paper
-# # Future Friendly - Proctor and Gamble
-# EcolabelCategory.create(ecolabel_id: 67, category_id:9) #cleaning products
-# # GEO Certified
-# EcolabelCategory.create(ecolabel_id: 68, category_id:5) #buildings
-# EcolabelCategory.create(ecolabel_id: 68, category_id:16) #energy
-# EcolabelCategory.create(ecolabel_id: 68, category_id:48) #waste management & recycling
-# EcolabelCategory.create(ecolabel_id: 68, category_id:49) #water
 # # GREENGUARD
 # # EcolabelCategory.create(ecolabel_id: 69, category_id:1) #appliances
 # # EcolabelCategory.create(ecolabel_id: 69, category_id:4) #building products
