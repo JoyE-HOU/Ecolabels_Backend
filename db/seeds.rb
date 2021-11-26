@@ -1050,66 +1050,71 @@ Ecolabel.create(
     accepted_elsewhere:"yes"
     )
 # 81
-# Ecolabel.create(
-#     name:"Global Good Agricultural Practice (GAP)", 
-#     description:"Global G.A.P. is a private sector body that sets voluntary standards for the certification of agricultural products around the globe.", 
-#     owner_category:"industry association", 
-#     level:"n/a", 
-#     year_established:1997, 
-#     party_verification:"third", 
-#     criteria:"n/a", 
-#     price:"n/a",
-#     website:"https://www.globalgap.org/uk_en/",
-#     accepted_elsewhere:"yes"
-#     )
-# Ecolabel.create(
-#     name:"Global GreenTag Certified", 
-#     description:"Global Green Tag® is a third party, green product rating and certification system, underpinned by scientific and Life Cycle Assessment (LCA) processes. ", 
-#     owner_category:"for-profit", 
-#     level:"n/a", 
-#     year_established:2010, 
-#     party_verification:"third", 
-#     criteria:"n/a", 
-#     price:"n/a",
-#     website:"https://www.globalgreentag.com/",
-#     accepted_elsewhere:"yes"
-#     )
-# Ecolabel.create(
-#     name:"Global Organic Textile Standard", 
-#     description:"The Global Organic Textile Standard (GOTS) was developed with the aim to unify the various existing standards and draft standards in the field of eco textile processing and to define world-wide recognised requirements that ensure organic status of textiles, from harvesting of the raw materials, through environmentally and socially responsible manufacturing up to labelling in order to provide a credible assurance to the end consumer.", 
-#     owner_category:"other", 
-#     level:"n/a", 
-#     year_established:2006, 
-#     party_verification:"third", 
-#     criteria:"n/a", 
-#     price:"n/a",
-#     website:"https://global-standard.org/",
-#     accepted_elsewhere:"yes"
-#     )
-# Ecolabel.create(
-#     name:"Global Recycle Standard", 
-#     description:"The Global Recycled Standard is intended for companies that are making and/or selling products with recycled content.", 
-#     owner_category:"non-profit", 
-#     level:"n/a", 
-#     year_established:2008, 
-#     party_verification:"second", 
-#     criteria:"n/a", 
-#     price:"n/a",
-#     website:"https://textileexchange.org/documents/grs-4-0-rcs-2-0-consultation-feedback-summary/",
-#     accepted_elsewhere:"no"
-#     )
-# Ecolabel.create(
-#     name:"Gold Standard", 
-#     description:"The Gold Standard distinguishes the highest quality carbon offset projects in the voluntary and compliance environmental markets and is a key policy tool for the NGO community to influence the development of the rapidly growing global carbon markets.", 
-#     owner_category:"non-profit", 
-#     level:"n/a", 
-#     year_established:2003, 
-#     party_verification:"third", 
-#     criteria:"n/a", 
-#     price:"n/a",
-#     website:"https://www.goldstandard.org/",
-#     accepted_elsewhere:"yes"
-#     )
+Ecolabel.create(
+    name:"Global Good Agricultural Practice (GAP)", 
+    description:"Global G.A.P. is a private sector body that sets voluntary standards for the certification of agricultural products around the globe.", 
+    owner_category:"industry association", 
+    level:"n/a", 
+    year_established:1997, 
+    party_verification:"third", 
+    criteria:"n/a", 
+    price:"n/a",
+    website:"https://www.globalgap.org/uk_en/",
+    accepted_elsewhere:"yes"
+    )
+#82
+Ecolabel.create(
+    name:"Global GreenTag Certified", 
+    description:"Global Green Tag® is a third party, green product rating and certification system, underpinned by scientific and Life Cycle Assessment (LCA) processes. ", 
+    owner_category:"for-profit", 
+    level:"n/a", 
+    year_established:2010, 
+    party_verification:"third", 
+    criteria:"n/a", 
+    price:"n/a",
+    website:"https://www.globalgreentag.com/",
+    accepted_elsewhere:"yes"
+    )
+#83
+Ecolabel.create(
+    name:"Global Organic Textile Standard", 
+    description:"The Global Organic Textile Standard (GOTS) was developed with the aim to unify the various existing standards and draft standards in the field of eco textile processing and to define world-wide recognised requirements that ensure organic status of textiles, from harvesting of the raw materials, through environmentally and socially responsible manufacturing up to labelling in order to provide a credible assurance to the end consumer.", 
+    owner_category:"other", 
+    level:"n/a", 
+    year_established:2006, 
+    party_verification:"third", 
+    criteria:"n/a", 
+    price:"n/a",
+    website:"https://global-standard.org/",
+    accepted_elsewhere:"yes"
+    )
+#84
+Ecolabel.create(
+    name:"Global Recycle Standard", 
+    description:"The Global Recycled Standard is intended for companies that are making and/or selling products with recycled content.", 
+    owner_category:"non-profit", 
+    level:"n/a", 
+    year_established:2008, 
+    party_verification:"second", 
+    criteria:"n/a", 
+    price:"n/a",
+    website:"https://textileexchange.org/documents/grs-4-0-rcs-2-0-consultation-feedback-summary/",
+    accepted_elsewhere:"no"
+    )
+#85
+Ecolabel.create(
+    name:"Gold Standard", 
+    description:"The Gold Standard distinguishes the highest quality carbon offset projects in the voluntary and compliance environmental markets and is a key policy tool for the NGO community to influence the development of the rapidly growing global carbon markets.", 
+    owner_category:"non-profit", 
+    level:"n/a", 
+    year_established:2003, 
+    party_verification:"third", 
+    criteria:"n/a", 
+    price:"n/a",
+    website:"https://www.goldstandard.org/",
+    accepted_elsewhere:"yes"
+    )
+# 86
 # Ecolabel.create(
 #     name:"GoodWeave", 
 #     description:"GoodWeave is working to end child labor in the carpet industry and to offer educational opportunities to children in South Asia.", 
@@ -1705,6 +1710,30 @@ EcolabelCategory.create(ecolabel_id: 80, category_id:5) #buildings
 EcolabelCategory.create(ecolabel_id: 80, category_id:16) #energy
 EcolabelCategory.create(ecolabel_id: 80, category_id:48) #waste management & recycling
 EcolabelCategory.create(ecolabel_id: 80, category_id:49) #water
+# Global Good Agricultural Practice (GAP)
+EcolabelCategory.create(ecolabel_id: 81, category_id:21) #food
+# Global GreenTag Certified
+EcolabelCategory.create(ecolabel_id: 82, category_id:4) #building products
+EcolabelCategory.create(ecolabel_id: 82, category_id:6) #carbon
+EcolabelCategory.create(ecolabel_id: 82, category_id:7) #carbon offsets
+EcolabelCategory.create(ecolabel_id: 82, category_id:9) #cleaning products
+EcolabelCategory.create(ecolabel_id: 82, category_id:13) #cosmetics/personal care
+EcolabelCategory.create(ecolabel_id: 82, category_id:23) #forest products/paper
+EcolabelCategory.create(ecolabel_id: 82, category_id:24) #furniture
+EcolabelCategory.create(ecolabel_id: 82, category_id:30) #machinery & equipment
+EcolabelCategory.create(ecolabel_id: 82, category_id:34) #packaging
+EcolabelCategory.create(ecolabel_id: 82, category_id:43) #textiles
+EcolabelCategory.create(ecolabel_id: 82, category_id:48) #waste management & recycling
+# Global Organic Textile Standard
+EcolabelCategory.create(ecolabel_id: 83, category_id:43) #textiles
+# Global Recycle Standard
+EcolabelCategory.create(ecolabel_id: 84, category_id:34) #packaging
+EcolabelCategory.create(ecolabel_id: 84, category_id:43) #textiles
+EcolabelCategory.create(ecolabel_id: 84, category_id:33) #other
+# Gold Standard
+EcolabelCategory.create(ecolabel_id: 85, category_id:6) #carbon
+EcolabelCategory.create(ecolabel_id: 85, category_id:7) #carbon offsets
+EcolabelCategory.create(ecolabel_id: 85, category_id:16) #energy
 
 # EcolabelCategory.create(ecolabel_id: 7, category_id:4) #building materials
 
@@ -1727,30 +1756,6 @@ EcolabelCategory.create(ecolabel_id: 80, category_id:49) #water
 # # EcolabelCategory.create(ecolabel_id: 69, category_id:30) #machinery & equipment
 # # EcolabelCategory.create(ecolabel_id: 69, category_id:43) #textiles
 # # EcolabelCategory.create(ecolabel_id: 69, category_id:33) #other
-# # Global Good Agricultural Practice (GAP)
-# EcolabelCategory.create(ecolabel_id: 69, category_id:21) #food
-# # Global GreenTag Certified
-# EcolabelCategory.create(ecolabel_id: 70, category_id:4) #building products
-# EcolabelCategory.create(ecolabel_id: 70, category_id:6) #carbon
-# EcolabelCategory.create(ecolabel_id: 70, category_id:7) #carbon offsets
-# EcolabelCategory.create(ecolabel_id: 70, category_id:9) #cleaning products
-# EcolabelCategory.create(ecolabel_id: 70, category_id:13) #cosmetics/personal care
-# EcolabelCategory.create(ecolabel_id: 70, category_id:23) #forest products/paper
-# EcolabelCategory.create(ecolabel_id: 70, category_id:24) #furniture
-# EcolabelCategory.create(ecolabel_id: 70, category_id:30) #machinery & equipment
-# EcolabelCategory.create(ecolabel_id: 70, category_id:34) #packaging
-# EcolabelCategory.create(ecolabel_id: 70, category_id:43) #textiles
-# EcolabelCategory.create(ecolabel_id: 70, category_id:48) #waste management & recycling
-# # Global Organic Textile Standard
-# EcolabelCategory.create(ecolabel_id: 71, category_id:43) #textiles
-# # Global Recycle Standard
-# EcolabelCategory.create(ecolabel_id: 72, category_id:34) #packaging
-# EcolabelCategory.create(ecolabel_id: 72, category_id:43) #textiles
-# EcolabelCategory.create(ecolabel_id: 72, category_id:33) #other
-# # Gold Standard
-# EcolabelCategory.create(ecolabel_id: 73, category_id:6) #carbon
-# EcolabelCategory.create(ecolabel_id: 73, category_id:7) #carbon offsets
-# EcolabelCategory.create(ecolabel_id: 73, category_id:16) #energy
 # # GoodWeave
 # EcolabelCategory.create(ecolabel_id: 74, category_id:43) #textiles
 # # Green Advantage Certification
