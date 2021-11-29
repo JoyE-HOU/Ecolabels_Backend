@@ -1115,66 +1115,70 @@ Ecolabel.create(
     accepted_elsewhere:"yes"
     )
 # 86
-# Ecolabel.create(
-#     name:"GoodWeave", 
-#     description:"GoodWeave is working to end child labor in the carpet industry and to offer educational opportunities to children in South Asia.", 
-#     owner_category:"non-profit", 
-#     level:"n/a", 
-#     year_established:1994, 
-#     party_verification:"second", 
-#     criteria:"n/a", 
-#     price:"n/a",
-#     website:"https://goodweave.org/",
-#     accepted_elsewhere:"yes"
-#     )
-# Ecolabel.create(
-#     name:"Green Advantage Certification", 
-#     description:"Green Advantage is a non-profit organization committed to delivering an exemplary green building certification for and with construction personnel and building-related practitioners.", 
-#     owner_category:"non-profit", 
-#     level:"n/a", 
-#     year_established:1998, 
-#     party_verification:"second", 
-#     criteria:"n/a", 
-#     price:"n/a",
-#     website:"https://greenadvantage.org/",
-#     accepted_elsewhere:"no"
-#     )
-# Ecolabel.create(
-#     name:"Green America's Green Business Certification", 
-#     description:"Green America's Green Business Certification is a third-party certification program that certifies small to medium sized businesses and offers one of the oldest and most reputable assurance programs for businesses committed to social and environmental responsibility.", 
-#     owner_category:"non-profit", 
-#     level:"n/a", 
-#     year_established:2004, 
-#     party_verification:"second", 
-#     criteria:"n/a", 
-#     price:"n/a",
-#     website:"https://www.greenamerica.org/gbn/green-business-certification",
-#     accepted_elsewhere:"no"
-#     )
-# Ecolabel.create(
-#     name:"Green Business Bureau", 
-#     description:"The Green Business Bureau's Green business certification is a program that helps companies implement environmentally responsible practices in the workplace and gives them visibility for doing so.", 
-#     owner_category:"for-profit", 
-#     level:"n/a", 
-#     year_established:2008, 
-#     party_verification:"third", 
-#     criteria:"n/a", 
-#     price:"n/a",
-#     website:"https://greenbusinessbureau.com/",
-#     accepted_elsewhere:"yes"
-#     )
-# Ecolabel.create(
-#     name:"Green Business League Certification", 
-#     description:"The Green Business League certification is awarded to companies that have been audited annually by an accredited GBL Certified Green Consultant™.", 
-#     owner_category:"for-profit", 
-#     level:"n/a", 
-#     year_established:0, 
-#     party_verification:"third", 
-#     criteria:"n/a", 
-#     price:"n/a",
-#     website:"n/a",
-#     accepted_elsewhere:"yes"
-#     )
+Ecolabel.create(
+    name:"GoodWeave", 
+    description:"GoodWeave is working to end child labor in the carpet industry and to offer educational opportunities to children in South Asia.", 
+    owner_category:"non-profit", 
+    level:"n/a", 
+    year_established:1994, 
+    party_verification:"second", 
+    criteria:"n/a", 
+    price:"n/a",
+    website:"https://goodweave.org/",
+    accepted_elsewhere:"yes"
+    )
+# 87
+Ecolabel.create(
+    name:"Green Advantage Certification", 
+    description:"Green Advantage is a non-profit organization committed to delivering an exemplary green building certification for and with construction personnel and building-related practitioners.", 
+    owner_category:"non-profit", 
+    level:"n/a", 
+    year_established:1998, 
+    party_verification:"second", 
+    criteria:"n/a", 
+    price:"n/a",
+    website:"https://greenadvantage.org/",
+    accepted_elsewhere:"no"
+    )
+# 88
+Ecolabel.create(
+    name:"Green America's Green Business Certification", 
+    description:"Green America's Green Business Certification is a third-party certification program that certifies small to medium sized businesses and offers one of the oldest and most reputable assurance programs for businesses committed to social and environmental responsibility.", 
+    owner_category:"non-profit", 
+    level:"n/a", 
+    year_established:2004, 
+    party_verification:"second", 
+    criteria:"n/a", 
+    price:"n/a",
+    website:"https://www.greenamerica.org/gbn/green-business-certification",
+    accepted_elsewhere:"no"
+    )
+# 89
+Ecolabel.create(
+    name:"Green Business Bureau", 
+    description:"The Green Business Bureau's Green business certification is a program that helps companies implement environmentally responsible practices in the workplace and gives them visibility for doing so.", 
+    owner_category:"for-profit", 
+    level:"n/a", 
+    year_established:2008, 
+    party_verification:"third", 
+    criteria:"n/a", 
+    price:"n/a",
+    website:"https://greenbusinessbureau.com/",
+    accepted_elsewhere:"yes"
+    )
+# 90
+Ecolabel.create(
+    name:"Green Business League Certification", 
+    description:"The Green Business League certification is awarded to companies that have been audited annually by an accredited GBL Certified Green Consultant™.", 
+    owner_category:"for-profit", 
+    level:"n/a", 
+    year_established:0, 
+    party_verification:"third", 
+    criteria:"n/a", 
+    price:"n/a",
+    website:"n/a",
+    accepted_elsewhere:"yes"
+    )
 # Ecolabel.create(
 #     name:"Green C", 
 #     description:"The goal of Green C certification is to encourage and recognize green practices among small businesses and organizations operating in the United States, and promote Corporate Social Responsibility (CSR) that preserves and enhances our planet.", 
@@ -1734,19 +1738,44 @@ EcolabelCategory.create(ecolabel_id: 84, category_id:33) #other
 EcolabelCategory.create(ecolabel_id: 85, category_id:6) #carbon
 EcolabelCategory.create(ecolabel_id: 85, category_id:7) #carbon offsets
 EcolabelCategory.create(ecolabel_id: 85, category_id:16) #energy
+# GoodWeave
+EcolabelCategory.create(ecolabel_id: 86, category_id:43) #textiles
+# Green Advantage Certification
+EcolabelCategory.create(ecolabel_id: 87, category_id:4) #building products
+EcolabelCategory.create(ecolabel_id: 87, category_id:5) #buildings
+EcolabelCategory.create(ecolabel_id: 87, category_id:37) #professional scientific and technical services
+# Green America's Green Business Certification
+EcolabelCategory.create(ecolabel_id: 88, category_id:5) #buildings
+EcolabelCategory.create(ecolabel_id: 88, category_id:7) #carbon offsets
+EcolabelCategory.create(ecolabel_id: 88, category_id:9) #cleaning products
+EcolabelCategory.create(ecolabel_id: 88, category_id:13) #cosmetics/personal care
+EcolabelCategory.create(ecolabel_id: 88, category_id:15) #electronics
+EcolabelCategory.create(ecolabel_id: 88, category_id:16) #energy
+EcolabelCategory.create(ecolabel_id: 88, category_id:18) #financial services
+EcolabelCategory.create(ecolabel_id: 88, category_id:21) #food
+EcolabelCategory.create(ecolabel_id: 88, category_id:23) #forest products/paper
+EcolabelCategory.create(ecolabel_id: 88, category_id:37) #professional scientific and technical services
+EcolabelCategory.create(ecolabel_id: 88, category_id:43) #textiles
+EcolabelCategory.create(ecolabel_id: 88, category_id:44) #tourism
+EcolabelCategory.create(ecolabel_id: 88, category_id:45) #transportation
+EcolabelCategory.create(ecolabel_id: 88, category_id:49) #water
+# Green Business Bureau
+EcolabelCategory.create(ecolabel_id: 89, category_id:5) #buildings
+EcolabelCategory.create(ecolabel_id: 89, category_id:18) #financial services
+EcolabelCategory.create(ecolabel_id: 89, category_id:44) #tourism
+EcolabelCategory.create(ecolabel_id: 89, category_id:48) #waste management & recycling
+# Green Business League Certification
+EcolabelCategory.create(ecolabel_id: 90, category_id:46) #unknown
 
 # EcolabelCategory.create(ecolabel_id: 7, category_id:4) #building materials
-
 # EcolabelCategory.create(ecolabel_id: 43, category_id:4) #building products
 # EcolabelCategory.create(ecolabel_id: 43, category_id:5) #buildings
 # EcolabelCategory.create(ecolabel_id: 43, category_id:24) #furniture
 # EcolabelCategory.create(ecolabel_id: 43, category_id:43) #textiles
-
 # EcolabelCategory.create(ecolabel_id: 46, category_id:13) #cosmetics/personal care
 # EcolabelCategory.create(ecolabel_id: 46, category_id:21) #food
 # EcolabelCategory.create(ecolabel_id: 46, category_id:23) #forest products/paper
 # EcolabelCategory.create(ecolabel_id: 46, category_id:43) #textiles
-
 # # GREENGUARD
 # # EcolabelCategory.create(ecolabel_id: 69, category_id:1) #appliances
 # # EcolabelCategory.create(ecolabel_id: 69, category_id:4) #building products
@@ -1756,35 +1785,6 @@ EcolabelCategory.create(ecolabel_id: 85, category_id:16) #energy
 # # EcolabelCategory.create(ecolabel_id: 69, category_id:30) #machinery & equipment
 # # EcolabelCategory.create(ecolabel_id: 69, category_id:43) #textiles
 # # EcolabelCategory.create(ecolabel_id: 69, category_id:33) #other
-# # GoodWeave
-# EcolabelCategory.create(ecolabel_id: 74, category_id:43) #textiles
-# # Green Advantage Certification
-# EcolabelCategory.create(ecolabel_id: 75, category_id:4) #building products
-# EcolabelCategory.create(ecolabel_id: 75, category_id:5) #buildings
-# EcolabelCategory.create(ecolabel_id: 75, category_id:37) #professional scientific and technical services
-# # Green America's Green Business Certification
-# EcolabelCategory.create(ecolabel_id: 76, category_id:5) #buildings
-# EcolabelCategory.create(ecolabel_id: 76, category_id:7) #carbon offsets
-# EcolabelCategory.create(ecolabel_id: 76, category_id:9) #cleaning products
-# EcolabelCategory.create(ecolabel_id: 76, category_id:13) #cosmetics/personal care
-# EcolabelCategory.create(ecolabel_id: 76, category_id:15) #electronics
-# EcolabelCategory.create(ecolabel_id: 76, category_id:16) #energy
-# EcolabelCategory.create(ecolabel_id: 76, category_id:18) #financial services
-# EcolabelCategory.create(ecolabel_id: 76, category_id:21) #food
-# EcolabelCategory.create(ecolabel_id: 76, category_id:23) #forest products/paper
-# EcolabelCategory.create(ecolabel_id: 76, category_id:37) #professional scientific and technical services
-# EcolabelCategory.create(ecolabel_id: 76, category_id:43) #textiles
-# EcolabelCategory.create(ecolabel_id: 76, category_id:44) #tourism
-# EcolabelCategory.create(ecolabel_id: 76, category_id:45) #transportation
-# EcolabelCategory.create(ecolabel_id: 76, category_id:49) #water
-# # Green Business Bureau
-# EcolabelCategory.create(ecolabel_id: 77, category_id:5) #buildings
-# EcolabelCategory.create(ecolabel_id: 77, category_id:18) #financial services
-# EcolabelCategory.create(ecolabel_id: 77, category_id:44) #tourism
-# EcolabelCategory.create(ecolabel_id: 77, category_id:48) #waste management & recycling
-
-# # Green Business League Certification
-# EcolabelCategory.create(ecolabel_id: 78, category_id:46) #unknown
 # # Green C
 # EcolabelCategory.create(ecolabel_id: 79, category_id:7) #carbon offsets
 # EcolabelCategory.create(ecolabel_id: 79, category_id:48) #waste management & recycling
