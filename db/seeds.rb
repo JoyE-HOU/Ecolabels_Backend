@@ -1179,78 +1179,72 @@ Ecolabel.create(
     website:"n/a",
     accepted_elsewhere:"yes"
     )
-# Ecolabel.create(
-#     name:"Green C", 
-#     description:"The goal of Green C certification is to encourage and recognize green practices among small businesses and organizations operating in the United States, and promote Corporate Social Responsibility (CSR) that preserves and enhances our planet.", 
-#     owner_category:"non-profit", 
-#     level:"n/a", 
-#     year_established:2009, 
-#     party_verification:"third", 
-#     criteria:"n/a", 
-#     price:"n/a",
-#     website:"n/a",
-#     accepted_elsewhere:"no"
-#     )
-# Ecolabel.create(
-#     name:"Green C", 
-#     description:"The goal of Green C certification is to encourage and recognize green practices among small businesses and organizations operating in the United States, and promote Corporate Social Responsibility (CSR) that preserves and enhances our planet.", 
-#     owner_category:"for-profit", 
-#     level:"n/a", 
-#     year_established:2007, 
-#     party_verification:"n/a", 
-#     criteria:"n/a", 
-#     price:"n/a",
-#     website:"n/a",
-#     accepted_elsewhere:"no"
-#     )
-# Ecolabel.create(
-#     name:"Green Certified Site", 
-#     description:"A Green Certified Site™ by CO2Stats indicates that a website's carbon footprint has been calculated and that renewable energy has been purchased to make it carbon neutral.", 
-#     owner_category:"for-profit", 
-#     level:"n/a", 
-#     year_established:2007, 
-#     party_verification:"n/a", 
-#     criteria:"n/a", 
-#     price:"n/a",
-#     website:"n/a",
-#     accepted_elsewhere:"no"
-#     )
-# Ecolabel.create(
-#     name:"GreenCircle", 
-#     description:"GreenCircle Certified, LLC provides third-party certification of sustainable aspects of products and manufacturing operations.", 
-#     owner_category:"for-profit", 
-#     level:"n/a", 
-#     year_established:2010, 
-#     party_verification:"third", 
-#     criteria:"n/a", 
-#     price:"n/a",
-#     website:"https://www.greencirclecertified.com/",
-#     accepted_elsewhere:"yes"
-#     )
-# Ecolabel.create(
-#     name:"Green-e Climate", 
-#     description:"Green-e® Climate is the first and only consumer protection and certification program for retail carbon offsets.", 
-#     owner_category:"non-profit", 
-#     level:"n/a", 
-#     year_established:2008, 
-#     party_verification:"third", 
-#     criteria:"n/a", 
-#     price:"n/a",
-#     website:"https://www.green-e.org/programs/climate",
-#     accepted_elsewhere:"no"
-#     )
-# Ecolabel.create(
-#     name:"Green-e Energy", 
-#     description:"The Green-e Energy certification assures consumers and businesses in the US and Canada that they are reducing the environmental impact of their electricity use.", 
-#     owner_category:"non-profit", 
-#     level:"n/a", 
-#     year_established:1997, 
-#     party_verification:"third", 
-#     criteria:"n/a", 
-#     price:"n/a",
-#     website:"https://www.green-e.org/programs/energy",
-#     accepted_elsewhere:"yes"
-#     )
+# 91
+Ecolabel.create(
+    name:"Green C", 
+    description:"The goal of Green C certification is to encourage and recognize green practices among small businesses and organizations operating in the United States, and promote Corporate Social Responsibility (CSR) that preserves and enhances our planet.", 
+    owner_category:"non-profit", 
+    level:"n/a", 
+    year_established:2009, 
+    party_verification:"third", 
+    criteria:"n/a", 
+    price:"n/a",
+    website:"n/a",
+    accepted_elsewhere:"no"
+    )
+# 92
+Ecolabel.create(
+    name:"Green Certified Site", 
+    description:"A Green Certified Site™ by CO2Stats indicates that a website's carbon footprint has been calculated and that renewable energy has been purchased to make it carbon neutral.", 
+    owner_category:"for-profit", 
+    level:"n/a", 
+    year_established:2007, 
+    party_verification:"n/a", 
+    criteria:"n/a", 
+    price:"n/a",
+    website:"n/a",
+    accepted_elsewhere:"no"
+    )
+# 93
+Ecolabel.create(
+    name:"GreenCircle", 
+    description:"GreenCircle Certified, LLC provides third-party certification of sustainable aspects of products and manufacturing operations.", 
+    owner_category:"for-profit", 
+    level:"n/a", 
+    year_established:2010, 
+    party_verification:"third", 
+    criteria:"n/a", 
+    price:"n/a",
+    website:"https://www.greencirclecertified.com/",
+    accepted_elsewhere:"yes"
+    )
+# 94
+Ecolabel.create(
+    name:"Green-e Climate", 
+    description:"Green-e® Climate is the first and only consumer protection and certification program for retail carbon offsets.", 
+    owner_category:"non-profit", 
+    level:"n/a", 
+    year_established:2008, 
+    party_verification:"third", 
+    criteria:"n/a", 
+    price:"n/a",
+    website:"https://www.green-e.org/programs/climate",
+    accepted_elsewhere:"no"
+    )
+# 95
+Ecolabel.create(
+    name:"Green-e Energy", 
+    description:"The Green-e Energy certification assures consumers and businesses in the US and Canada that they are reducing the environmental impact of their electricity use.", 
+    owner_category:"non-profit", 
+    level:"n/a", 
+    year_established:1997, 
+    party_verification:"third", 
+    criteria:"n/a", 
+    price:"n/a",
+    website:"https://www.green-e.org/programs/energy",
+    accepted_elsewhere:"yes"
+    )
+# 96
 # Ecolabel.create(
 #     name:"Green-e Marketplace", 
 #     description:"Green-e Marketplace is a unique certification program that recognizes organizations using certified renewable energy and enables them to demonstrate their environmental commitment through the use of the nationally recognized Green-e logo.", 
@@ -1766,6 +1760,32 @@ EcolabelCategory.create(ecolabel_id: 89, category_id:44) #tourism
 EcolabelCategory.create(ecolabel_id: 89, category_id:48) #waste management & recycling
 # Green Business League Certification
 EcolabelCategory.create(ecolabel_id: 90, category_id:46) #unknown
+# Green C
+EcolabelCategory.create(ecolabel_id: 91, category_id:7) #carbon offsets
+EcolabelCategory.create(ecolabel_id: 91, category_id:48) #waste management & recycling
+EcolabelCategory.create(ecolabel_id: 91, category_id:33) #other
+# Green Certified Site
+EcolabelCategory.create(ecolabel_id: 92, category_id:6) #carbon
+EcolabelCategory.create(ecolabel_id: 92, category_id:7) #carbon offsets
+EcolabelCategory.create(ecolabel_id: 92, category_id:15) #electronics
+# GreenCircle
+EcolabelCategory.create(ecolabel_id: 93, category_id:4) #building products
+EcolabelCategory.create(ecolabel_id: 93, category_id:5) #buildings
+EcolabelCategory.create(ecolabel_id: 93, category_id:6) #carbon
+EcolabelCategory.create(ecolabel_id: 93, category_id:11) #commodities
+EcolabelCategory.create(ecolabel_id: 93, category_id:15) #electronics
+EcolabelCategory.create(ecolabel_id: 93, category_id:16) #energy
+EcolabelCategory.create(ecolabel_id: 93, category_id:24) #furniture
+EcolabelCategory.create(ecolabel_id: 93, category_id:34) #packaging
+EcolabelCategory.create(ecolabel_id: 93, category_id:43) #textiles
+EcolabelCategory.create(ecolabel_id: 93, category_id:48) #waste management & recycling
+EcolabelCategory.create(ecolabel_id: 93, category_id:33) #other
+# Green-e Climate
+EcolabelCategory.create(ecolabel_id: 94, category_id:7) #carbon offsets
+# Green-e Energy
+EcolabelCategory.create(ecolabel_id: 95, category_id:6) #carbon
+EcolabelCategory.create(ecolabel_id: 95, category_id:16) #energy
+EcolabelCategory.create(ecolabel_id: 95, category_id:33) #other
 
 # EcolabelCategory.create(ecolabel_id: 7, category_id:4) #building materials
 # EcolabelCategory.create(ecolabel_id: 43, category_id:4) #building products
@@ -1785,14 +1805,6 @@ EcolabelCategory.create(ecolabel_id: 90, category_id:46) #unknown
 # # EcolabelCategory.create(ecolabel_id: 69, category_id:30) #machinery & equipment
 # # EcolabelCategory.create(ecolabel_id: 69, category_id:43) #textiles
 # # EcolabelCategory.create(ecolabel_id: 69, category_id:33) #other
-# # Green C
-# EcolabelCategory.create(ecolabel_id: 79, category_id:7) #carbon offsets
-# EcolabelCategory.create(ecolabel_id: 79, category_id:48) #waste management & recycling
-# EcolabelCategory.create(ecolabel_id: 79, category_id:33) #other
-# # Green Certified Site
-# EcolabelCategory.create(ecolabel_id: 80, category_id:6) #carbon
-# EcolabelCategory.create(ecolabel_id: 80, category_id:7) #carbon offsets
-# EcolabelCategory.create(ecolabel_id: 80, category_id:15) #electronics
 # # Green Flag Program
 # EcolabelCategory.create(ecolabel_id: 81, category_id:5) #buildings
 # # Green Globe Certification
@@ -1858,26 +1870,8 @@ EcolabelCategory.create(ecolabel_id: 90, category_id:46) #unknown
 # # EcolabelCategory.create(ecolabel_id: 89, category_id:48) #waste management & recycling
 # # EcolabelCategory.create(ecolabel_id: 89, category_id:49) #water
 # # EcolabelCategory.create(ecolabel_id: 89, category_id:33) #other
-# # Green-e Climate
-# EcolabelCategory.create(ecolabel_id: 83, category_id:7) #carbon offsets
-# # Green-e Energy
-# EcolabelCategory.create(ecolabel_id: 84, category_id:6) #carbon
-# EcolabelCategory.create(ecolabel_id: 84, category_id:16) #energy
-# EcolabelCategory.create(ecolabel_id: 84, category_id:33) #other
 # # Green-e Marketplace
 # EcolabelCategory.create(ecolabel_id: 85, category_id:16) #energy
-# # GreenCircle
-# EcolabelCategory.create(ecolabel_id: 82, category_id:4) #building products
-# EcolabelCategory.create(ecolabel_id: 82, category_id:5) #buildings
-# EcolabelCategory.create(ecolabel_id: 82, category_id:6) #carbon
-# EcolabelCategory.create(ecolabel_id: 82, category_id:11) #commodities
-# EcolabelCategory.create(ecolabel_id: 82, category_id:15) #electronics
-# EcolabelCategory.create(ecolabel_id: 82, category_id:16) #energy
-# EcolabelCategory.create(ecolabel_id: 82, category_id:24) #furniture
-# EcolabelCategory.create(ecolabel_id: 82, category_id:34) #packaging
-# EcolabelCategory.create(ecolabel_id: 82, category_id:43) #textiles
-# EcolabelCategory.create(ecolabel_id: 82, category_id:48) #waste management & recycling
-# EcolabelCategory.create(ecolabel_id: 82, category_id:33) #other
 # # # GreenSure - Sherwin Williams
 # # EcolabelCategory.create(ecolabel_id: 94, category_id:4) #building products
 # # EcolabelCategory.create(ecolabel_id: 94, category_id:33) #other
