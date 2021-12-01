@@ -1245,66 +1245,71 @@ Ecolabel.create(
     accepted_elsewhere:"yes"
     )
 # 96
-# Ecolabel.create(
-#     name:"Green-e Marketplace", 
-#     description:"Green-e Marketplace is a unique certification program that recognizes organizations using certified renewable energy and enables them to demonstrate their environmental commitment through the use of the nationally recognized Green-e logo.", 
-#     owner_category:"non-profit", 
-#     level:"n/a", 
-#     year_established:2004, 
-#     party_verification:"second", 
-#     criteria:"n/a", 
-#     price:"n/a",
-#     website:"https://www.green-e.org/programs/marketplace",
-#     accepted_elsewhere:"yes"
-#     )
-# Ecolabel.create(
-#     name:"Greener Product Certification Seal", 
-#     description:"The Greener Product Certification Seal demonstrates that a product has been evaluated against the LEED, LEED for Homes and NAHB green building standards using internationally recognized third-party certification organizations, laboratory test results and/or other supporting documentation.", 
-#     owner_category:"for-profit", 
-#     level:"n/a", 
-#     year_established:2011, 
-#     party_verification:"third", 
-#     criteria:"n/a", 
-#     price:"n/a",
-#     website:"n/a",
-#     accepted_elsewhere:"no"
-#     )
-# Ecolabel.create(
-#     name:"Green Flag Program", 
-#     description:"The Green Flag Program promotes student leadership and activism for the creation of safer and healthier school environments.", 
-#     owner_category:"non-profit", 
-#     level:"n/a", 
-#     year_established:2002, 
-#     party_verification:"second", 
-#     criteria:"n/a", 
-#     price:"n/a",
-#     website:"n/a",
-#     accepted_elsewhere:"no"
-#     )
-# Ecolabel.create(
-#     name:"Green Globe Certification", 
-#     description:"The Green Globe Standard facilitates responsible and sustainable environmental and social activity; and improved environmental and social outcomes for travel and tourism operations.", 
-#     owner_category:"for-profit", 
-#     level:"n/a", 
-#     year_established:1999, 
-#     party_verification:"third", 
-#     criteria:"n/a", 
-#     price:"n/a",
-#     website:"https://greenglobe.com/",
-#     accepted_elsewhere:"yes"
-#     )
-# Ecolabel.create(
-#     name:"Green Globes", 
-#     description:"The Green Globes assessment and rating system for buildings.", 
-#     owner_category:"for-profit", 
-#     level:"n/a", 
-#     year_established:2004, 
-#     party_verification:"third", 
-#     criteria:"n/a", 
-#     price:"n/a",
-#     website:"http://www.greenglobes.com/about.asp",
-#     accepted_elsewhere:"yes"
-#     )
+Ecolabel.create(
+    name:"Green-e Marketplace", 
+    description:"Green-e Marketplace is a unique certification program that recognizes organizations using certified renewable energy and enables them to demonstrate their environmental commitment through the use of the nationally recognized Green-e logo.", 
+    owner_category:"non-profit", 
+    level:"n/a", 
+    year_established:2004, 
+    party_verification:"second", 
+    criteria:"n/a", 
+    price:"n/a",
+    website:"https://www.green-e.org/programs/marketplace",
+    accepted_elsewhere:"yes"
+    )
+# 97
+Ecolabel.create(
+    name:"Greener Product Certification Seal", 
+    description:"The Greener Product Certification Seal demonstrates that a product has been evaluated against the LEED, LEED for Homes and NAHB green building standards using internationally recognized third-party certification organizations, laboratory test results and/or other supporting documentation.", 
+    owner_category:"for-profit", 
+    level:"n/a", 
+    year_established:2011, 
+    party_verification:"third", 
+    criteria:"n/a", 
+    price:"n/a",
+    website:"n/a",
+    accepted_elsewhere:"no"
+    )
+# 98
+Ecolabel.create(
+    name:"Green Flag Program", 
+    description:"The Green Flag Program promotes student leadership and activism for the creation of safer and healthier school environments.", 
+    owner_category:"non-profit", 
+    level:"n/a", 
+    year_established:2002, 
+    party_verification:"second", 
+    criteria:"n/a", 
+    price:"n/a",
+    website:"n/a",
+    accepted_elsewhere:"no"
+    )
+# 99
+Ecolabel.create(
+    name:"Green Globe Certification", 
+    description:"The Green Globe Standard facilitates responsible and sustainable environmental and social activity; and improved environmental and social outcomes for travel and tourism operations.", 
+    owner_category:"for-profit", 
+    level:"n/a", 
+    year_established:1999, 
+    party_verification:"third", 
+    criteria:"n/a", 
+    price:"n/a",
+    website:"https://greenglobe.com/",
+    accepted_elsewhere:"yes"
+    )
+# 100
+Ecolabel.create(
+    name:"Green Globes", 
+    description:"The Green Globes assessment and rating system for buildings.", 
+    owner_category:"for-profit", 
+    level:"n/a", 
+    year_established:2004, 
+    party_verification:"third", 
+    criteria:"n/a", 
+    price:"n/a",
+    website:"http://www.greenglobes.com/about.asp",
+    accepted_elsewhere:"yes"
+    )
+
 Category.create(name: "appliances")
 Category.create(name: "bags")
 Category.create(name: "bedding")
@@ -1786,6 +1791,18 @@ EcolabelCategory.create(ecolabel_id: 94, category_id:7) #carbon offsets
 EcolabelCategory.create(ecolabel_id: 95, category_id:6) #carbon
 EcolabelCategory.create(ecolabel_id: 95, category_id:16) #energy
 EcolabelCategory.create(ecolabel_id: 95, category_id:33) #other
+# Green-e Marketplace
+EcolabelCategory.create(ecolabel_id: 96, category_id:16) #energy
+# Greener Product Certification Seal
+EcolabelCategory.create(ecolabel_id: 97, category_id:4) #building products
+# Green Flag Program
+EcolabelCategory.create(ecolabel_id: 98, category_id:5) #buildings
+# Green Globe Certification
+EcolabelCategory.create(ecolabel_id: 99, category_id:44) #tourism
+EcolabelCategory.create(ecolabel_id: 99, category_id:45) #transportation
+EcolabelCategory.create(ecolabel_id: 99, category_id:33) #other
+# Green Globes
+EcolabelCategory.create(ecolabel_id: 100, category_id:5) #buildings
 
 # EcolabelCategory.create(ecolabel_id: 7, category_id:4) #building materials
 # EcolabelCategory.create(ecolabel_id: 43, category_id:4) #building products
@@ -1805,14 +1822,6 @@ EcolabelCategory.create(ecolabel_id: 95, category_id:33) #other
 # # EcolabelCategory.create(ecolabel_id: 69, category_id:30) #machinery & equipment
 # # EcolabelCategory.create(ecolabel_id: 69, category_id:43) #textiles
 # # EcolabelCategory.create(ecolabel_id: 69, category_id:33) #other
-# # Green Flag Program
-# EcolabelCategory.create(ecolabel_id: 81, category_id:5) #buildings
-# # Green Globe Certification
-# EcolabelCategory.create(ecolabel_id: 88, category_id:44) #tourism
-# EcolabelCategory.create(ecolabel_id: 88, category_id:45) #transportation
-# EcolabelCategory.create(ecolabel_id: 88, category_id:33) #other
-# # Green Globes
-# EcolabelCategory.create(ecolabel_id: 83, category_id:5) #buildings
 # # # Green Good Housekeeping Seal
 # # EcolabelCategory.create(ecolabel_id: 83, category_id:9) #cleaning products
 # # EcolabelCategory.create(ecolabel_id: 83, category_id:13) #cosmetics/personal care
@@ -1870,13 +1879,9 @@ EcolabelCategory.create(ecolabel_id: 95, category_id:33) #other
 # # EcolabelCategory.create(ecolabel_id: 89, category_id:48) #waste management & recycling
 # # EcolabelCategory.create(ecolabel_id: 89, category_id:49) #water
 # # EcolabelCategory.create(ecolabel_id: 89, category_id:33) #other
-# # Green-e Marketplace
-# EcolabelCategory.create(ecolabel_id: 85, category_id:16) #energy
 # # # GreenSure - Sherwin Williams
 # # EcolabelCategory.create(ecolabel_id: 94, category_id:4) #building products
 # # EcolabelCategory.create(ecolabel_id: 94, category_id:33) #other
-# # # Greener Product Certification Seal
-# # EcolabelCategory.create(ecolabel_id: 95, category_id:4) #building products
 # # # Greenlist - SC Johnson
 # # EcolabelCategory.create(ecolabel_id: 96, category_id:9) #cleaning products
 # # EcolabelCategory.create(ecolabel_id: 96, category_id:34) #packaging
