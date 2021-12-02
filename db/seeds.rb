@@ -1309,6 +1309,45 @@ Ecolabel.create(
     website:"http://www.greenglobes.com/about.asp",
     accepted_elsewhere:"yes"
     )
+# 101
+Ecolabel.create(
+    name:"Green Good Housekeeping Seal", 
+    description:"The Green Good Housekeeping Seal is an emblem signifying that a product has been reviewed by the scientists at the Good Housekeeping Research Institute, is covered by Good Housekeeping’s limited warranty, and has met Good Housekeeping’s environmental criteria.", 
+    owner_category:"for-profit", 
+    level:"n/a", 
+    year_established:2009, 
+    party_verification:"second", 
+    criteria:"n/a", 
+    price:"n/a",
+    website:"https://www.goodhousekeeping.com/product-testing/history/about-green-good-housekeeping-seal",
+    accepted_elsewhere:"no"
+    )
+# 102
+Ecolabel.create(
+    name:"GREENGUARD", 
+    description:"GREENGUARD Certification helps manufacturers create -- and helps buyers identify -- interior products and materials that have low chemical emissions into indoor air during product usage.", 
+    owner_category:"for-profit", 
+    level:"n/a", 
+    year_established:2001, 
+    party_verification:"third", 
+    criteria:"n/a", 
+    price:"n/a",
+    website:"https://spot.ul.com/greenguard/",
+    accepted_elsewhere:"no"
+    )
+# 103
+Ecolabel.create(
+    name:"Green Key Eco-Rating Program", 
+    description:"The Green Key Eco-Rating Program is a graduated rating system designed to recognize lodging facilities that are committed to improving their fiscal and environmental performance.", 
+    owner_category:"industry association", 
+    level:"n/a", 
+    year_established:1997, 
+    party_verification:"third", 
+    criteria:"n/a", 
+    price:"n/a",
+    website:"http://www.greenkeyglobal.com/",
+    accepted_elsewhere:"yes"
+    )
 
 Category.create(name: "appliances")
 Category.create(name: "bags")
@@ -1803,6 +1842,39 @@ EcolabelCategory.create(ecolabel_id: 99, category_id:45) #transportation
 EcolabelCategory.create(ecolabel_id: 99, category_id:33) #other
 # Green Globes
 EcolabelCategory.create(ecolabel_id: 100, category_id:5) #buildings
+# Green Good Housekeeping Seal
+EcolabelCategory.create(ecolabel_id: 101, category_id:9) #cleaning products
+EcolabelCategory.create(ecolabel_id: 101, category_id:13) #cosmetics/personal care
+EcolabelCategory.create(ecolabel_id: 101, category_id:21) #food
+EcolabelCategory.create(ecolabel_id: 101, category_id:23) #forest products/paper
+# GREENGUARD
+EcolabelCategory.create(ecolabel_id: 102, category_id:1) #appliances
+EcolabelCategory.create(ecolabel_id: 102, category_id:4) #building products
+EcolabelCategory.create(ecolabel_id: 102, category_id:9) #cleaning products
+EcolabelCategory.create(ecolabel_id: 102, category_id:15) #electronics
+EcolabelCategory.create(ecolabel_id: 102, category_id:24) #furniture
+EcolabelCategory.create(ecolabel_id: 102, category_id:30) #machinery & equipment
+EcolabelCategory.create(ecolabel_id: 102, category_id:43) #textiles
+EcolabelCategory.create(ecolabel_id: 102, category_id:33) #other
+# Green Key Eco-Rating Program
+EcolabelCategory.create(ecolabel_id: 103, category_id:5) #buildings
+EcolabelCategory.create(ecolabel_id: 103, category_id:44) #tourism
+# Greenlist - SC Johnson
+EcolabelCategory.create(ecolabel_id: 104, category_id:9) #cleaning products
+EcolabelCategory.create(ecolabel_id: 104, category_id:34) #packaging
+EcolabelCategory.create(ecolabel_id: 104, category_id:33) #other
+# Green Products Standard
+EcolabelCategory.create(ecolabel_id: 105, category_id:1) #appliances
+EcolabelCategory.create(ecolabel_id: 105, category_id:4) #building products
+EcolabelCategory.create(ecolabel_id: 105, category_id:9) #cleaning products
+EcolabelCategory.create(ecolabel_id: 105, category_id:11) #commodities
+EcolabelCategory.create(ecolabel_id: 105, category_id:13) #cosmetics/personal care
+EcolabelCategory.create(ecolabel_id: 105, category_id:15) #electronics
+EcolabelCategory.create(ecolabel_id: 105, category_id:23) #forest products/paper
+EcolabelCategory.create(ecolabel_id: 105, category_id:24) #furniture
+EcolabelCategory.create(ecolabel_id: 105, category_id:30) #machinery & equipment
+EcolabelCategory.create(ecolabel_id: 105, category_id:34) #packaging
+EcolabelCategory.create(ecolabel_id: 105, category_id:43) #textiles
 
 # EcolabelCategory.create(ecolabel_id: 7, category_id:4) #building materials
 # EcolabelCategory.create(ecolabel_id: 43, category_id:4) #building products
@@ -1813,35 +1885,6 @@ EcolabelCategory.create(ecolabel_id: 100, category_id:5) #buildings
 # EcolabelCategory.create(ecolabel_id: 46, category_id:21) #food
 # EcolabelCategory.create(ecolabel_id: 46, category_id:23) #forest products/paper
 # EcolabelCategory.create(ecolabel_id: 46, category_id:43) #textiles
-# # GREENGUARD
-# # EcolabelCategory.create(ecolabel_id: 69, category_id:1) #appliances
-# # EcolabelCategory.create(ecolabel_id: 69, category_id:4) #building products
-# # EcolabelCategory.create(ecolabel_id: 69, category_id:9) #cleaning products
-# # EcolabelCategory.create(ecolabel_id: 69, category_id:15) #electronics
-# # EcolabelCategory.create(ecolabel_id: 69, category_id:24) #furniture
-# # EcolabelCategory.create(ecolabel_id: 69, category_id:30) #machinery & equipment
-# # EcolabelCategory.create(ecolabel_id: 69, category_id:43) #textiles
-# # EcolabelCategory.create(ecolabel_id: 69, category_id:33) #other
-# # # Green Good Housekeeping Seal
-# # EcolabelCategory.create(ecolabel_id: 83, category_id:9) #cleaning products
-# # EcolabelCategory.create(ecolabel_id: 83, category_id:13) #cosmetics/personal care
-# # EcolabelCategory.create(ecolabel_id: 83, category_id:21) #food
-# # EcolabelCategory.create(ecolabel_id: 83, category_id:23) #forest products/paper
-# # # Green Key Eco-Rating Program
-# # EcolabelCategory.create(ecolabel_id: 84, category_id:5) #buildings
-# # EcolabelCategory.create(ecolabel_id: 84, category_id:44) #tourism
-# # # Green Products Standard
-# # EcolabelCategory.create(ecolabel_id: 85, category_id:1) #appliances
-# # EcolabelCategory.create(ecolabel_id: 85, category_id:4) #building products
-# # EcolabelCategory.create(ecolabel_id: 85, category_id:9) #cleaning products
-# # EcolabelCategory.create(ecolabel_id: 85, category_id:11) #commodities
-# # EcolabelCategory.create(ecolabel_id: 85, category_id:13) #cosmetics/personal care
-# # EcolabelCategory.create(ecolabel_id: 85, category_id:15) #electronics
-# # EcolabelCategory.create(ecolabel_id: 85, category_id:23) #forest products/paper
-# # EcolabelCategory.create(ecolabel_id: 85, category_id:24) #furniture
-# # EcolabelCategory.create(ecolabel_id: 85, category_id:30) #machinery & equipment
-# # EcolabelCategory.create(ecolabel_id: 85, category_id:34) #packaging
-# # EcolabelCategory.create(ecolabel_id: 85, category_id:43) #textiles
 # # # Green Seal
 # # EcolabelCategory.create(ecolabel_id: 86, category_id:1) #appliances
 # # EcolabelCategory.create(ecolabel_id: 86, category_id:4) #building products
@@ -1882,10 +1925,6 @@ EcolabelCategory.create(ecolabel_id: 100, category_id:5) #buildings
 # # # GreenSure - Sherwin Williams
 # # EcolabelCategory.create(ecolabel_id: 94, category_id:4) #building products
 # # EcolabelCategory.create(ecolabel_id: 94, category_id:33) #other
-# # # Greenlist - SC Johnson
-# # EcolabelCategory.create(ecolabel_id: 96, category_id:9) #cleaning products
-# # EcolabelCategory.create(ecolabel_id: 96, category_id:34) #packaging
-# # EcolabelCategory.create(ecolabel_id: 96, category_id:33) #other
 # # HAND IN HAND
 # # EcolabelCategory.create(ecolabel_id: 97, category_id:21) #food
 # # Healthy Child Healthy World
