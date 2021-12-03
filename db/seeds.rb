@@ -1348,6 +1348,97 @@ Ecolabel.create(
     website:"http://www.greenkeyglobal.com/",
     accepted_elsewhere:"yes"
     )
+# 104
+Ecolabel.create(
+    name:"Greenlist - SC Johnson", 
+    description:"The Greenlist™ process is an internal system providing ratings for more than 95 percent of the raw materials we use, including solvents, propellants, insecticides, packaging and more.", 
+    owner_category:"for-profit",
+    level:"n/a", 
+    year_established:2001, 
+    party_verification:"second", 
+    criteria:"n/a", 
+    price:"n/a",
+    website:"https://www.scjohnson.com/Our%20Purpose/Sustainability%20Report/Explaining%20the%20SC%20Johnson%20Greenlist%20Program%20An%20Excerpt%20from%20Our%202017%20Sustainability%20Report",
+    accepted_elsewhere:"yes"
+    )
+# 105
+Ecolabel.create(
+    name:"Green Products Standard", 
+    description:"Green Products Standard helps consumers better understand the growing number of green and eco-friendly products in the marketplace.", 
+    owner_category:"for-profit", 
+    level:"n/a", 
+    year_established:2007, 
+    party_verification:"second", 
+    criteria:"n/a", 
+    price:"n/a",
+    website:"http://greenproductsstandard.com/",
+    accepted_elsewhere:"yes"
+    )
+# 106
+Ecolabel.create(
+    name:"Green Seal", 
+    description:"An independent non-profit founded in 1989, Green Seal certifies thousands of products and services that meet science-based environmental standards that are credible and transparent.", 
+    owner_category:"non-profit", 
+    level:"n/a", 
+    year_established:1989, 
+    party_verification:"second", 
+    criteria:"n/a", 
+    price:"n/a",
+    website:"https://www.greenseal.org/",
+    accepted_elsewhere:"yes"
+    )
+# 107
+Ecolabel.create(
+    name:"Green Shape", 
+    description:"The criteria for this label are that only products made of at least 90% organic cotton or recycled materials, colored using the VAUDE ecolour dyeing process or made to conform to the textile standard bluesign® earn the Green Shape quality label.", 
+    owner_category:"for-profit", 
+    level:"n/a", 
+    year_established:2009, 
+    party_verification:"second", 
+    criteria:"n/a", 
+    price:"n/a",
+    website:"https://csr-report.vaude.com/gri-en/product/greenshape-concept.php",
+    accepted_elsewhere:"yes"
+    )
+# 108
+Ecolabel.create(
+    name:"Green Shield Certified", 
+    description:"An independent, non-profit certification program that promotes practitioners of effective, prevention-based pest control while minimizing the need to use pesticides.", 
+    owner_category:"Industry Association", 
+    level:"Company", 
+    year_established:2005, 
+    party_verification:"second", 
+    criteria:"n/a", 
+    price:"n/a",
+    website:"https://greenshieldcertified.org/",
+    accepted_elsewhere:"no"
+    )
+# 109
+Ecolabel.create(
+    name:"GreenSure - Sherwin Williams", 
+    description:"GreenSure is a designation applied to a line of Shrewin Williams paints and coating products that indicates that they were designed and manufactured taking steps to reduce environmental impact and to meet or exceed the most stringent regulatory requirements.", 
+    owner_category:"for-profit", 
+    level:"n/a", 
+    year_established:2008, 
+    party_verification:"first", 
+    criteria:"n/a", 
+    price:"n/a",
+    website:"https://www.sherwin-williams.com/greensure",
+    accepted_elsewhere:"yes"
+    )
+# 110
+Ecolabel.create(
+    name:"Green Tick", 
+    description:"Independent sustainability certification of products, services, and corporations based on a life-cycle audit of performance against the Green Tick Sustainability Standards.", 
+    owner_category:"for-profit", 
+    level:"n/a", 
+    year_established:2001, 
+    party_verification:"third", 
+    criteria:"n/a", 
+    price:"n/a",
+    website:"https://www.greentick.com/",
+    accepted_elsewhere:"yes"
+    )
 
 Category.create(name: "appliances")
 Category.create(name: "bags")
@@ -1875,6 +1966,46 @@ EcolabelCategory.create(ecolabel_id: 105, category_id:24) #furniture
 EcolabelCategory.create(ecolabel_id: 105, category_id:30) #machinery & equipment
 EcolabelCategory.create(ecolabel_id: 105, category_id:34) #packaging
 EcolabelCategory.create(ecolabel_id: 105, category_id:43) #textiles
+# Green Seal
+EcolabelCategory.create(ecolabel_id: 106, category_id:1) #appliances
+EcolabelCategory.create(ecolabel_id: 106, category_id:4) #building products
+EcolabelCategory.create(ecolabel_id: 106, category_id:9) #cleaning products
+EcolabelCategory.create(ecolabel_id: 106, category_id:13) #cosmetics/personal care
+EcolabelCategory.create(ecolabel_id: 106, category_id:21) #food
+EcolabelCategory.create(ecolabel_id: 106, category_id:23) #forest products/paper
+EcolabelCategory.create(ecolabel_id: 106, category_id:30) #machinery & equipment
+EcolabelCategory.create(ecolabel_id: 106, category_id:37) #professional scientific and technical services
+EcolabelCategory.create(ecolabel_id: 106, category_id:44) #tourism
+# Green Shape
+EcolabelCategory.create(ecolabel_id: 107, category_id:43) #textiles
+# Green Shield Certified
+EcolabelCategory.create(ecolabel_id: 108, category_id:5) #buildings
+EcolabelCategory.create(ecolabel_id: 108, category_id:37) #professional scientific and technical services
+# GreenSure - Sherwin Williams
+EcolabelCategory.create(ecolabel_id: 109, category_id:4) #building products
+EcolabelCategory.create(ecolabel_id: 109, category_id:33) #other
+# Green Tick
+EcolabelCategory.create(ecolabel_id: 110, category_id:1) #appliances
+EcolabelCategory.create(ecolabel_id: 110, category_id:4) #building products
+EcolabelCategory.create(ecolabel_id: 110, category_id:5) #buildings
+EcolabelCategory.create(ecolabel_id: 110, category_id:7) #carbon offsets
+EcolabelCategory.create(ecolabel_id: 110, category_id:9) #cleaning products
+EcolabelCategory.create(ecolabel_id: 110, category_id:13) #cosmetics/personal care
+EcolabelCategory.create(ecolabel_id: 110, category_id:15) #electronics
+EcolabelCategory.create(ecolabel_id: 110, category_id:16) #energy
+EcolabelCategory.create(ecolabel_id: 110, category_id:18) #financial services
+EcolabelCategory.create(ecolabel_id: 110, category_id:19) #fish/fisheries
+EcolabelCategory.create(ecolabel_id: 110, category_id:21) #food
+EcolabelCategory.create(ecolabel_id: 110, category_id:23) #forest products/paper
+EcolabelCategory.create(ecolabel_id: 110, category_id:25) #health care services & equipment
+EcolabelCategory.create(ecolabel_id: 110, category_id:30) #machinery & equipment
+EcolabelCategory.create(ecolabel_id: 110, category_id:37) #professional scientific and technical services
+EcolabelCategory.create(ecolabel_id: 110, category_id:43) #textiles
+EcolabelCategory.create(ecolabel_id: 110, category_id:44) #tourism
+EcolabelCategory.create(ecolabel_id: 110, category_id:45) #transportation
+EcolabelCategory.create(ecolabel_id: 110, category_id:48) #waste management & recycling
+EcolabelCategory.create(ecolabel_id: 110, category_id:49) #water
+EcolabelCategory.create(ecolabel_id: 110, category_id:33) #other
 
 # EcolabelCategory.create(ecolabel_id: 7, category_id:4) #building materials
 # EcolabelCategory.create(ecolabel_id: 43, category_id:4) #building products
@@ -1885,46 +2016,6 @@ EcolabelCategory.create(ecolabel_id: 105, category_id:43) #textiles
 # EcolabelCategory.create(ecolabel_id: 46, category_id:21) #food
 # EcolabelCategory.create(ecolabel_id: 46, category_id:23) #forest products/paper
 # EcolabelCategory.create(ecolabel_id: 46, category_id:43) #textiles
-# # # Green Seal
-# # EcolabelCategory.create(ecolabel_id: 86, category_id:1) #appliances
-# # EcolabelCategory.create(ecolabel_id: 86, category_id:4) #building products
-# # EcolabelCategory.create(ecolabel_id: 86, category_id:9) #cleaning products
-# # EcolabelCategory.create(ecolabel_id: 86, category_id:13) #cosmetics/personal care
-# # EcolabelCategory.create(ecolabel_id: 86, category_id:21) #food
-# # EcolabelCategory.create(ecolabel_id: 86, category_id:23) #forest products/paper
-# # EcolabelCategory.create(ecolabel_id: 86, category_id:30) #machinery & equipment
-# # EcolabelCategory.create(ecolabel_id: 86, category_id:37) #professional scientific and technical services
-# # EcolabelCategory.create(ecolabel_id: 86, category_id:44) #tourism
-# # # Green Shape
-# # EcolabelCategory.create(ecolabel_id: 87, category_id:43) #textiles
-# # # Green Shield Certified
-# # EcolabelCategory.create(ecolabel_id: 88, category_id:5) #buildings
-# # EcolabelCategory.create(ecolabel_id: 88, category_id:37) #professional scientific and technical services
-# # # Green Tick
-# # EcolabelCategory.create(ecolabel_id: 89, category_id:1) #appliances
-# # EcolabelCategory.create(ecolabel_id: 89, category_id:4) #building products
-# # EcolabelCategory.create(ecolabel_id: 89, category_id:5) #buildings
-# # EcolabelCategory.create(ecolabel_id: 89, category_id:7) #carbon offsets
-# # EcolabelCategory.create(ecolabel_id: 89, category_id:9) #cleaning products
-# # EcolabelCategory.create(ecolabel_id: 89, category_id:13) #cosmetics/personal care
-# # EcolabelCategory.create(ecolabel_id: 89, category_id:15) #electronics
-# # EcolabelCategory.create(ecolabel_id: 89, category_id:16) #energy
-# # EcolabelCategory.create(ecolabel_id: 89, category_id:18) #financial services
-# # EcolabelCategory.create(ecolabel_id: 89, category_id:19) #fish/fisheries
-# # EcolabelCategory.create(ecolabel_id: 89, category_id:21) #food
-# # EcolabelCategory.create(ecolabel_id: 89, category_id:23) #forest products/paper
-# # EcolabelCategory.create(ecolabel_id: 89, category_id:25) #health care services & equipment
-# # EcolabelCategory.create(ecolabel_id: 89, category_id:30) #machinery & equipment
-# # EcolabelCategory.create(ecolabel_id: 89, category_id:37) #professional scientific and technical services
-# # EcolabelCategory.create(ecolabel_id: 89, category_id:43) #textiles
-# # EcolabelCategory.create(ecolabel_id: 89, category_id:44) #tourism
-# # EcolabelCategory.create(ecolabel_id: 89, category_id:45) #transportation
-# # EcolabelCategory.create(ecolabel_id: 89, category_id:48) #waste management & recycling
-# # EcolabelCategory.create(ecolabel_id: 89, category_id:49) #water
-# # EcolabelCategory.create(ecolabel_id: 89, category_id:33) #other
-# # # GreenSure - Sherwin Williams
-# # EcolabelCategory.create(ecolabel_id: 94, category_id:4) #building products
-# # EcolabelCategory.create(ecolabel_id: 94, category_id:33) #other
 # # HAND IN HAND
 # # EcolabelCategory.create(ecolabel_id: 97, category_id:21) #food
 # # Healthy Child Healthy World
