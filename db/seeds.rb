@@ -1439,6 +1439,71 @@ Ecolabel.create(
     website:"https://www.greentick.com/",
     accepted_elsewhere:"yes"
     )
+# 111
+Ecolabel.create(
+    name:"HAND IN HAND", 
+    description:"Private fairtrade program of the company Rapunzel Naturkost GmbH which is a supplier of organic products.", 
+    owner_category:"for-profit", 
+    level:"n/a", 
+    year_established:1992, 
+    party_verification:"third", 
+    criteria:"n/a", 
+    price:"n/a",
+    website:"https://www.rapunzel.de/",
+    accepted_elsewhere:"yes"
+    )
+# 112
+Ecolabel.create(
+    name:"Healthy Child Healthy World", 
+    description:"Recommends products and services focused on children and family environmental health and non-toxic lifestyle solutions.", 
+    owner_category:"non-profit", 
+    level:"n/a", 
+    year_established:1991, 
+    party_verification:"third", 
+    criteria:"n/a", 
+    price:"n/a",
+    website:"https://healthychild.org/",
+    accepted_elsewhere:"no"
+    )
+# 113
+Ecolabel.create(
+    name:"Home Depot Eco Options", 
+    description:"Eco Options labeled products have less of an impact on the environment than conventional products and provide a positive environmental change through their use.", 
+    owner_category:"for-profit", 
+    level:"n/a", 
+    year_established:0, 
+    party_verification:"third", 
+    criteria:"n/a", 
+    price:"n/a",
+    website:"n/a",
+    accepted_elsewhere:"no"
+    )
+# 114
+Ecolabel.create(
+    name:"IBU Type III Environmental Declaration (IBU Environmental Product Declaration)", 
+    description:"This is a Type III declaration for building products.", 
+    owner_category:"non-profit", 
+    level:"n/a", 
+    year_established:2004, 
+    party_verification:"third", 
+    criteria:"n/a", 
+    price:"n/a",
+    website:"https://ibu-epd.com/",
+    accepted_elsewhere:"yes"
+    )
+# 115
+Ecolabel.create(
+    name:"ICMA EcoLabel Standard Program", 
+    description:"The International Card Manufacturers Association (ICMA) EcoLabel Standard Program provides a determination of the environmental performance of a manufacturer’s transaction and identification cards through a third-party ecolabeling certification program.", 
+    owner_category:"industry association", 
+    level:"n/a", 
+    year_established:2010, 
+    party_verification:"n/a", 
+    criteria:"Reduced materials (minimum of 25%), Recycled content (minimum 25% threshold), Compostable (municipal and home)", 
+    price:"n/a",
+    website:"http://icma.com/ecolabel-standard-program/",
+    accepted_elsewhere:"yes"
+    )
 
 Category.create(name: "appliances")
 Category.create(name: "bags")
@@ -2006,26 +2071,39 @@ EcolabelCategory.create(ecolabel_id: 110, category_id:45) #transportation
 EcolabelCategory.create(ecolabel_id: 110, category_id:48) #waste management & recycling
 EcolabelCategory.create(ecolabel_id: 110, category_id:49) #water
 EcolabelCategory.create(ecolabel_id: 110, category_id:33) #other
+# HAND IN HAND
+EcolabelCategory.create(ecolabel_id: 111, category_id:21) #food
+# Healthy Child Healthy World
+EcolabelCategory.create(ecolabel_id: 112, category_id:21) #food
+EcolabelCategory.create(ecolabel_id: 112, category_id:43) #textiles
+EcolabelCategory.create(ecolabel_id: 112, category_id:33) #other
+# Home Depot Eco Options
+EcolabelCategory.create(ecolabel_id: 113, category_id:1) #appliances
+EcolabelCategory.create(ecolabel_id: 113, category_id:4) #building products
+EcolabelCategory.create(ecolabel_id: 113, category_id:23) #forest products/paper
+EcolabelCategory.create(ecolabel_id: 113, category_id:30) #machinery & equipment
+# IBU Type III Environmental Declaration (IBU Environmental Product Declaration)
+EcolabelCategory.create(ecolabel_id: 114, category_id:4) #building products
+# ICMA EcoLabel Standard Program
+EcolabelCategory.create(ecolabel_id: 115, category_id:18) #financial services
+EcolabelCategory.create(ecolabel_id: 115, category_id:33) #other
+# IMO Certified
+# EcolabelCategory.create(ecolabel_id: 116, category_id:13) #cosmetics/personal care
+# EcolabelCategory.create(ecolabel_id: 116, category_id:21) #food
+# EcolabelCategory.create(ecolabel_id: 116, category_id:23) #forest products/paper
+# EcolabelCategory.create(ecolabel_id: 116, category_id:43) #textiles
+# Indoor airPLUS
+# EcolabelCategory.create(ecolabel_id: 117, category_id:4) #building products
+# EcolabelCategory.create(ecolabel_id: 117, category_id:5) #buildings
+# IPM Star
+# EcolabelCategory.create(ecolabel_id: 118, category_id:5) #buildings
+# Just
+# EcolabelCategory.create(ecolabel_id: 119, category_id:46) #unknown
+# LEAF Marque
+# EcolabelCategory.create(ecolabel_id: 120, category_id:11) #commodities
+# EcolabelCategory.create(ecolabel_id: 120, category_id:21) #food
 
 # EcolabelCategory.create(ecolabel_id: 7, category_id:4) #building materials
-# EcolabelCategory.create(ecolabel_id: 43, category_id:4) #building products
-# EcolabelCategory.create(ecolabel_id: 43, category_id:5) #buildings
 # EcolabelCategory.create(ecolabel_id: 43, category_id:24) #furniture
 # EcolabelCategory.create(ecolabel_id: 43, category_id:43) #textiles
 # EcolabelCategory.create(ecolabel_id: 46, category_id:13) #cosmetics/personal care
-# EcolabelCategory.create(ecolabel_id: 46, category_id:21) #food
-# EcolabelCategory.create(ecolabel_id: 46, category_id:23) #forest products/paper
-# EcolabelCategory.create(ecolabel_id: 46, category_id:43) #textiles
-# # HAND IN HAND
-# # EcolabelCategory.create(ecolabel_id: 97, category_id:21) #food
-# # Healthy Child Healthy World
-# # EcolabelCategory.create(ecolabel_id: 98, category_id:21) #food
-# # EcolabelCategory.create(ecolabel_id: 98, category_id:43) #textiles
-# # EcolabelCategory.create(ecolabel_id: 98, category_id:33) #other
-# # Home Depot Eco Options
-# # EcolabelCategory.create(ecolabel_id: 99, category_id:1) #appliances
-# # EcolabelCategory.create(ecolabel_id: 99, category_id:4) #building products
-# # EcolabelCategory.create(ecolabel_id: 99, category_id:23) #forest products/paper
-# # EcolabelCategory.create(ecolabel_id: 99, category_id:30) #machinery & equipment
-# # IBU Type III Environmental Declaration (IBU Environmental Product Declaration)
-# # EcolabelCategory.create(ecolabel_id: 100, category_id:4) #building products
