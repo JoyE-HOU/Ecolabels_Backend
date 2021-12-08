@@ -1504,6 +1504,19 @@ Ecolabel.create(
     website:"http://icma.com/ecolabel-standard-program/",
     accepted_elsewhere:"yes"
     )
+# 116
+Ecolabel.create(
+    name:"IMO Certified", 
+    description:"The Institute for Marketecology (IMO) is an international agency for inspection, certification and quality assurance of eco-friendly products.", 
+    owner_category:"for-profit", 
+    level:"n/a", 
+    year_established:1991, 
+    party_verification:"n/a", 
+    criteria:"n/a", 
+    price:"n/a",
+    website:"https://www.ecocert.com/de-CH/home",
+    accepted_elsewhere:"yes"
+    )
 
 Category.create(name: "appliances")
 Category.create(name: "bags")
@@ -2088,10 +2101,10 @@ EcolabelCategory.create(ecolabel_id: 114, category_id:4) #building products
 EcolabelCategory.create(ecolabel_id: 115, category_id:18) #financial services
 EcolabelCategory.create(ecolabel_id: 115, category_id:33) #other
 # IMO Certified
-# EcolabelCategory.create(ecolabel_id: 116, category_id:13) #cosmetics/personal care
-# EcolabelCategory.create(ecolabel_id: 116, category_id:21) #food
-# EcolabelCategory.create(ecolabel_id: 116, category_id:23) #forest products/paper
-# EcolabelCategory.create(ecolabel_id: 116, category_id:43) #textiles
+EcolabelCategory.create(ecolabel_id: 116, category_id:13) #cosmetics/personal care
+EcolabelCategory.create(ecolabel_id: 116, category_id:21) #food
+EcolabelCategory.create(ecolabel_id: 116, category_id:23) #forest products/paper
+EcolabelCategory.create(ecolabel_id: 116, category_id:43) #textiles
 # Indoor airPLUS
 # EcolabelCategory.create(ecolabel_id: 117, category_id:4) #building products
 # EcolabelCategory.create(ecolabel_id: 117, category_id:5) #buildings
