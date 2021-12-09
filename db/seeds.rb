@@ -1517,6 +1517,19 @@ Ecolabel.create(
     website:"https://www.ecocert.com/de-CH/home",
     accepted_elsewhere:"yes"
     )
+# 117
+Ecolabel.create(
+    name:"Indoor airPLUS", 
+    description:"EPA created Indoor airPLUS to help builders meet the growing consumer preference for homes with improved indoor air quality.", 
+    owner_category:"government", 
+    level:"n/a", 
+    year_established:2009, 
+    party_verification:"third", 
+    criteria:"n/a", 
+    price:"n/a",
+    website:"https://www.epa.gov/indoorairplus",
+    accepted_elsewhere:"no"
+    )
 
 Category.create(name: "appliances")
 Category.create(name: "bags")
@@ -2106,8 +2119,8 @@ EcolabelCategory.create(ecolabel_id: 116, category_id:21) #food
 EcolabelCategory.create(ecolabel_id: 116, category_id:23) #forest products/paper
 EcolabelCategory.create(ecolabel_id: 116, category_id:43) #textiles
 # Indoor airPLUS
-# EcolabelCategory.create(ecolabel_id: 117, category_id:4) #building products
-# EcolabelCategory.create(ecolabel_id: 117, category_id:5) #buildings
+EcolabelCategory.create(ecolabel_id: 117, category_id:4) #building products
+EcolabelCategory.create(ecolabel_id: 117, category_id:5) #buildings
 # IPM Star
 # EcolabelCategory.create(ecolabel_id: 118, category_id:5) #buildings
 # Just
