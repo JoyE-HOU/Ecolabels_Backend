@@ -2122,7 +2122,7 @@ EcolabelCategory.create(ecolabel_id: 116, category_id:43) #textiles
 EcolabelCategory.create(ecolabel_id: 117, category_id:4) #building products
 EcolabelCategory.create(ecolabel_id: 117, category_id:5) #buildings
 # IPM Star
-# EcolabelCategory.create(ecolabel_id: 118, category_id:5) #buildings
+EcolabelCategory.create(ecolabel_id: 118, category_id:5) #buildings
 # Just
 # EcolabelCategory.create(ecolabel_id: 119, category_id:46) #unknown
 # LEAF Marque
